@@ -1,0 +1,20 @@
+//
+//  GetOurSocial.swift
+//  Test1
+//
+//  Created by Alexandra Jenkins on 7/11/21.
+//
+
+import SwiftUI
+
+struct GetOurSocial: View {
+    var body: some View {
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+    }
+}
+
+struct GetOurSocial_Previews: PreviewProvider {
+    static var previews: some View {
+        GetOurSocial()
+    }
+}
