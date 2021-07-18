@@ -12,7 +12,7 @@ struct Slide2View: View {
     
     var body: some View {
         ZStack {
-            Circle()
+            RoundedRectangle(cornerRadius: 60)
                 .fill(Color.pink)
                 .frame(width: 340, height:600)
             Text("JOIN US")

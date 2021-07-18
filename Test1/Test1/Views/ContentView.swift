@@ -1,7 +1,7 @@
 //
 //  ContentView.swift
 //  Test1
-//
+// Figure out hyperlinnk! see if you can scroll through the events page on the hyperlink
 //  Created by Alexandra Jenkins on 7/1/21.
 //
 
@@ -20,46 +20,42 @@ struct ContentView: View {
                     .foregroundColor(.purple)
                     .padding(.horizontal)
                 Spacer()
-               // CircleImage()
-                 //   .frame(width: 30, height:20)
+               
             }
             Divider()
             ScrollView(.horizontal){
                 HStack(spacing: 10) {
+                    CircleImage()//The home page, the image and then 3 lines of text and the other logos
+                        .padding(.horizontal)
                     Slide1View()
+                        .padding(.leading)
                     Slide2View()
+                        .padding(.leading)
                     Slide3View()
+                        .padding(.leading)
                     Slide4View()
+                        .padding(.leading)
                     Slide5View()
-                   // ForEach(0..<10) { index in
-                    //    CircleView(label: "\(index)")
-                  //  }
+                        .padding(.leading)
+                    //add a donate slide
+                 
                 } .padding(.horizontal)
             }//.frame(height: 100)
           //  Divider()
          //   Spacer()
             
             HStack {
-              /*  VStack{
-                    Text("Our Social:")
-                     .font(.subheadline)
-                    Link(destination: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=URL@*/URL(string: "https://www.apple.com")!/*@END_MENU_TOKEN@*/) {//
-                        Text("BCA Website")
-                    }
-                    Text("Insta: ")
-                    Text("Facebook:")
-                    Text("Linked-In?")
-                }
+              /*  
                */
                 Spacer()
                 VStack{
-                   Text("Sign up for our News Letter: ")
+                   Text("The Website: ")
                      .font(.subheadline)
-                    Button(action: {
-                        PopupMenu()
-                    }) {//make a pop up menu to add email to list
+                    Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                       // PopupMenu()
                         Text("Click Here")
                     }
+                   
                 }
                  Spacer()
             }

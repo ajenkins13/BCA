@@ -10,7 +10,8 @@ import SwiftUI
 struct Slide1View: View {
     var body: some View {
         ZStack {
-            Circle()
+            RoundedRectangle(cornerRadius: 60)
+           // Circle()
                 .fill(Color.pink)
                 .frame(width: 340, height:600)
             Text("WHY BCA?")
