@@ -3,21 +3,22 @@
 //  Test1
 // Figure out hyperlinnk! see if you can scroll through the events page on the hyperlink
 //  Created by Alexandra Jenkins on 7/1/21.
-//
+// main doc/hub doc
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-    
+        NavigationView {
         VStack(alignment: .leading){
-            Spacer()
+           // Spacer()
             
             HStack{
                 Spacer()
                 Text("Breast Cancer Alliance")
                     .font(.title)
-                    .foregroundColor(.purple)
+                    .foregroundColor(Color(UIColor(red: 135/255, green: 0, blue: 114/225, alpha: 1)))
+              
                     .padding(.horizontal)
                 Spacer()
                
@@ -26,17 +27,31 @@ struct ContentView: View {
             ScrollView(.horizontal){
                 HStack(spacing: 10) {
                     CircleImage()//The home page, the image and then 3 lines of text and the other logos
-                        .padding(.horizontal)
-                    Slide1View()
-                        .padding(.leading)
-                    Slide2View()
-                        .padding(.leading)
-                    Slide3View()
-                        .padding(.leading)
-                    Slide4View()
-                        .padding(.leading)
-                    Slide5View()
-                        .padding(.leading)
+                       // .padding()
+                    NavigationLink(destination: WhyBCA()){
+                        Slide1View()
+                            .padding(.leading)
+                    }
+                    NavigationLink(destination: JoinUS()){
+                        Slide2View()
+                            .padding(.leading)
+                    }
+                    NavigationLink(destination: GetInvolved()){
+                        Slide3View()
+                            .padding(.leading)
+                    }
+                    NavigationLink(destination: BCAResources()){
+                        Slide4View()
+                            .padding(.leading)
+                    }
+                    NavigationLink(destination: GetOurSocial()){
+                        Slide5View()
+                            .padding(.leading)
+                    }
+                    NavigationLink(destination: Donate()){
+                        Slide6View()
+                            .padding(.leading)
+                    }
                     //add a donate slide
                  
                 } .padding(.horizontal)
@@ -49,13 +64,12 @@ struct ContentView: View {
                */
                 Spacer()
                 VStack{
-                   Text("The Website: ")
+                   Text("Breast Cancer Alliance Website: ")
                      .font(.subheadline)
-                    Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                       // PopupMenu()
-                        Text("Click Here")
-                    }
-                   
+                    Link("Click Here", destination: URL(string: "https://breastcanceralliance.org")!)
+                        .padding(.bottom)
+                        
+                    
                 }
                  Spacer()
             }
@@ -63,6 +77,7 @@ struct ContentView: View {
         
         .padding()
       
+        }
         }
 }
 }
