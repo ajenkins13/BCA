@@ -27,7 +27,7 @@ struct ContentView: View {
             ScrollView(.horizontal){
                 HStack(spacing: 10) {
                     CircleImage()//The home page, the image and then 3 lines of text and the other logos
-                       // .padding()
+                        .padding()
                     NavigationLink(destination: WhyBCA()){
                         Slide1View()
                             .padding(.leading)
@@ -56,26 +56,44 @@ struct ContentView: View {
                  
                 } .padding(.horizontal)
             }//.frame(height: 100)
-          //  Divider()
+            Divider()
          //   Spacer()
             
             HStack {
               /*  
                */
                 Spacer()
+              
                 VStack{
-                   Text("Breast Cancer Alliance Website: ")
-                     .font(.subheadline)
-                    Link("Click Here", destination: URL(string: "https://breastcanceralliance.org")!)
+                   //Text("Breast Cancer Alliance Website: ")
+                 //    .font(.subheadline)
+                    Link("breastcanceralliance.org", destination: URL(string: "https://breastcanceralliance.org")!)
                         .padding(.bottom)
+                    Spacer()
+                        .frame(height: 21.0)
+                    
+                    NavigationLink(destination: Donate()){
+                        ZStack{
+                            Rectangle()
+                                .foregroundColor(Color(UIColor(red: 255/255, green: 0, blue: 133/225, alpha: 1)))
+                            
+                        Text("Donate")
+                            .foregroundColor(Color.white)
+                            .padding(.vertical)
+                        }
+                        .frame(width: 200.0, height: 5.0)
+                    }
+                    
                         
                     
                 }
-                 Spacer()
+                Spacer()
+                   
             }
-           // Spacer()
+            Spacer()
         
-        .padding()
+                .padding()
+                .frame(height: 80.0)
       
         }
         }
