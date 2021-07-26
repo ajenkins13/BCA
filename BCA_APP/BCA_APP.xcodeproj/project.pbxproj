@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7C2200F626AF3B97008B1A94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2200F526AF3B97008B1A94 /* ContentView.swift */; };
+		7C2200F826AF3FC1008B1A94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2200F726AF3FC1008B1A94 /* ContentView.swift */; };
 		7C7B718626AB2A5600A3CA31 /* Screen Shot 2021-07-20 at 11.01.47 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C7B718426AB2A5600A3CA31 /* Screen Shot 2021-07-20 at 11.01.47 AM.png */; };
 		7C7B718926AB2AF200A3CA31 /* Screen Shot 2021-07-20 at 11.00.51 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C7B718826AB2AF200A3CA31 /* Screen Shot 2021-07-20 at 11.00.51 AM.png */; };
 		7C7B718B26ABC9A200A3CA31 /* instaLOGO.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C7B718A26ABC9A200A3CA31 /* instaLOGO.jpg */; };
@@ -56,7 +56,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7C2200F526AF3B97008B1A94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../ContentView.swift; sourceTree = "<group>"; };
+		7C2200F726AF3FC1008B1A94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = SOURCE_ROOT; };
 		7C7B718426AB2A5600A3CA31 /* Screen Shot 2021-07-20 at 11.01.47 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2021-07-20 at 11.01.47 AM.png"; sourceTree = "<group>"; };
 		7C7B718826AB2AF200A3CA31 /* Screen Shot 2021-07-20 at 11.00.51 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2021-07-20 at 11.00.51 AM.png"; sourceTree = "<group>"; };
 		7C7B718A26ABC9A200A3CA31 /* instaLOGO.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = instaLOGO.jpg; sourceTree = "<group>"; };
@@ -153,7 +153,7 @@
 		7CAD6BB7269BBFEC00883E28 /* BCA_APP */ = {
 			isa = PBXGroup;
 			children = (
-				7C2200F526AF3B97008B1A94 /* ContentView.swift */,
+				7C2200F726AF3FC1008B1A94 /* ContentView.swift */,
 				7CAD6BB8269BBFEC00883E28 /* BCA_APPApp.swift */,
 				7C937DEE269BDF4300370128 /* CircleImage.swift */,
 				7C937DF1269BDF4300370128 /* Slide1View.swift */,
@@ -346,7 +346,7 @@
 				7C937DFD269BDF4300370128 /* CircleImage.swift in Sources */,
 				7C937DF6269BDF4300370128 /* BCAResources.swift in Sources */,
 				7C937E00269BDF4300370128 /* Slide1View.swift in Sources */,
-				7C2200F626AF3B97008B1A94 /* ContentView.swift in Sources */,
+				7C2200F826AF3FC1008B1A94 /* ContentView.swift in Sources */,
 				7C937DFB269BDF4300370128 /* JoinUS.swift in Sources */,
 				7C937DF8269BDF4300370128 /* Slide3View.swift in Sources */,
 				7C937DF5269BDF4300370128 /* WhyBCA.swift in Sources */,
