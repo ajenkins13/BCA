@@ -4,7 +4,8 @@
 // Figure out hyperlinnk! see if you can scroll through the events page on the hyperlink
 //  Created by Alexandra Jenkins on 7/1/21.
 // main doc/hub doc
-
+import EventKitUI
+import EventKit
 import SwiftUI
 
 struct ContentView: View {
