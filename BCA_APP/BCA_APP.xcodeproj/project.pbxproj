@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C2200F626AF3B97008B1A94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2200F526AF3B97008B1A94 /* ContentView.swift */; };
 		7C7B718626AB2A5600A3CA31 /* Screen Shot 2021-07-20 at 11.01.47 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C7B718426AB2A5600A3CA31 /* Screen Shot 2021-07-20 at 11.01.47 AM.png */; };
 		7C7B718926AB2AF200A3CA31 /* Screen Shot 2021-07-20 at 11.00.51 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C7B718826AB2AF200A3CA31 /* Screen Shot 2021-07-20 at 11.00.51 AM.png */; };
 		7C7B718B26ABC9A200A3CA31 /* instaLOGO.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C7B718A26ABC9A200A3CA31 /* instaLOGO.jpg */; };
@@ -20,7 +21,6 @@
 		7C937DF9269BDF4300370128 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C937DEA269BDF4300370128 /* CircleView.swift */; };
 		7C937DFA269BDF4300370128 /* GetInvolved.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C937DEB269BDF4300370128 /* GetInvolved.swift */; };
 		7C937DFB269BDF4300370128 /* JoinUS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C937DEC269BDF4300370128 /* JoinUS.swift */; };
-		7C937DFC269BDF4300370128 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C937DED269BDF4300370128 /* ContentView.swift */; };
 		7C937DFD269BDF4300370128 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C937DEE269BDF4300370128 /* CircleImage.swift */; };
 		7C937DFE269BDF4300370128 /* GetOurSocial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C937DEF269BDF4300370128 /* GetOurSocial.swift */; };
 		7C937DFF269BDF4300370128 /* BCALogo2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7C937DF0269BDF4300370128 /* BCALogo2.jpeg */; };
@@ -56,6 +56,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7C2200F526AF3B97008B1A94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../ContentView.swift; sourceTree = "<group>"; };
 		7C7B718426AB2A5600A3CA31 /* Screen Shot 2021-07-20 at 11.01.47 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2021-07-20 at 11.01.47 AM.png"; sourceTree = "<group>"; };
 		7C7B718826AB2AF200A3CA31 /* Screen Shot 2021-07-20 at 11.00.51 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2021-07-20 at 11.00.51 AM.png"; sourceTree = "<group>"; };
 		7C7B718A26ABC9A200A3CA31 /* instaLOGO.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = instaLOGO.jpg; sourceTree = "<group>"; };
@@ -69,7 +70,6 @@
 		7C937DEA269BDF4300370128 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		7C937DEB269BDF4300370128 /* GetInvolved.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetInvolved.swift; sourceTree = "<group>"; };
 		7C937DEC269BDF4300370128 /* JoinUS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinUS.swift; sourceTree = "<group>"; };
-		7C937DED269BDF4300370128 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../../../Documents/GitHub/BCA/Test1/Test1/Views/ContentView.swift; sourceTree = "<group>"; };
 		7C937DEE269BDF4300370128 /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		7C937DEF269BDF4300370128 /* GetOurSocial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetOurSocial.swift; sourceTree = "<group>"; };
 		7C937DF0269BDF4300370128 /* BCALogo2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BCALogo2.jpeg; sourceTree = "<group>"; };
@@ -153,8 +153,8 @@
 		7CAD6BB7269BBFEC00883E28 /* BCA_APP */ = {
 			isa = PBXGroup;
 			children = (
+				7C2200F526AF3B97008B1A94 /* ContentView.swift */,
 				7CAD6BB8269BBFEC00883E28 /* BCA_APPApp.swift */,
-				7C937DED269BDF4300370128 /* ContentView.swift */,
 				7C937DEE269BDF4300370128 /* CircleImage.swift */,
 				7C937DF1269BDF4300370128 /* Slide1View.swift */,
 				7C937DE3269BDF4200370128 /* Slide2View.swift */,
@@ -343,10 +343,10 @@
 				7CA1862E26A4E86200A2B318 /* Donate.swift in Sources */,
 				7C937DF9269BDF4300370128 /* CircleView.swift in Sources */,
 				7C937DF7269BDF4300370128 /* PopupMenu.swift in Sources */,
-				7C937DFC269BDF4300370128 /* ContentView.swift in Sources */,
 				7C937DFD269BDF4300370128 /* CircleImage.swift in Sources */,
 				7C937DF6269BDF4300370128 /* BCAResources.swift in Sources */,
 				7C937E00269BDF4300370128 /* Slide1View.swift in Sources */,
+				7C2200F626AF3B97008B1A94 /* ContentView.swift in Sources */,
 				7C937DFB269BDF4300370128 /* JoinUS.swift in Sources */,
 				7C937DF8269BDF4300370128 /* Slide3View.swift in Sources */,
 				7C937DF5269BDF4300370128 /* WhyBCA.swift in Sources */,
