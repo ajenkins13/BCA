@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  BCA_APP
 //
-//  Created by Alexandra Jenkins on 7/11/21.
+//  Created by Alexandra Jenkins on 7/26/21.
 //
 
 import SwiftUI
@@ -15,44 +15,60 @@ struct ContentView: View {
             
             HStack{
                 Spacer()
-                Text("BCA")
+                Text("Breast Cancer Alliance")
                     .font(.title)
-                    .foregroundColor(.blue)
+                    .foregroundColor(.purple)
                     .padding(.horizontal)
                 Spacer()
+               // CircleImage()
+                 //   .frame(width: 30, height:20)
             }
+        
             Divider()
             ScrollView(.horizontal){
                 HStack(spacing: 10) {
-                    Slide2View(label: "hello")
-                    ForEach(0..<10) { index in
-                        CircleView(label: "\(index)")
-                    }
-                } .padding(.horizontal)
+                    CircleImage()
+                        .padding(.horizontal)
+                    Slide1View()
+                        .padding(.horizontal)
+                     
+                    Slide2View()
+                        .padding(.horizontal)
+                    Slide3View()
+                        .padding(.horizontal)
+                    Slide4View()
+                        .padding(.horizontal)
+                    Slide5View()
+                        .padding(.horizontal)
+                    Slide6View()
+                        .padding(.horizontal)
+                } //.padding(.horizontal)
             }//.frame(height: 100)
           //  Divider()
          //   Spacer()
             
             HStack {
-                VStack{
-                    Text("Our Social:")
-                      .font(.subheadline)
-                    Link(destination: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=URL@*/URL(string: "https://www.apple.com")!/*@END_MENU_TOKEN@*/) {//
-                        Text("BCA Website")
-                    }
-                    Text("Insta: ")
-                    Text("Facebook:")
-                    Text("Linked-In?")
-                }
                 Spacer()
                 VStack{
-                   Text("Sign up for our News Letter: ")
-                     .font(.subheadline)
-                    Button(action: {}) {//make a pop up menu to add email to list
-                        Text("Click Here")
-                    }
+                Link("breastcanceralliance.org", destination: URL(string: "https://breastcanceralliance.org")!)
+                                       .padding(.bottom)
+                                   Spacer()
+                                       .frame(height: 21.0)
+                                   
+                                   NavigationLink(destination: Donate()){
+                                       ZStack{
+                                           Rectangle()
+                                               .foregroundColor(Color(UIColor(red: 255/255, green: 0, blue: 133/225, alpha: 1)))
+                                           
+                                       Text("Donate")
+                                           .foregroundColor(Color.white)
+                                           .padding(.vertical)
+                                       }
+                                       .frame(width: 200.0, height: 5.0)
+                                   }
                 }
-                    
+                Spacer()
+             
             }
            // Spacer()
         
