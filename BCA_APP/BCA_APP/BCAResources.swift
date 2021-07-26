@@ -10,6 +10,7 @@ import SwiftUI
 struct BCAResources: View {
     var body: some View {
         VStack{
+            Image("ResearchPic")
             Spacer()
                 .padding()
                 .frame(height: 40.0)

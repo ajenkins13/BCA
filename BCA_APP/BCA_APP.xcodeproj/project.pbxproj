@@ -25,6 +25,11 @@
 		7C937DFE269BDF4300370128 /* GetOurSocial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C937DEF269BDF4300370128 /* GetOurSocial.swift */; };
 		7C937DFF269BDF4300370128 /* BCALogo2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7C937DF0269BDF4300370128 /* BCALogo2.jpeg */; };
 		7C937E00269BDF4300370128 /* Slide1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C937DF1269BDF4300370128 /* Slide1View.swift */; };
+		7CA03B5A26AF48E100AEAE40 /* facebookLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CA03B5526AF48E000AEAE40 /* facebookLogo.png */; };
+		7CA03B5B26AF48E100AEAE40 /* GetInvolvedPic.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7CA03B5626AF48E100AEAE40 /* GetInvolvedPic.jpeg */; };
+		7CA03B5C26AF48E100AEAE40 /* books.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CA03B5726AF48E100AEAE40 /* books.png */; };
+		7CA03B5D26AF48E100AEAE40 /* GroupOfGals.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7CA03B5826AF48E100AEAE40 /* GroupOfGals.jpeg */; };
+		7CA03B6026AF495600AEAE40 /* ResearchPic.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CA03B5F26AF495600AEAE40 /* ResearchPic.png */; };
 		7CA1862726A4CA2500A2B318 /* BCALogo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7CA1862526A4CA2500A2B318 /* BCALogo.jpeg */; };
 		7CA1862826A4CA2500A2B318 /* BCALogo3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7CA1862626A4CA2500A2B318 /* BCALogo3.jpeg */; };
 		7CA1862C26A4E70300A2B318 /* Slide6View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA1862B26A4E70300A2B318 /* Slide6View.swift */; };
@@ -74,6 +79,11 @@
 		7C937DEF269BDF4300370128 /* GetOurSocial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetOurSocial.swift; sourceTree = "<group>"; };
 		7C937DF0269BDF4300370128 /* BCALogo2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BCALogo2.jpeg; sourceTree = "<group>"; };
 		7C937DF1269BDF4300370128 /* Slide1View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slide1View.swift; sourceTree = "<group>"; };
+		7CA03B5526AF48E000AEAE40 /* facebookLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebookLogo.png; sourceTree = "<group>"; };
+		7CA03B5626AF48E100AEAE40 /* GetInvolvedPic.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GetInvolvedPic.jpeg; sourceTree = "<group>"; };
+		7CA03B5726AF48E100AEAE40 /* books.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = books.png; sourceTree = "<group>"; };
+		7CA03B5826AF48E100AEAE40 /* GroupOfGals.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GroupOfGals.jpeg; sourceTree = "<group>"; };
+		7CA03B5F26AF495600AEAE40 /* ResearchPic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ResearchPic.png; sourceTree = "<group>"; };
 		7CA1862526A4CA2500A2B318 /* BCALogo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BCALogo.jpeg; sourceTree = "<group>"; };
 		7CA1862626A4CA2500A2B318 /* BCALogo3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BCALogo3.jpeg; sourceTree = "<group>"; };
 		7CA1862B26A4E70300A2B318 /* Slide6View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide6View.swift; sourceTree = "<group>"; };
@@ -124,6 +134,11 @@
 				7CA1862626A4CA2500A2B318 /* BCALogo3.jpeg */,
 				7C937DF0269BDF4300370128 /* BCALogo2.jpeg */,
 				7CA1863026A4EA8400A2B318 /* GSLOGO_Canva.png */,
+				7CA03B5626AF48E100AEAE40 /* GetInvolvedPic.jpeg */,
+				7CA03B5F26AF495600AEAE40 /* ResearchPic.png */,
+				7CA03B5526AF48E000AEAE40 /* facebookLogo.png */,
+				7CA03B5826AF48E100AEAE40 /* GroupOfGals.jpeg */,
+				7CA03B5726AF48E100AEAE40 /* books.png */,
 				7C7B718426AB2A5600A3CA31 /* Screen Shot 2021-07-20 at 11.01.47 AM.png */,
 				7C7B718A26ABC9A200A3CA31 /* instaLOGO.jpg */,
 			);
@@ -305,16 +320,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CA03B5A26AF48E100AEAE40 /* facebookLogo.png in Resources */,
 				7CAD6BC0269BBFEF00883E28 /* Preview Assets.xcassets in Resources */,
 				7C937DFF269BDF4300370128 /* BCALogo2.jpeg in Resources */,
+				7CA03B6026AF495600AEAE40 /* ResearchPic.png in Resources */,
 				7CAD6BBD269BBFEF00883E28 /* Assets.xcassets in Resources */,
 				7C7B718626AB2A5600A3CA31 /* Screen Shot 2021-07-20 at 11.01.47 AM.png in Resources */,
 				7C7B718926AB2AF200A3CA31 /* Screen Shot 2021-07-20 at 11.00.51 AM.png in Resources */,
+				7CA03B5B26AF48E100AEAE40 /* GetInvolvedPic.jpeg in Resources */,
 				7CA1862826A4CA2500A2B318 /* BCALogo3.jpeg in Resources */,
 				7CA1863126A4EA8400A2B318 /* download.png in Resources */,
+				7CA03B5D26AF48E100AEAE40 /* GroupOfGals.jpeg in Resources */,
 				7CA1863226A4EA8400A2B318 /* GSLOGO_Canva.png in Resources */,
 				7CA1862726A4CA2500A2B318 /* BCALogo.jpeg in Resources */,
 				7C7B718B26ABC9A200A3CA31 /* instaLOGO.jpg in Resources */,
+				7CA03B5C26AF48E100AEAE40 /* books.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
