@@ -13,9 +13,19 @@ struct Slide6View: View {
             RoundedRectangle(cornerRadius: 60)
                 .fill(Color(UIColor(red: 255/255, green: 0, blue: 133/225, alpha: 1)))
                 .frame(width: 340, height:600)
-            Text("DONATE!")
-                .font(.title)
-                .foregroundColor(Color.white)
+            VStack{
+                Rectangle()
+                    .frame(width: 340, height:1)
+                    .foregroundColor(Color.gray)
+                
+                Text("DONATE!")
+                    .font(.title)
+                    .foregroundColor(Color.white)
+                
+                Rectangle()
+                    .frame(width: 340, height:1)
+                    .foregroundColor(Color.gray)
+            }
         }
     }
 }

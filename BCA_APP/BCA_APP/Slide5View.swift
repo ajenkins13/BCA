@@ -13,9 +13,18 @@ struct Slide5View: View {
             RoundedRectangle(cornerRadius: 60)
                 .fill(Color(UIColor(red: 206/255, green: 0, blue: 132/225, alpha: 1)))
                 .frame(width: 340, height:600)
-            Text("GET SOCIAL")
-                .font(.title)
-                .foregroundColor(Color.white)
+            VStack{
+                Rectangle()
+                    .frame(width: 340, height:1)
+                    .foregroundColor(Color.gray)
+                Text("GET SOCIAL")
+                    .font(.title)
+                    .foregroundColor(Color.white)
+                
+                Rectangle()
+                    .frame(width: 340, height:1)
+                    .foregroundColor(Color.gray)
+            }
         }
     }
 }

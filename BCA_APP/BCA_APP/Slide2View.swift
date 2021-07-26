@@ -18,11 +18,17 @@ struct Slide2View: View {
                     .frame(width: 340, height:600)
             }
             VStack{
+                
+                Rectangle()
+                    .frame(width: 340, height:1)
+                    .foregroundColor(Color.gray)
                 Text("JOIN US")
                     .font(.title)
                     .foregroundColor(Color.white)
-             //   Text("Join Us")
-                Divider()
+                Rectangle()
+                    .frame(width: 340, height:1)
+                    .foregroundColor(Color.gray)
+                
                 Text("Calendar of Events")
                     .font(.headline)
                     .foregroundColor(Color.white)

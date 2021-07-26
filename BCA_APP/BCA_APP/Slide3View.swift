@@ -16,18 +16,26 @@ struct Slide3View: View {
             RoundedRectangle(cornerRadius: 60)
                 .fill(Color(UIColor(red: 115/255, green: 0, blue: 114/225, alpha: 1)))
                 .frame(width: 340, height:600)
-          //  VStack{
+            VStack{
+                Rectangle()
+                    .frame(width: 340, height:1)
+                    .foregroundColor(Color.gray)
+                
                 Text("GET INVOLVED")
                     .font(.title)
                     .foregroundColor(Color.white)
-            //    Text("Adult Volunteers")
+                
+                Rectangle()
+                    .frame(width: 340, height:1)
+                    .foregroundColor(Color.gray)
+                
+                Text("Adult Volunteers")
          
+                Text("Share Your Story")
 
-            //    Text("Share Your Story")
-
-           //     Text("Shop for BCA")
+                Text("Shop for BCA")
             
-            //}
+            }
         }
     }
 }
