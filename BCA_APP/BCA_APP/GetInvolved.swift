@@ -10,7 +10,7 @@ import SwiftUI
 struct GetInvolved: View {
     var body: some View {
         VStack{
-            Image("GroupOfGals")
+            
             Spacer()
                 .padding()
                 .frame(height: 50.0)

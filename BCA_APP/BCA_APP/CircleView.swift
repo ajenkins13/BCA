@@ -15,7 +15,7 @@ struct CircleView: View {
             Circle()
                 .fill(Color.pink)
                 .frame(width: 340, height:600)
-            Text(label)
+           // Text(label)
             
         }
     }

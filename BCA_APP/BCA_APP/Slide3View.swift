@@ -8,8 +8,6 @@
 import SwiftUI
 
 struct Slide3View: View {
-    //@State var label: String
-    
     var body: some View {
         ZStack {
                 
@@ -17,6 +15,13 @@ struct Slide3View: View {
                 .fill(Color(UIColor(red: 115/255, green: 0, blue: 114/225, alpha: 1)))
                 .frame(width: 340, height:600)
             VStack{
+                Image("GroupOfGals")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 340, height: 200)
+                Spacer()
+                    .frame(height: 15.0)
+                
                 Rectangle()
                     .frame(width: 340, height:1)
                     .foregroundColor(Color.gray)
@@ -28,12 +33,21 @@ struct Slide3View: View {
                 Rectangle()
                     .frame(width: 340, height:1)
                     .foregroundColor(Color.gray)
+                Spacer()
+                    .frame(height: 15.0)
                 
                 Text("Adult Volunteers")
+                    .foregroundColor(Color.white)
+                    .padding(.bottom)
          
                 Text("Share Your Story")
+                    .foregroundColor(Color.white)
+                    .padding(.bottom)
 
                 Text("Shop for BCA")
+                    .foregroundColor(Color.white)
+                Spacer()
+                    .frame(height: 35.0)
             
             }
         }

@@ -25,6 +25,7 @@
 		7C937DFE269BDF4300370128 /* GetOurSocial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C937DEF269BDF4300370128 /* GetOurSocial.swift */; };
 		7C937DFF269BDF4300370128 /* BCALogo2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7C937DF0269BDF4300370128 /* BCALogo2.jpeg */; };
 		7C937E00269BDF4300370128 /* Slide1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C937DF1269BDF4300370128 /* Slide1View.swift */; };
+		7C941BAF26B06A0A002C7E3D /* test for sarah.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C941BAE26B06A0A002C7E3D /* test for sarah.swift */; };
 		7CA03B5A26AF48E100AEAE40 /* facebookLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CA03B5526AF48E000AEAE40 /* facebookLogo.png */; };
 		7CA03B5B26AF48E100AEAE40 /* GetInvolvedPic.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7CA03B5626AF48E100AEAE40 /* GetInvolvedPic.jpeg */; };
 		7CA03B5C26AF48E100AEAE40 /* books.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CA03B5726AF48E100AEAE40 /* books.png */; };
@@ -79,6 +80,7 @@
 		7C937DEF269BDF4300370128 /* GetOurSocial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetOurSocial.swift; sourceTree = "<group>"; };
 		7C937DF0269BDF4300370128 /* BCALogo2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BCALogo2.jpeg; sourceTree = "<group>"; };
 		7C937DF1269BDF4300370128 /* Slide1View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slide1View.swift; sourceTree = "<group>"; };
+		7C941BAE26B06A0A002C7E3D /* test for sarah.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "test for sarah.swift"; sourceTree = "<group>"; };
 		7CA03B5526AF48E000AEAE40 /* facebookLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebookLogo.png; sourceTree = "<group>"; };
 		7CA03B5626AF48E100AEAE40 /* GetInvolvedPic.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GetInvolvedPic.jpeg; sourceTree = "<group>"; };
 		7CA03B5726AF48E100AEAE40 /* books.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = books.png; sourceTree = "<group>"; };
@@ -186,6 +188,7 @@
 				7CA1862D26A4E86200A2B318 /* Donate.swift */,
 				7C937DEA269BDF4300370128 /* CircleView.swift */,
 				7C937DE8269BDF4300370128 /* PopupMenu.swift */,
+				7C941BAE26B06A0A002C7E3D /* test for sarah.swift */,
 				7CAD6BBC269BBFEF00883E28 /* Assets.xcassets */,
 				7CAD6BBE269BBFEF00883E28 /* Preview Content */,
 			);
@@ -373,6 +376,7 @@
 				7C937DF3269BDF4300370128 /* Slide5View.swift in Sources */,
 				7CAD6BB9269BBFEC00883E28 /* BCA_APPApp.swift in Sources */,
 				7C937DFA269BDF4300370128 /* GetInvolved.swift in Sources */,
+				7C941BAF26B06A0A002C7E3D /* test for sarah.swift in Sources */,
 				7CA1862C26A4E70300A2B318 /* Slide6View.swift in Sources */,
 				7C937DF2269BDF4300370128 /* Slide2View.swift in Sources */,
 				7C937DF4269BDF4300370128 /* Slide4View.swift in Sources */,
