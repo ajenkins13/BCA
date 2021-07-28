@@ -13,7 +13,7 @@ struct Slide4View: View {
         ZStack {
                 
             RoundedRectangle(cornerRadius: 60)
-                .fill(Color(UIColor(red: 115/255, green: 0, blue: 114/225, alpha: 1)))
+                .fill(Color(UIColor(red: 166/255, green: 0, blue: 131/225, alpha: 1)))
                 .frame(width: 340, height:600)
             VStack{
                 Image("GroupOfGals")
@@ -30,6 +30,7 @@ struct Slide4View: View {
                 Text("BCA Resources")
                     .font(.title)
                     .foregroundColor(Color.white)
+                    .padding(.leading)
                 
                 Rectangle()
                     .frame(width: 340, height:1)

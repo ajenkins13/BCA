@@ -32,7 +32,7 @@ struct JoinUS: View {
                     .foregroundColor(Color.white)
                     .padding(.vertical)
                 Text("Volunteer")
-                    .foregroundColor(Color.white)
+                    .foregroundColor(Color.blue)
                     .padding(.vertical)
 
                

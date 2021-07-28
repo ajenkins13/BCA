@@ -15,27 +15,56 @@ struct WhyBCA: View {
                 .frame(height: 30.0)
             Text("Why BCA")
                 .font(.title)
-                .foregroundColor(Color.white)
+                .foregroundColor(Color.green)
                 .padding(.top)
             Divider()
                 .foregroundColor(Color("AccentColor"))
         
             ScrollView {
         
-                Text("Our Mission is to improve survival rates and quality of life for those impacted by Breast Cancer through better prevention, early detection, treatment and cure. To promote these goals, we invest in innovative research, breast surgury fellowships, regional education, dignified support and screening for the underserved.")
+                Text("Our Mission is to improve survival rates and quality of life for those impacted by breast cancer through better prevention,early detection, treatmentand cure. To promote these goals, we invest in innovative research, breast surgery fellowships, regional education, dignified support and screening for the underserved.")
                     .foregroundColor(Color.white)
                     .padding(.horizontal)
                     .frame(width: 350.0)
-                Text("What we fund")
-                    .foregroundColor(Color.white)
-                    .padding()
+                VStack{
+                  //  Text("What we fund")
+                    //    .foregroundColor(Color.white)
+                    //    .padding()
+                    Text("BCA funds four types of grants annually:")
+                        .foregroundColor(Color.white)
+                        .padding()
+                    Text("Exceptional Project Grants")
+                        .foregroundColor(Color.white)
+                       // .padding()
+                    Text("Young Investigator Grants")
+                        .foregroundColor(Color.white)
+                      //  .padding()
+                    Text("Breast Surgery Fellowships")
+                        .foregroundColor(Color.white)
+                       // .padding()
+                    Text("Education and Outreach Grants.")
+                            .foregroundColor(Color.white)
+                            //.padding()
+                }
+                VStack{
                 Text("2021 Grants with Institutions")
                     .foregroundColor(Color.white)
                     .padding()
+               Text("Gloria Echeverria, PhD, Baylor College of Medicine,characterizing and targeting mitochondrial metabolism in chemoresistant triple negative breast cancer")
+                        .foregroundColor(Color.white)
+                        .padding([.leading, .bottom, .trailing])
+                Text("Jennifer Rosenbluth, MD, PhD, Dana Farber Cancer Center, Modeling cancer prevention in mammary organoids derived from BRCA1/2 mutation carriers")
+                        .foregroundColor(Color.white)
+                        .padding([.leading, .bottom, .trailing])
+                    Text("Maria Soledad Sosa, PhD, Icahn School of Medicine at Mt. Sinai, Targeting disseminated breast cancer cells to prevent metastasis, Deborah G. Black Memorial Research Grant")
+                        .foregroundColor(Color.white)
+                        .padding(.horizontal)
+                }
+                .padding(.horizontal)
                 Text("How to donate: ")
                     .foregroundColor(Color.white)
                     .padding()
-                    Text("Credit card; check; stock; wire transfer; venmo?")
+                    Text("Credit card; check; stock; wire transfer; venmo")
                     .foregroundColor(Color.white)
                     .padding()
                 
@@ -55,6 +84,7 @@ struct WhyBCA: View {
                     .foregroundColor(Color.white)
                     .padding()
             }
+            Spacer()
         }
     }
 }

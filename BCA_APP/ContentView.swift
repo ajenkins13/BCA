@@ -8,9 +8,10 @@
 import SwiftUI
 struct ContentView: View {
     var body: some View {
-    
+        NavigationView {
         VStack(alignment: .leading){
-            Spacer()
+            //Spacer()
+              //  .frame(height: 1.0)
             
             HStack{
                 Spacer()
@@ -19,6 +20,7 @@ struct ContentView: View {
                     .foregroundColor(.purple)
                     .padding(.horizontal)
                 Spacer()
+                   // .frame(height: 40.0)
                // CircleImage()
                  //   .frame(width: 30, height:20)
             }
@@ -26,21 +28,34 @@ struct ContentView: View {
             Divider()
             ScrollView(.horizontal){
                 HStack(spacing: 10) {
+                    
                     CircleImage()
                         .padding(.horizontal)
-                    Slide1View()
-                        .padding(.horizontal)
-                     
-                    Slide2View()
-                        .padding(.horizontal)
-                    Slide3View()
-                        .padding(.horizontal)
-                    Slide4View()
-                        .padding(.horizontal)
-                    Slide5View()
-                        .padding(.horizontal)
-                    Slide6View()
-                        .padding(.horizontal)
+                    
+                    NavigationLink(destination: WhyBCA()){
+                            Slide1View()
+                                .padding(.horizontal)
+                             }
+                    NavigationLink(destination: JoinUS()){
+                        Slide2View()
+                            .padding(.horizontal)
+                    }
+                    NavigationLink(destination: GetInvolved()){
+                        Slide3View()
+                            .padding(.horizontal)
+                        }
+                    NavigationLink(destination: BCAResources()){
+                        Slide4View()
+                            .padding(.horizontal)
+                        }
+                    NavigationLink(destination: GetOurSocial()){
+                        Slide5View()
+                            .padding(.horizontal)
+                        }
+                    NavigationLink(destination: Donate()){
+                        Slide6View()
+                            .padding(.horizontal)
+        }
                 } //.padding(.horizontal)
             }//.frame(height: 100)
           //  Divider()
@@ -49,30 +64,34 @@ struct ContentView: View {
             HStack {
                 Spacer()
                 VStack{
-                Link("breastcanceralliance.org", destination: URL(string: "https://breastcanceralliance.org")!)
-                                       .padding(.bottom)
-                                   Spacer()
-                                       .frame(height: 21.0)
+                    Spacer()
+                        .frame(height: 17.0)
+                    Link("breastcanceralliance.org", destination: URL(string: "https://breastcanceralliance.org")!)
+                        .padding(.bottom)
+                    Spacer()
+                        .frame(height: 21.0)
                                    
-                                   NavigationLink(destination: Donate()){
-                                       ZStack{
-                                           Rectangle()
-                                               .foregroundColor(Color(UIColor(red: 255/255, green: 0, blue: 133/225, alpha: 1)))
+                    NavigationLink(destination: Donate()){
+                            ZStack{
+                                Rectangle()
+                                    .foregroundColor(Color(UIColor(red: 255/255, green: 0, blue: 133/225, alpha: 1)))
                                            
-                                       Text("Donate")
-                                           .foregroundColor(Color.white)
-                                           .padding(.vertical)
-                                       }
+                                Text("Donate")
+                                    .foregroundColor(Color.white)
+                                    .padding(.vertical)
+                                    }
                                        .frame(width: 200.0, height: 5.0)
                                    }
                 }
                 Spacer()
              
             }
-           // Spacer()
-        
-        .padding()
+            Spacer()
+                .padding()
+                .frame(height: 100.0)
       
+        }
+            Spacer()
         }
 }
 }

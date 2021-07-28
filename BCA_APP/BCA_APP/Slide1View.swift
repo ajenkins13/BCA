@@ -9,11 +9,11 @@ import SwiftUI
 
 struct Slide1View: View {
     var body: some View {
-        
+       // NavigationLink(destination: WhyBCA()){
         ZStack {
             
             
-                RoundedRectangle(cornerRadius: 60)
+            RoundedRectangle(cornerRadius: 60)
                // Circle()
                     .fill(Color(UIColor(red: 26/255, green: 0, blue: 91/225, alpha: 1)))
                     .frame(width: 340, height:600)
@@ -61,6 +61,7 @@ struct Slide1View: View {
                  
             }
         }
+   // }
     }
 }
 

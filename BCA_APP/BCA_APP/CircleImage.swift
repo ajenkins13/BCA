@@ -45,6 +45,8 @@ struct CircleImage: View {
                     .clipShape(Rectangle())
                     .frame(width: 170.0, height:70)
             }
+            Spacer()
+                .frame(height: 20.0)
         }
     }
 }
