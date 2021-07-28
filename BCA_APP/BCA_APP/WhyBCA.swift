@@ -9,17 +9,27 @@ import SwiftUI
 
 struct WhyBCA: View {
     var body: some View {
+        ZStack{
+            Rectangle()
+                .fill(Color(UIColor(red: 26/255, green: 0, blue: 91/225, alpha: 1)))
+                .frame(width: 400, height:900)
         VStack{
-            Spacer()
-                .padding()
-                .frame(height: 30.0)
-            Text("Why BCA")
-                .font(.title)
-                .foregroundColor(Color.green)
-                .padding(.top)
-            Divider()
-                .foregroundColor(Color("AccentColor"))
-        
+            ZStack{
+                Rectangle()
+                    .fill(Color(UIColor(red: 26/255, green: 0, blue: 91/225, alpha: 1)))
+                    .frame(width: 400, height:90)
+                VStack{
+                    Spacer()
+                        .padding()
+                        .frame(height: 30.0)
+                    Text("Why BCA")
+                        .font(.title)
+                        .foregroundColor(Color.white)
+                        .padding(.top)
+                    Divider()
+                        .foregroundColor(Color("AccentColor"))
+                }
+            }
             ScrollView {
         
                 Text("Our Mission is to improve survival rates and quality of life for those impacted by breast cancer through better prevention,early detection, treatmentand cure. To promote these goals, we invest in innovative research, breast surgery fellowships, regional education, dignified support and screening for the underserved.")
@@ -83,8 +93,13 @@ struct WhyBCA: View {
                 Text("Staff + link to “Our Team” Board page on website")
                     .foregroundColor(Color.white)
                     .padding()
+                Spacer()
+                    .frame(height: 50.0)
             }
             Spacer()
+                .frame(height: 50.0)
+        }
+            
         }
     }
 }
@@ -92,8 +107,8 @@ struct WhyBCA: View {
 struct WhyBCA_Previews: PreviewProvider {
     static var previews: some View {
         WhyBCA()
-            .frame(width: 400.0, height: 870.0)
-            .environment(\.sizeCategory, .extraLarge)
-            .background(Color(UIColor(red: 26/255, green: 0, blue: 91/225, alpha: 1)))
+            //.frame(width: 400.0, height: 870.0)
+           // .environment(\.sizeCategory, .extraLarge)
+           // .background(Color(UIColor(red: 26/255, green: 0, blue: 91/225, alpha: 1)))
     }
 }

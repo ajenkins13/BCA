@@ -9,6 +9,10 @@ import SwiftUI
 
 struct JoinUS: View {
     var body: some View {
+        ZStack{
+            Rectangle()
+                .fill(Color(UIColor(red: 71/255, green: 0, blue: 103/225, alpha: 1)))
+                .frame(width: 400, height:900)
         VStack{
          //   Rectangle()
             Spacer()
@@ -39,6 +43,7 @@ struct JoinUS: View {
         //hyperlink Cakender (BCA events page)
         //
             }
+        }
        }
     }
 }
@@ -46,8 +51,8 @@ struct JoinUS: View {
 struct JoinUS_Previews: PreviewProvider {
     static var previews: some View {
         JoinUS()
-            .frame(width: 400.0, height: 870.0)
-            .environment(\.sizeCategory, .extraLarge)
-            .background(Color(UIColor(red: 71/255, green: 0, blue: 103/225, alpha: 1)))
+          //  .frame(width: 400.0, height: 870.0)
+          //  .environment(\.sizeCategory, .extraLarge)
+           // .background(Color(UIColor(red: 71/255, green: 0, blue: 103/225, alpha: 1)))
     }
 }

@@ -9,6 +9,11 @@ import SwiftUI
 
 struct GetOurSocial: View {
     var body: some View {
+        ZStack{
+            Rectangle()
+                .fill(Color(UIColor(red: 206/255, green: 0, blue: 132/225, alpha: 1)))
+                .frame(width: 400, height:900)
+        
             VStack{
                   Text("Get Social:")
                     .font(.largeTitle)
@@ -23,10 +28,25 @@ struct GetOurSocial: View {
                         .padding()
                 }
                 //make each link the logo not the words
-                Link("Our Instagram", destination: URL(string: "https://www.instagram.com/breastcanceralliance/?hl=en")!)
-                    .padding()
-                Link("Our Facebook", destination: URL(string: "https://www.facebook.com/BreastCancerAlliance")!)
-                        .padding()
+                ZStack{
+                    Image("Insta")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 80, height: 80)
+                    Link("", destination: URL(string: "https://www.instagram.com/breastcanceralliance/?hl=en")!)
+                            .padding()
+                            .frame(width: 80, height: 80)
+                }
+                ZStack{
+                    Image("FacebookLogo")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 80, height: 80)
+                
+                    Link("", destination: URL(string: "https://www.facebook.com/BreastCancerAlliance")!)
+                            .padding()
+                            .frame(width: 80, height: 80)
+                }
                 Link("Linked-in", destination: URL(string: "https://www.linkedin.com/company/breast-cancer-alliance/")!)
                         .padding()
                 Link("Twitter", destination: URL(string: "https://mobile.twitter.com/bcalliancect?lang=en")!)
@@ -40,7 +60,7 @@ struct GetOurSocial: View {
               //sign up for the newsletter
         }
        
-        
+        }
     }
 }
 
@@ -48,8 +68,8 @@ struct GetOurSocial_Previews: PreviewProvider {
     static var previews: some View {
         GetOurSocial()
            // .padding()
-            .frame(width: 400.0, height: 870.0)
-            .environment(\.sizeCategory, .extraLarge)
-            .background(Color(UIColor(red: 206/255, green: 0, blue: 132/225, alpha: 1)))
+         //   .frame(width: 400.0, height: 870.0)
+         //   .environment(\.sizeCategory, .extraLarge)
+          //  .background(Color(UIColor(red: 206/255, green: 0, blue: 132/225, alpha: 1)))
     }
 }

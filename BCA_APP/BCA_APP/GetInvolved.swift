@@ -9,6 +9,10 @@ import SwiftUI
 
 struct GetInvolved: View {
     var body: some View {
+        ZStack{
+            Rectangle()
+                .fill(Color(UIColor(red: 115/255, green: 0, blue: 114/225, alpha: 1)))
+                .frame(width: 400, height:900)
         VStack{
             
             Spacer()
@@ -50,14 +54,15 @@ struct GetInvolved: View {
             }
             .frame(width: 370.0)
         }
+        }
     }
 }
 
 struct GetInvolved_Previews: PreviewProvider {
     static var previews: some View {
         GetInvolved()
-            .frame(width: 400.0, height: 870.0)
-            .environment(\.sizeCategory, .extraLarge)
-            .background(Color(UIColor(red: 115/255, green: 0, blue: 114/225, alpha: 1)))
+           // .frame(width: 400.0, height: 870.0)
+           // .environment(\.sizeCategory, .extraLarge)
+           // .background(Color(UIColor(red: 115/255, green: 0, blue: 114/225, alpha: 1)))
     }
 }
