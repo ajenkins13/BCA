@@ -3,6 +3,7 @@
 //  BCA_APP
 //
 //  Created by Alexandra Jenkins on 7/26/21.
+//Font is Gotham
 //
 
 import SwiftUI
@@ -14,12 +15,12 @@ struct ContentView: View {
               //  .frame(height: 1.0)
             
             HStack{
-                Spacer()
+            /*    Spacer()
                 Text("Breast Cancer Alliance")
                     .font(.title)
                     .foregroundColor(.purple)
                     .padding(.horizontal)
-                Spacer()
+                Spacer() */
                    // .frame(height: 40.0)
                // CircleImage()
                  //   .frame(width: 30, height:20)
@@ -27,7 +28,7 @@ struct ContentView: View {
         
             Divider()
             ScrollView(.horizontal){
-                HStack(spacing: 10) {
+                HStack(spacing: 20) {
                     
                     CircleImage()
                         .padding(.horizontal)

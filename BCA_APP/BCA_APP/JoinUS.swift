@@ -25,19 +25,19 @@ struct JoinUS: View {
                 .padding()
                 .frame(height: 90.0)
             ScrollView{
-                Text("Calendar of Events")
+                Text("Upcoming Events")
                     .foregroundColor(Color.white)
                     .padding(.vertical)
                 
-                Text("Register")
-                    .foregroundColor(Color.white)
-                    .padding(.vertical)
+             //   Text("Register")
+                //    .foregroundColor(Color.white)
+                 //   .padding(.vertical)
                 Text("Sponsor")
                     .foregroundColor(Color.white)
                     .padding(.vertical)
-                Text("Volunteer")
-                    .foregroundColor(Color.blue)
-                    .padding(.vertical)
+            //    Text("Volunteer")
+               //     .foregroundColor(Color.blue)
+                //    .padding(.vertical)
 
                
         //hyperlink Cakender (BCA events page)
@@ -51,8 +51,6 @@ struct JoinUS: View {
 struct JoinUS_Previews: PreviewProvider {
     static var previews: some View {
         JoinUS()
-          //  .frame(width: 400.0, height: 870.0)
-          //  .environment(\.sizeCategory, .extraLarge)
-           // .background(Color(UIColor(red: 71/255, green: 0, blue: 103/225, alpha: 1)))
+        
     }
 }

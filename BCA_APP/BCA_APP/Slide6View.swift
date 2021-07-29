@@ -14,11 +14,12 @@ struct Slide6View: View {
                 .fill(Color(UIColor(red: 255/255, green: 0, blue: 133/225, alpha: 1)))
                 .frame(width: 340, height:600)
             VStack{
+                //image of a gift
                 Rectangle()
                     .frame(width: 340, height:1)
                     .foregroundColor(Color.gray)
                 
-                Text("DONATE!")
+                Text("Make a Gift")
                     .font(.title)
                     .foregroundColor(Color.white)
                 

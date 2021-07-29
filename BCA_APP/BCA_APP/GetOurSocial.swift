@@ -49,8 +49,8 @@ struct GetOurSocial: View {
                         .resizable()
                         .scaledToFit()
                         .frame(width: 80, height: 80)
-                        Text("Instagram")
-                            .foregroundColor(Color.white)
+                    //    Text(" ")
+                       //     .foregroundColor(Color.white)
                     }
                     Link(" ", destination: URL(string: "https://www.instagram.com/breastcanceralliance/?hl=en")!)
                             .padding()
@@ -63,8 +63,8 @@ struct GetOurSocial: View {
                         .resizable()
                         .scaledToFit()
                         .frame(width: 80, height: 80)
-                        Text("Facebook")
-                            .foregroundColor(Color.white)
+                      //  Text(" ")
+                      //      .foregroundColor(Color.white)
                     }
                 
                     Link(" ", destination: URL(string: "https://www.facebook.com/BreastCancerAlliance")!)
@@ -78,8 +78,8 @@ struct GetOurSocial: View {
                         .resizable()
                         .scaledToFit()
                         .frame(width: 80, height: 80)
-                        Text("Linked-in")
-                            .foregroundColor(Color.white)
+                        //Text("")
+                         //   .foregroundColor(Color.white)
                     
                     }
                 
@@ -94,8 +94,8 @@ struct GetOurSocial: View {
                         .resizable()
                         .scaledToFit()
                         .frame(width: 80, height: 80)
-                        Text("Twitter")
-                            .foregroundColor(Color.white)
+                //        Text("Twitter")
+                    //        .foregroundColor(Color.white)
                     
                     }
                     Link(" ", destination: URL(string: "https://mobile.twitter.com/bcalliancect?lang=en")!)
@@ -109,8 +109,8 @@ struct GetOurSocial: View {
                         .resizable()
                         .scaledToFit()
                         .frame(width: 80, height: 80)
-                        Text("Amazon Smile")
-                            .foregroundColor(Color.white)
+                   //     Text("Amazon Smile")
+                    //        .foregroundColor(Color.white)
                     
                     }
                     Link(" ", destination: URL(string: "https://smile.amazon.com/gp/chpf/homepage/ref=smi_chpf_redirect/139-3799044-4989460?ie=UTF8&ein=06-1453500&ref_=smi_ext_ch_06-1453500_cl")!)
