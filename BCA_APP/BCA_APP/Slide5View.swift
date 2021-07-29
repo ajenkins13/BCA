@@ -14,6 +14,13 @@ struct Slide5View: View {
                 .fill(Color(UIColor(red: 206/255, green: 0, blue: 132/225, alpha: 1)))
                 .frame(width: 340, height:600)
             VStack{
+                Image("Insta")
+                    .resizable()
+                    .padding(.top)
+                    .scaledToFit()
+                    .frame(width: 340, height: 240)
+                Spacer()
+                    .frame(height: 15.0)
                 Rectangle()
                     .frame(width: 340, height:1)
                     .foregroundColor(Color.gray)
@@ -24,6 +31,25 @@ struct Slide5View: View {
                 Rectangle()
                     .frame(width: 340, height:1)
                     .foregroundColor(Color.gray)
+                
+                Spacer()
+                    .frame(height: 15.0)
+                VStack{
+                
+                Text("Instagram, FaceBook")
+                    .foregroundColor(Color.white)
+                    .padding(.bottom)
+                    
+                    Text("Linked-in, Twitter")
+                        .foregroundColor(Color.white)
+                        .padding(.bottom)
+
+                Text("Amazon Smile")
+                    .foregroundColor(Color.white)
+                }
+                Spacer()
+                    .frame(height: 35.0)
+                    
             }
         }
     }

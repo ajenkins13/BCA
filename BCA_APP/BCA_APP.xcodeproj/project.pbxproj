@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		7C2200F826AF3FC1008B1A94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2200F726AF3FC1008B1A94 /* ContentView.swift */; };
+		7C509C0226B241470072BACB /* mom&D.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C509BFE26B241470072BACB /* mom&D.png */; };
+		7C509C0326B241470072BACB /* ribbonGirls.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C509BFF26B241470072BACB /* ribbonGirls.png */; };
+		7C509C0426B241470072BACB /* teens.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C509C0026B241470072BACB /* teens.png */; };
+		7C509C0526B241470072BACB /* bcaRibbon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C509C0126B241470072BACB /* bcaRibbon.png */; };
+		7C509C0926B24D250072BACB /* LinkedIn.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C509C0626B24D240072BACB /* LinkedIn.png */; };
+		7C509C0A26B24D250072BACB /* Twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C509C0726B24D250072BACB /* Twitter.png */; };
+		7C509C0B26B24D250072BACB /* amazonSmile.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C509C0826B24D250072BACB /* amazonSmile.png */; };
 		7C7B718626AB2A5600A3CA31 /* Screen Shot 2021-07-20 at 11.01.47 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C7B718426AB2A5600A3CA31 /* Screen Shot 2021-07-20 at 11.01.47 AM.png */; };
 		7C7B718926AB2AF200A3CA31 /* Screen Shot 2021-07-20 at 11.00.51 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C7B718826AB2AF200A3CA31 /* Screen Shot 2021-07-20 at 11.00.51 AM.png */; };
 		7C7B718B26ABC9A200A3CA31 /* instaLOGO.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C7B718A26ABC9A200A3CA31 /* instaLOGO.jpg */; };
@@ -63,6 +70,13 @@
 
 /* Begin PBXFileReference section */
 		7C2200F726AF3FC1008B1A94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = SOURCE_ROOT; };
+		7C509BFE26B241470072BACB /* mom&D.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mom&D.png"; sourceTree = "<group>"; };
+		7C509BFF26B241470072BACB /* ribbonGirls.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ribbonGirls.png; sourceTree = "<group>"; };
+		7C509C0026B241470072BACB /* teens.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teens.png; sourceTree = "<group>"; };
+		7C509C0126B241470072BACB /* bcaRibbon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bcaRibbon.png; sourceTree = "<group>"; };
+		7C509C0626B24D240072BACB /* LinkedIn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LinkedIn.png; sourceTree = "<group>"; };
+		7C509C0726B24D250072BACB /* Twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Twitter.png; sourceTree = "<group>"; };
+		7C509C0826B24D250072BACB /* amazonSmile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amazonSmile.png; sourceTree = "<group>"; };
 		7C7B718426AB2A5600A3CA31 /* Screen Shot 2021-07-20 at 11.01.47 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2021-07-20 at 11.01.47 AM.png"; sourceTree = "<group>"; };
 		7C7B718826AB2AF200A3CA31 /* Screen Shot 2021-07-20 at 11.00.51 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2021-07-20 at 11.00.51 AM.png"; sourceTree = "<group>"; };
 		7C7B718A26ABC9A200A3CA31 /* instaLOGO.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = instaLOGO.jpg; sourceTree = "<group>"; };
@@ -130,6 +144,13 @@
 		7C7B718C26ABCF2900A3CA31 /* Photos */ = {
 			isa = PBXGroup;
 			children = (
+				7C509C0826B24D250072BACB /* amazonSmile.png */,
+				7C509C0626B24D240072BACB /* LinkedIn.png */,
+				7C509C0726B24D250072BACB /* Twitter.png */,
+				7C509C0126B241470072BACB /* bcaRibbon.png */,
+				7C509BFE26B241470072BACB /* mom&D.png */,
+				7C509BFF26B241470072BACB /* ribbonGirls.png */,
+				7C509C0026B241470072BACB /* teens.png */,
 				7CA1862526A4CA2500A2B318 /* BCALogo.jpeg */,
 				7C7B718826AB2AF200A3CA31 /* Screen Shot 2021-07-20 at 11.00.51 AM.png */,
 				7CA1862F26A4EA8400A2B318 /* download.png */,
@@ -324,20 +345,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CA03B5A26AF48E100AEAE40 /* facebookLogo.png in Resources */,
+				7C509C0926B24D250072BACB /* LinkedIn.png in Resources */,
 				7CAD6BC0269BBFEF00883E28 /* Preview Assets.xcassets in Resources */,
 				7C937DFF269BDF4300370128 /* BCALogo2.jpeg in Resources */,
 				7CA03B6026AF495600AEAE40 /* ResearchPic.png in Resources */,
 				7CAD6BBD269BBFEF00883E28 /* Assets.xcassets in Resources */,
 				7C7B718626AB2A5600A3CA31 /* Screen Shot 2021-07-20 at 11.01.47 AM.png in Resources */,
 				7C7B718926AB2AF200A3CA31 /* Screen Shot 2021-07-20 at 11.00.51 AM.png in Resources */,
+				7C509C0B26B24D250072BACB /* amazonSmile.png in Resources */,
 				7CA03B5B26AF48E100AEAE40 /* GetInvolvedPic.jpeg in Resources */,
 				7CA1862826A4CA2500A2B318 /* BCALogo3.jpeg in Resources */,
+				7C509C0326B241470072BACB /* ribbonGirls.png in Resources */,
 				7CA1863126A4EA8400A2B318 /* download.png in Resources */,
 				7CA03B5D26AF48E100AEAE40 /* GroupOfGals.jpeg in Resources */,
+				7C509C0526B241470072BACB /* bcaRibbon.png in Resources */,
 				7CA1863226A4EA8400A2B318 /* GSLOGO_Canva.png in Resources */,
 				7CA1862726A4CA2500A2B318 /* BCALogo.jpeg in Resources */,
 				7C7B718B26ABC9A200A3CA31 /* instaLOGO.jpg in Resources */,
 				7CA03B5C26AF48E100AEAE40 /* books.png in Resources */,
+				7C509C0A26B24D250072BACB /* Twitter.png in Resources */,
+				7C509C0226B241470072BACB /* mom&D.png in Resources */,
+				7C509C0426B241470072BACB /* teens.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

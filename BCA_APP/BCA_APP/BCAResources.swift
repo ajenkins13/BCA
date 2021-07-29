@@ -12,7 +12,7 @@ struct BCAResources: View {
         ZStack{
             Rectangle()
                 .fill(Color(UIColor(red: 166/255, green: 0, blue: 131/225, alpha: 1)))
-                .frame(width: 400, height:900)
+                .frame(width: 400, height:1000)
         VStack{
             
             Spacer()

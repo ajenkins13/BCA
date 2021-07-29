@@ -12,7 +12,7 @@ struct GetInvolved: View {
         ZStack{
             Rectangle()
                 .fill(Color(UIColor(red: 115/255, green: 0, blue: 114/225, alpha: 1)))
-                .frame(width: 400, height:900)
+                .frame(width: 400, height:1000)
         VStack{
             
             Spacer()

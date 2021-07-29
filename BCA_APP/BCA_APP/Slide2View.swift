@@ -18,7 +18,12 @@ struct Slide2View: View {
                     .frame(width: 340, height:600)
             }
             VStack{
-                
+                Image("GroupOfGals")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 340, height: 200)
+                Spacer()
+                    .frame(height: 15.0)
                 Rectangle()
                     .frame(width: 340, height:1)
                     .foregroundColor(Color.gray)
@@ -28,26 +33,31 @@ struct Slide2View: View {
                 Rectangle()
                     .frame(width: 340, height:1)
                     .foregroundColor(Color.gray)
-                
+                VStack{
                 Text("Calendar of Events")
                     .font(.headline)
                     .foregroundColor(Color.white)
                     .multilineTextAlignment(.center)
+                    .padding(.bottom)
                    
                 Text("Register")
                     .font(.headline)
                     .foregroundColor(Color.white)
                     .multilineTextAlignment(.center)
+                    .padding(.bottom)
                 Text("Sponsor")
                     .font(.headline)
                     .foregroundColor(Color.white)
                     .multilineTextAlignment(.center)
+                    .padding(.bottom)
                  
                 Text("Volunteer")
                     .font(.headline)
                     .foregroundColor(Color.white)
                     .multilineTextAlignment(.center)
-                    
+                }
+                Spacer()
+                    .frame(height: 35.0)
             }
            
         }

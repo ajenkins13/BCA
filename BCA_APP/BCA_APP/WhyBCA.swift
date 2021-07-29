@@ -12,7 +12,7 @@ struct WhyBCA: View {
         ZStack{
             Rectangle()
                 .fill(Color(UIColor(red: 26/255, green: 0, blue: 91/225, alpha: 1)))
-                .frame(width: 400, height:900)
+                .frame(width: 400, height:1000)
         VStack{
             ZStack{
                 Rectangle()
