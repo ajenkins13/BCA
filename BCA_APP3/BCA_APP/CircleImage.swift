@@ -16,7 +16,7 @@ struct CircleImage: View {
                 .shadow(radius: 7)
                 .animation(/*@START_MENU_TOKEN@*/.easeIn/*@END_MENU_TOKEN@*/)
             Text("Innovative Research.")
-                        .font(.largeTitle)
+                .font(Font.custom("GothamBlack", size: 33))
                         .foregroundColor(Color(UIColor(red: 26/255, green: 0, blue: 91/225, alpha: 1)))
                         .multilineTextAlignment(.center)
             Text("Surgical Fellowships.")
