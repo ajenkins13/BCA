@@ -19,7 +19,7 @@ struct GetOurSocial: View {
                     .padding()
                     .frame(height: 120.0)
                   Text("Get Social:")
-                    .font(.largeTitle)
+                    .font(Font.custom("Montserrat-SemiBold", size: 33))
                     .foregroundColor(Color.white)
                     .padding()
                 Spacer()
@@ -35,6 +35,7 @@ struct GetOurSocial: View {
                         .scaledToFit()
                         .frame(width: 120, height: 50)
                         Text("breastcanceralliance.org")
+                            .font(Font.custom("Montserrat-SemiBold", size: 18))
                             .foregroundColor(Color.white)
                         
                     }

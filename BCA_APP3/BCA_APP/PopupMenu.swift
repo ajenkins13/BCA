@@ -10,6 +10,7 @@ import SwiftUI
 struct PopupMenu: View {
     var body: some View {
         Text("Sign up here:")
+            .font(Font.custom("Montserrat-SemiBold", size: 18))
     }
 }
 

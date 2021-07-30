@@ -19,13 +19,14 @@ struct JoinUS: View {
                 .padding()
                 .frame(height: 50.0)
             Text("Join Us")
-                .font(.title)
+                .font(Font.custom("Montserrat-SemiBold", size: 28))
                 .foregroundColor(Color.white)
             Spacer()
                 .padding()
                 .frame(height: 90.0)
             ScrollView{
                 Text("Upcoming Events")
+                    .font(Font.custom("Montserrat-SemiBold", size: 18))
                     .foregroundColor(Color.white)
                     .padding(.vertical)
                 
@@ -33,6 +34,7 @@ struct JoinUS: View {
                 //    .foregroundColor(Color.white)
                  //   .padding(.vertical)
                 Text("Sponsor")
+                    .font(Font.custom("Montserrat-SemiBold", size: 18))
                     .foregroundColor(Color.white)
                     .padding(.vertical)
             //    Text("Volunteer")

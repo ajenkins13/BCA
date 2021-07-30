@@ -28,7 +28,7 @@ struct Slide3View: View {
                     .foregroundColor(Color.gray)
                 
                 Text("GET INVOLVED")
-                    .font(.title)
+                    .font(Font.custom("Montserrat-SemiBold", size: 33))
                     .foregroundColor(Color.white)
                 
                 Rectangle()
@@ -38,18 +38,22 @@ struct Slide3View: View {
                     .frame(height: 15.0)
                 VStack{
                 Text("Adult Volunteers")
+                    .font(Font.custom("Montserrat-SemiBold", size: 18))
                     .foregroundColor(Color.white)
                     .padding(.bottom)
                 
                 Text("Teen Volunteers")
+                    .font(Font.custom("Montserrat-SemiBold", size: 18))
                     .foregroundColor(Color.white)
                     .padding(.bottom)
          
                 Text("Share Your Story")
+                    .font(Font.custom("Montserrat-SemiBold", size: 18))
                     .foregroundColor(Color.white)
                     .padding(.bottom)
 
                 Text("Shop for BCA")
+                    .font(Font.custom("Montserrat-SemiBold", size: 18))
                     .foregroundColor(Color.white)
                 }
                 Spacer()

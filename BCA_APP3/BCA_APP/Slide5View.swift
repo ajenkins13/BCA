@@ -25,7 +25,7 @@ struct Slide5View: View {
                     .frame(width: 340, height:1)
                     .foregroundColor(Color.gray)
                 Text("GET SOCIAL")
-                    .font(.title)
+                    .font(Font.custom("Montserrat-SemiBold", size: 33))
                     .foregroundColor(Color.white)
                 
                 Rectangle()
@@ -37,14 +37,17 @@ struct Slide5View: View {
                 VStack{
                 
                 Text("Instagram, FaceBook")
+                    .font(Font.custom("Montserrat-SemiBold", size: 18))
                     .foregroundColor(Color.white)
                     .padding(.bottom)
                     
                     Text("Linked-in, Twitter")
+                        .font(Font.custom("Montserrat-SemiBold", size: 18))
                         .foregroundColor(Color.white)
                         .padding(.bottom)
 
                 Text("Amazon Smile")
+                    .font(Font.custom("Montserrat-SemiBold", size: 18))
                     .foregroundColor(Color.white)
                 }
                 Spacer()

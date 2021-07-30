@@ -20,7 +20,7 @@ struct Slide6View: View {
                     .foregroundColor(Color.gray)
                 
                 Text("Make a Gift")
-                    .font(.title)
+                    .font(Font.custom("Montserrat-SemiBold", size: 33))
                     .foregroundColor(Color.white)
                 
                 Rectangle()

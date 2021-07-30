@@ -28,7 +28,7 @@ struct Slide4View: View {
                     .foregroundColor(Color.gray)
                 
                 Text("BCA Resources")
-                    .font(.title)
+                    .font(Font.custom("Montserrat-SemiBold", size: 33))
                     .foregroundColor(Color.white)
                     .padding(.leading)
                 
@@ -39,14 +39,17 @@ struct Slide4View: View {
                     .frame(height: 15.0)
                 
                 Text("Books, Exercises ")
+                    .font(Font.custom("Montserrat-SemiBold", size: 18))
                     .foregroundColor(Color.white)
                     .padding(.bottom)
          
                 Text("FAQ's, NewsLetter")
+                    .font(Font.custom("Montserrat-SemiBold", size: 18))
                     .foregroundColor(Color.white)
                     .padding(.bottom)
 
                 Text("Online and Patient Resources, Support")
+                    .font(Font.custom("Montserrat-SemiBold", size: 15))
                     .foregroundColor(Color.white)
                 Spacer()
                     .frame(height: 35.0)
