@@ -29,7 +29,8 @@ struct ContentView: View {
             Divider()
             ScrollView(.horizontal){
                 HStack(spacing: 20) {
-                    
+                  Spacer()
+                        .frame(width: -20.0)
                     CircleImage()
                         .padding(.horizontal)
                     
