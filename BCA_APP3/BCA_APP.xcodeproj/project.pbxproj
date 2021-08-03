@@ -3,13 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		53C60DF026B3BB13007CE54D /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53C60DEF26B3BB13007CE54D /* Montserrat-SemiBold.ttf */; };
-		53C60DF126B3BB13007CE54D /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53C60DEF26B3BB13007CE54D /* Montserrat-SemiBold.ttf */; };
-		53C60DF226B3BB13007CE54D /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53C60DEF26B3BB13007CE54D /* Montserrat-SemiBold.ttf */; };
 		7C2200F826AF3FC1008B1A94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2200F726AF3FC1008B1A94 /* ContentView.swift */; };
 		7C509C0226B241470072BACB /* mom&D.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C509BFE26B241470072BACB /* mom&D.png */; };
 		7C509C0326B241470072BACB /* ribbonGirls.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C509BFF26B241470072BACB /* ribbonGirls.png */; };
@@ -72,7 +69,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		53C60DEF26B3BB13007CE54D /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-SemiBold.ttf"; path = "../../../../Downloads/Montserrat/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
 		7C2200F726AF3FC1008B1A94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = SOURCE_ROOT; };
 		7C509BFE26B241470072BACB /* mom&D.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mom&D.png"; sourceTree = "<group>"; };
 		7C509BFF26B241470072BACB /* ribbonGirls.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ribbonGirls.png; sourceTree = "<group>"; };
@@ -200,7 +196,6 @@
 				7CAD6BB8269BBFEC00883E28 /* BCA_APPApp.swift */,
 				7C2200F726AF3FC1008B1A94 /* ContentView.swift */,
 				7C937DEE269BDF4300370128 /* CircleImage.swift */,
-				53C60DEF26B3BB13007CE54D /* Montserrat-SemiBold.ttf */,
 				7C937DF1269BDF4300370128 /* Slide1View.swift */,
 				7C937DE3269BDF4200370128 /* Slide2View.swift */,
 				7C937DE9269BDF4300370128 /* Slide3View.swift */,
@@ -358,7 +353,6 @@
 				7CA03B6026AF495600AEAE40 /* ResearchPic.png in Resources */,
 				7CAD6BBD269BBFEF00883E28 /* Assets.xcassets in Resources */,
 				7C7B718626AB2A5600A3CA31 /* Screen Shot 2021-07-20 at 11.01.47 AM.png in Resources */,
-				53C60DF026B3BB13007CE54D /* Montserrat-SemiBold.ttf in Resources */,
 				7C7B718926AB2AF200A3CA31 /* Screen Shot 2021-07-20 at 11.00.51 AM.png in Resources */,
 				7C509C0B26B24D250072BACB /* amazonSmile.png in Resources */,
 				7CA03B5B26AF48E100AEAE40 /* GetInvolvedPic.jpeg in Resources */,
@@ -381,7 +375,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53C60DF126B3BB13007CE54D /* Montserrat-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,7 +382,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53C60DF226B3BB13007CE54D /* Montserrat-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
