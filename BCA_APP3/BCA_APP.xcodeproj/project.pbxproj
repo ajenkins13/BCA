@@ -44,6 +44,7 @@
 		7CA1862E26A4E86200A2B318 /* Donate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA1862D26A4E86200A2B318 /* Donate.swift */; };
 		7CA1863126A4EA8400A2B318 /* download.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CA1862F26A4EA8400A2B318 /* download.png */; };
 		7CA1863226A4EA8400A2B318 /* GSLOGO_Canva.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CA1863026A4EA8400A2B318 /* GSLOGO_Canva.png */; };
+		7CA1AB8E26BDC19000CA4EBD /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CA1AB8D26BDC19000CA4EBD /* Montserrat-SemiBold.ttf */; };
 		7CAD6BB9269BBFEC00883E28 /* BCA_APPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAD6BB8269BBFEC00883E28 /* BCA_APPApp.swift */; };
 		7CAD6BBD269BBFEF00883E28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CAD6BBC269BBFEF00883E28 /* Assets.xcassets */; };
 		7CAD6BC0269BBFEF00883E28 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CAD6BBF269BBFEF00883E28 /* Preview Assets.xcassets */; };
@@ -107,6 +108,7 @@
 		7CA1862D26A4E86200A2B318 /* Donate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Donate.swift; sourceTree = "<group>"; };
 		7CA1862F26A4EA8400A2B318 /* download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = download.png; sourceTree = "<group>"; };
 		7CA1863026A4EA8400A2B318 /* GSLOGO_Canva.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GSLOGO_Canva.png; sourceTree = "<group>"; };
+		7CA1AB8D26BDC19000CA4EBD /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
 		7CAD6BB5269BBFEC00883E28 /* BCA_APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BCA_APP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CAD6BB8269BBFEC00883E28 /* BCA_APPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BCA_APPApp.swift; sourceTree = "<group>"; };
 		7CAD6BBC269BBFEF00883E28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -193,6 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				7C93426426B3A4D9000E972A /* BCA-APP-Info.plist */,
+				7CA1AB8D26BDC19000CA4EBD /* Montserrat-SemiBold.ttf */,
 				7CAD6BB8269BBFEC00883E28 /* BCA_APPApp.swift */,
 				7C2200F726AF3FC1008B1A94 /* ContentView.swift */,
 				7C937DEE269BDF4300370128 /* CircleImage.swift */,
@@ -366,6 +369,7 @@
 				7C7B718B26ABC9A200A3CA31 /* instaLOGO.jpg in Resources */,
 				7CA03B5C26AF48E100AEAE40 /* books.png in Resources */,
 				7C509C0A26B24D250072BACB /* Twitter.png in Resources */,
+				7CA1AB8E26BDC19000CA4EBD /* Montserrat-SemiBold.ttf in Resources */,
 				7C509C0226B241470072BACB /* mom&D.png in Resources */,
 				7C509C0426B241470072BACB /* teens.png in Resources */,
 			);
