@@ -100,14 +100,14 @@ struct GetOurSocial: View {
                     Image("Twitter")
                         .resizable()
                         .scaledToFit()
-                        .frame(width: 80, height: 80)
+                        .frame(width: 100, height: 100)
                 //        Text("Twitter")
                     //        .foregroundColor(Color.white)
                     
                     }
                     Link(" ", destination: URL(string: "https://mobile.twitter.com/bcalliancect?lang=en")!)
                             .padding()
-                            .frame(width: 100, height: 110)
+                            .frame(width: 105, height: 105)
                 }
                 //Amazon Smile
                 ZStack{
