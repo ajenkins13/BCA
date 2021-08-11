@@ -18,6 +18,7 @@
 		7C7B718626AB2A5600A3CA31 /* Screen Shot 2021-07-20 at 11.01.47 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C7B718426AB2A5600A3CA31 /* Screen Shot 2021-07-20 at 11.01.47 AM.png */; };
 		7C7B718926AB2AF200A3CA31 /* Screen Shot 2021-07-20 at 11.00.51 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C7B718826AB2AF200A3CA31 /* Screen Shot 2021-07-20 at 11.00.51 AM.png */; };
 		7C7B718B26ABC9A200A3CA31 /* instaLOGO.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C7B718A26ABC9A200A3CA31 /* instaLOGO.jpg */; };
+		7C915C5526C3600500FE293A /* SelfExam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C915C5426C3600500FE293A /* SelfExam.swift */; };
 		7C937DF2269BDF4300370128 /* Slide2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C937DE3269BDF4200370128 /* Slide2View.swift */; };
 		7C937DF3269BDF4300370128 /* Slide5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C937DE4269BDF4200370128 /* Slide5View.swift */; };
 		7C937DF4269BDF4300370128 /* Slide4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C937DE5269BDF4200370128 /* Slide4View.swift */; };
@@ -81,6 +82,7 @@
 		7C7B718426AB2A5600A3CA31 /* Screen Shot 2021-07-20 at 11.01.47 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2021-07-20 at 11.01.47 AM.png"; sourceTree = "<group>"; };
 		7C7B718826AB2AF200A3CA31 /* Screen Shot 2021-07-20 at 11.00.51 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2021-07-20 at 11.00.51 AM.png"; sourceTree = "<group>"; };
 		7C7B718A26ABC9A200A3CA31 /* instaLOGO.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = instaLOGO.jpg; sourceTree = "<group>"; };
+		7C915C5426C3600500FE293A /* SelfExam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfExam.swift; sourceTree = "<group>"; };
 		7C93426426B3A4D9000E972A /* BCA-APP-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "BCA-APP-Info.plist"; sourceTree = SOURCE_ROOT; };
 		7C937DE3269BDF4200370128 /* Slide2View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slide2View.swift; sourceTree = "<group>"; };
 		7C937DE4269BDF4200370128 /* Slide5View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slide5View.swift; sourceTree = "<group>"; };
@@ -212,6 +214,7 @@
 				7C937DE7269BDF4300370128 /* BCAResources.swift */,
 				7C937DEF269BDF4300370128 /* GetOurSocial.swift */,
 				7CA1862D26A4E86200A2B318 /* Donate.swift */,
+				7C915C5426C3600500FE293A /* SelfExam.swift */,
 				7C937DEA269BDF4300370128 /* CircleView.swift */,
 				7C937DE8269BDF4300370128 /* PopupMenu.swift */,
 				7C941BAE26B06A0A002C7E3D /* test for sarah.swift */,
@@ -404,6 +407,7 @@
 				7C937DF6269BDF4300370128 /* BCAResources.swift in Sources */,
 				7C937E00269BDF4300370128 /* Slide1View.swift in Sources */,
 				7C2200F826AF3FC1008B1A94 /* ContentView.swift in Sources */,
+				7C915C5526C3600500FE293A /* SelfExam.swift in Sources */,
 				7C937DFB269BDF4300370128 /* JoinUS.swift in Sources */,
 				7C937DF8269BDF4300370128 /* Slide3View.swift in Sources */,
 				7C937DF5269BDF4300370128 /* WhyBCA.swift in Sources */,
