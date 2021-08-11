@@ -17,7 +17,7 @@ struct SelfExam: View {
             
             Spacer()
                 .padding()
-                .frame(height: 40.0)
+                .frame(height: 100.0)
             Text("Self Breast Exam")
                 .font(Font.custom("Montserrat-SemiBold", size: 28))
                 .foregroundColor(Color.white)
