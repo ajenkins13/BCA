@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		53CF94B426C46844004B077B /* Instagram.png in Resources */ = {isa = PBXBuildFile; fileRef = 53CF94B326C46844004B077B /* Instagram.png */; };
-		53CF94B826C46986004B077B /* TwitterLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 53CF94B726C46986004B077B /* TwitterLogo.png */; };
 		53DB02F326C4557D00800A7B /* ShareYourStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DB02F226C4557D00800A7B /* ShareYourStory.swift */; };
 		53DB02F426C4557D00800A7B /* ShareYourStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DB02F226C4557D00800A7B /* ShareYourStory.swift */; };
 		53DB02F526C4557D00800A7B /* ShareYourStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DB02F226C4557D00800A7B /* ShareYourStory.swift */; };
@@ -82,8 +80,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		53CF94B326C46844004B077B /* Instagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Instagram.png; path = ../../../../Instagram.png; sourceTree = "<group>"; };
-		53CF94B726C46986004B077B /* TwitterLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TwitterLogo.png; path = ../../../TwitterLogo.png; sourceTree = "<group>"; };
 		53CF94B926C4698D004B077B /* TwitterLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TwitterLogo.png; sourceTree = "<group>"; };
 		53DB02F226C4557D00800A7B /* ShareYourStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareYourStory.swift; sourceTree = "<group>"; };
 		7C2200F726AF3FC1008B1A94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = SOURCE_ROOT; };
@@ -170,7 +166,6 @@
 		7C7B718C26ABCF2900A3CA31 /* Photos */ = {
 			isa = PBXGroup;
 			children = (
-				53CF94B326C46844004B077B /* Instagram.png */,
 				7CDBB49E26C45A3B000ABE4C /* groupGalPic2.jpg */,
 				7CDBB49B26C45A3A000ABE4C /* instaPic5.jpg */,
 				7CDBB49C26C45A3A000ABE4C /* mom+Girl4.jpg */,
@@ -249,7 +244,6 @@
 				7C937DE8269BDF4300370128 /* PopupMenu.swift */,
 				7C941BAE26B06A0A002C7E3D /* test for sarah.swift */,
 				7CAD6BBC269BBFEF00883E28 /* Assets.xcassets */,
-				53CF94B726C46986004B077B /* TwitterLogo.png */,
 				7CAD6BBE269BBFEF00883E28 /* Preview Content */,
 			);
 			path = BCA_APP;
@@ -384,7 +378,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CA03B5A26AF48E100AEAE40 /* facebookLogo.png in Resources */,
-				53CF94B826C46986004B077B /* TwitterLogo.png in Resources */,
 				7C509C0926B24D250072BACB /* LinkedIn.png in Resources */,
 				7CAD6BC0269BBFEF00883E28 /* Preview Assets.xcassets in Resources */,
 				7C937DFF269BDF4300370128 /* BCALogo2.jpeg in Resources */,
@@ -400,7 +393,6 @@
 				7CA1862826A4CA2500A2B318 /* BCALogo3.jpeg in Resources */,
 				7C509C0326B241470072BACB /* ribbonGirls.png in Resources */,
 				7CA1863126A4EA8400A2B318 /* download.png in Resources */,
-				53CF94B426C46844004B077B /* Instagram.png in Resources */,
 				7CA03B5D26AF48E100AEAE40 /* GroupOfGals.jpeg in Resources */,
 				7C509C0526B241470072BACB /* bcaRibbon.png in Resources */,
 				7CA1863226A4EA8400A2B318 /* GSLOGO_Canva.png in Resources */,
