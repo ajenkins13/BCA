@@ -38,6 +38,7 @@ struct Slide5View: View {
                 
                 Spacer()
                     .frame(height: 15.0)
+                /*
                 VStack{
                 
                 Text("Instagram, FaceBook")
@@ -54,8 +55,9 @@ struct Slide5View: View {
                     .font(Font.custom("Montserrat-SemiBold", size: 18))
                     .foregroundColor(Color.white)
                 }
+                 */
                 Spacer()
-                    .frame(height: 35.0)
+                    .frame(height: 150.0)
                     
             }
             
