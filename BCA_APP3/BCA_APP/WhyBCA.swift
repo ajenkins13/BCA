@@ -21,17 +21,21 @@ struct WhyBCA: View {
                 VStack{
                     Spacer()
                         .padding()
-                        .frame(height: 30.0)
+                        .frame(height: 90.0)
                     Text("Why BCA")
                         .font(Font.custom("Montserrat-SemiBold", size: 28))
                         .foregroundColor(Color.white)
                         .padding(.top)
-                    Divider()
-                        .foregroundColor(Color("AccentColor"))
+                    Rectangle()
+                        .frame(width: 370, height:1)
+                        .foregroundColor(Color.gray)
+                   
                 }
             }
             ScrollView {
-        
+                Spacer()
+                    .padding()
+                    .frame(height: 3.0)
                 Text("Our Mission is to improve survival rates and quality of life for those impacted by breast cancer through better prevention,early detection, treatmentand cure. To promote these goals, we invest in innovative research, breast surgery fellowships, regional education, dignified support and screening for the underserved.")
                     .font(Font.custom("Montserrat-SemiBold", size: 15))
                     .foregroundColor(Color.white)

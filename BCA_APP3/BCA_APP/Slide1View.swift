@@ -20,8 +20,17 @@ struct Slide1View: View {
         
             
             VStack{
-                Image("BCALogo")
-                    .padding(.bottom)
+                Spacer()
+                    .frame(height: 30.0)
+                
+                Image("ribbonGirls")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 340, height: 210)
+                Spacer()
+                    .frame(height: 15.0)
+               
+                    
              /*   ZStack{
                     Rectangle()
                         
@@ -45,19 +54,22 @@ struct Slide1View: View {
                     .font(Font.custom("Montserrat-SemiBold", size: 18))
                     .foregroundColor(Color.white)
                     .multilineTextAlignment(.center)
-                    .padding(.top)
+                    .padding(.bottom)
                 Text("What we fund")
                     .font(Font.custom("Montserrat-SemiBold", size: 18))
                     .foregroundColor(Color.white)
                     .multilineTextAlignment(.center)
+                    .padding(.bottom)
                 Text("2021 Grants with Institutions")
                     .font(Font.custom("Montserrat-SemiBold", size: 18))
                     .foregroundColor(Color.white)
                     .multilineTextAlignment(.center)
+                    .padding(.bottom)
                 Text("How to donate")
                     .font(Font.custom("Montserrat-SemiBold", size: 18))
                     .foregroundColor(Color.white)
                     .multilineTextAlignment(.center)
+                    .padding(.bottom)
                  
             }
         }

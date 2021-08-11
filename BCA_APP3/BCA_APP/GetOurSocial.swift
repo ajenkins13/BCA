@@ -11,21 +11,26 @@ struct GetOurSocial: View {
     var body: some View {
         ZStack{
             Rectangle()
-                .fill(Color(UIColor(red: 206/255, green: 0, blue: 132/225, alpha: 1)))
+                .fill(Color(UIColor(red: 255/255, green: 0, blue: 133/225, alpha: 1)))
                 .frame(width: 400, height:1000)
         
             VStack{
+                VStack{
                 Spacer()
                     .padding()
-                    .frame(height: 120.0)
+                    .frame(height: 160.0)
                   Text("Get Social:")
                     .font(Font.custom("Montserrat-SemiBold", size: 33))
                     .foregroundColor(Color.white)
                     .padding()
+                Rectangle()
+                    .frame(width: 370, height:1)
+                    .foregroundColor(Color.gray)
+            
                 Spacer()
                     .padding()
                     .frame(height: 10.0)
-            
+                }
                 //make each link the logo not the words
                 //website
                 ZStack{
@@ -59,14 +64,14 @@ struct GetOurSocial: View {
                 }
                 //facebook
                 ZStack{
-                    VStack{
-                    Image("FacebookLogo")
+                    
+                    Image("FB")
                         .resizable()
                         .scaledToFit()
                         .frame(width: 80, height: 80)
                       //  Text(" ")
                       //      .foregroundColor(Color.white)
-                    }
+                   
                 
                     Link(" ", destination: URL(string: "https://www.facebook.com/BreastCancerAlliance")!)
                             .padding()

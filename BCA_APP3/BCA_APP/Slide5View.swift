@@ -3,7 +3,8 @@
 //  Test1
 //
 //  Created by Alexandra Jenkins on 7/11/21.
-//RGB:
+//RGB:225, 0,133
+//RGB: 206, 0,113 --> 6 slides
 
 import SwiftUI
 
@@ -11,14 +12,17 @@ struct Slide5View: View {
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 60)
-                .fill(Color(UIColor(red: 206/255, green: 0, blue: 132/225, alpha: 1)))
+                .fill(Color(UIColor(red: 225/255, green: 0, blue: 133/225, alpha: 1)))
                 .frame(width: 340, height:600)
             VStack{
-                Image("Insta")
+                Spacer()
+                    .frame(height: 3.0)
+                
+                Image("slideInsta")
                     .resizable()
-                    .padding(.top)
+                   // .padding(.top)
                     .scaledToFit()
-                    .frame(width: 340, height: 240)
+                    .frame(width: 340, height: 210)
                 Spacer()
                     .frame(height: 15.0)
                 Rectangle()
@@ -54,6 +58,7 @@ struct Slide5View: View {
                     .frame(height: 35.0)
                     
             }
+            
         }
     }
 }

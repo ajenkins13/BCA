@@ -3,7 +3,8 @@
 //  Test1
 //
 //  Created by Alexandra Jenkins on 7/11/21.
-// RGB:87,0,103
+// RGB:87,0,103 --> with 5
+//RGB: 71, 0, 103 --> with 6
 
 import SwiftUI
 
@@ -14,14 +15,14 @@ struct Slide2View: View {
         ZStack {
             NavigationLink(destination: JoinUS()) {
                 RoundedRectangle(cornerRadius: 60)
-                    .fill(Color(UIColor(red: 71/255, green: 0, blue: 103/225, alpha: 1)))
+                    .fill(Color(UIColor(red: 87/255, green: 0, blue: 103/225, alpha: 1)))
                     .frame(width: 340, height:600)
             }
             VStack{
                 Image("GroupOfGals")
                     .resizable()
                     .scaledToFit()
-                    .frame(width: 340, height: 200)
+                    .frame(width: 340, height: 210)
                 Spacer()
                     .frame(height: 15.0)
                 Rectangle()
@@ -33,31 +34,27 @@ struct Slide2View: View {
                 Rectangle()
                     .frame(width: 340, height:1)
                     .foregroundColor(Color.gray)
+                
                 VStack{
+                    Spacer()
+                        .frame(height: 25.0)
                 Text("Calendar of Events")
                     .font(Font.custom("Montserrat-SemiBold", size: 18))
                     .foregroundColor(Color.white)
                     .multilineTextAlignment(.center)
                     .padding(.bottom)
                    
-                Text("Register")
-                    .font(Font.custom("Montserrat-SemiBold", size: 18))
-                    .foregroundColor(Color.white)
-                    .multilineTextAlignment(.center)
-                    .padding(.bottom)
+               
                 Text("Sponsor")
                     .font(Font.custom("Montserrat-SemiBold", size: 18))
                     .foregroundColor(Color.white)
                     .multilineTextAlignment(.center)
                     .padding(.bottom)
                  
-                Text("Volunteer")
-                    .font(Font.custom("Montserrat-SemiBold", size: 18))
-                    .foregroundColor(Color.white)
-                    .multilineTextAlignment(.center)
+               
                 }
                 Spacer()
-                    .frame(height: 35.0)
+                    .frame(height: 45.0)
             }
            
         }

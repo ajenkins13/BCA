@@ -19,7 +19,7 @@ struct Slide4View: View {
                 Image("mom&D")
                     .resizable()
                     .scaledToFit()
-                    .frame(width: 343, height: 200)
+                    .frame(width: 340, height: 210)
                 Spacer()
                     .frame(height: 15.0)
                 

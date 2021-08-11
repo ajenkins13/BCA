@@ -11,38 +11,46 @@ struct JoinUS: View {
     var body: some View {
         ZStack{
             Rectangle()
-                .fill(Color(UIColor(red: 71/255, green: 0, blue: 103/225, alpha: 1)))
+                .fill(Color(UIColor(red: 87/255, green: 0, blue: 103/225, alpha: 1)))
                 .frame(width: 400, height:1000)
         VStack{
          //   Rectangle()
             Spacer()
                 .padding()
-                .frame(height: 50.0)
+                .frame(height: 120.0)
             Text("Join Us")
                 .font(Font.custom("Montserrat-SemiBold", size: 28))
                 .foregroundColor(Color.white)
+            Rectangle()
+                .frame(width: 370, height:1)
+                .foregroundColor(Color.gray)
             Spacer()
                 .padding()
-                .frame(height: 90.0)
+                .frame(height: 20.0)
             ScrollView{
-                Text("Upcoming Events")
-                    .font(Font.custom("Montserrat-SemiBold", size: 18))
-                    .foregroundColor(Color.white)
-                    .padding(.vertical)
-                
-             //   Text("Register")
-                //    .foregroundColor(Color.white)
-                 //   .padding(.vertical)
-                Text("Sponsor")
-                    .font(Font.custom("Montserrat-SemiBold", size: 18))
-                    .foregroundColor(Color.white)
-                    .padding(.vertical)
-            //    Text("Volunteer")
-               //     .foregroundColor(Color.blue)
-                //    .padding(.vertical)
-
-               
-        //hyperlink Cakender (BCA events page)
+          
+                ZStack{
+                    RoundedRectangle(cornerRadius: 15)
+                        .fill(Color.white)
+                        .frame(width: 200, height:50)
+                    
+                    Link("Upcoming Events", destination: URL(string: "https://breastcanceralliance.org/events")!)
+                        .font(Font.custom("Montserrat-SemiBold", size: 18))
+                        .foregroundColor(Color(UIColor(red: 87/255, green: 0, blue: 103/225, alpha: 1)))
+                        .padding(.vertical)
+                }
+                Spacer()
+                    .frame(height: 20.0)
+                ZStack{
+                    RoundedRectangle(cornerRadius: 15)
+                        .fill(Color.white)
+                        .frame(width: 200, height:50)
+                    
+                    Link("Sponcer", destination: URL(string: "https://breastcanceralliance.org/events")!)
+                        .font(Font.custom("Montserrat-SemiBold", size: 18))
+                        .foregroundColor(Color(UIColor(red: 87/255, green: 0, blue: 103/225, alpha: 1)))
+                        .padding(.vertical)
+                }
         //
             }
         }

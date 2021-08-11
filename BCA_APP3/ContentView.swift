@@ -29,7 +29,7 @@ struct ContentView: View {
             Divider()
             ScrollView(.horizontal){
                 HStack(spacing: 20) {
-                    Spacer()       .frame(width: -20.0)
+                    //Spacer().frame(width: 1.0)
                     
                     CircleImage()
                         .padding(.horizontal)
@@ -54,10 +54,10 @@ struct ContentView: View {
                         Slide5View()
                             .padding(.horizontal)
                         }
-                    NavigationLink(destination: Donate()){
+                 /*   NavigationLink(destination: Donate()){
                         Slide6View()
-                            .padding(.horizontal)
-        }
+                            .padding(.horizontal)*/
+       // }
                 } //.padding(.horizontal)
             }//.frame(height: 100)
           //  Divider()
@@ -70,20 +70,27 @@ struct ContentView: View {
                         .frame(height: 17.0)
                     Link("breastcanceralliance.org", destination: URL(string: "https://breastcanceralliance.org")!)
                         .padding(.bottom)
+                        .font(Font.custom("Montserrat-SemiBold", size: 17))
                     Spacer()
                         .frame(height: 21.0)
                                    
-                    NavigationLink(destination: Donate()){
+                 //   NavigationLink(destination: //Donate()){
                             ZStack{
-                                Rectangle()
+                                RoundedRectangle(cornerRadius: 13)
                                     .foregroundColor(Color(UIColor(red: 255/255, green: 0, blue: 133/225, alpha: 1)))
+                                
                                            
                                 Text("Donate")
                                     .foregroundColor(Color.white)
                                     .padding(.vertical)
+                                    .font(Font.custom("Montserrat-SemiBold", size: 20))
+                                Link(" ", destination: URL(string: "https://interland3.donorperfect.net/weblink/weblink.aspx?name=bca&id=1")!)
+                                  
+                                        .padding()
+                            
                                     }
                                        .frame(width: 200.0, height: 5.0)
-                                   }
+                                  // }
                 }
                 Spacer()
              

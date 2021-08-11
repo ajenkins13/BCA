@@ -3,7 +3,8 @@
 //  Test1
 //
 //  Created by Alexandra Jenkins on 7/11/21.
-//RGB: 135,0,114
+//RGB: 135,0,114 --> 5 slides
+//RGB: 115, 0,114 --> 6 slides
 
 import SwiftUI
 
@@ -12,14 +13,16 @@ struct Slide3View: View {
         ZStack {
                 
             RoundedRectangle(cornerRadius: 60)
-                .fill(Color(UIColor(red: 115/255, green: 0, blue: 114/225, alpha: 1)))
+                .fill(Color(UIColor(red: 135/255, green: 0, blue: 114/225, alpha: 1)))
                 .frame(width: 340, height:600)
             VStack{
+                Spacer()
+                    .frame(height: 57.0)
                 Image("teens")
                     .resizable()
-                    .padding(.top)
+                   // .padding(.top)
                     .scaledToFit()
-                    .frame(width: 340, height: 240)
+                    .frame(width: 340, height: 210)
                 Spacer()
                     .frame(height: 15.0)
                 

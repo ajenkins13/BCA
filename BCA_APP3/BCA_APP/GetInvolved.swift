@@ -11,7 +11,7 @@ struct GetInvolved: View {
     var body: some View {
         ZStack{
             Rectangle()
-                .fill(Color(UIColor(red: 115/255, green: 0, blue: 114/225, alpha: 1)))
+                .fill(Color(UIColor(red: 135/255, green: 0, blue: 114/225, alpha: 1)))
                 .frame(width: 400, height:1000)
         VStack{
             
