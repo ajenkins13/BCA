@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+//delete this page
 struct GetInvolved: View {
     var body: some View {
         ZStack{

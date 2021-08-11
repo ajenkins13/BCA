@@ -40,20 +40,34 @@ struct Slide3View: View {
                 Spacer()
                     .frame(height: 15.0)
                 VStack{
-                Text("Adult Volunteers")
+                /*Text("Adult Volunteers")
                     .font(Font.custom("Montserrat-SemiBold", size: 18))
                     .foregroundColor(Color.white)
                     .padding(.bottom)
+                */
+                Link("Adult Volunteers", destination: URL(string: "https://breastcanceralliance.org/volunteer")!)
+                     .padding(.bottom)
+                     .font(Font.custom("Montserrat-SemiBold", size: 18))
+                    .foregroundColor(Color.white)
                 
-                Text("Teen Volunteers")
-                    .font(Font.custom("Montserrat-SemiBold", size: 18))
-                    .foregroundColor(Color.white)
-                    .padding(.bottom)
+                    NavigationLink(destination: JuniorMediaKit()){
+                     Text("Teen Volunteers")
+                         .font(Font.custom("Montserrat-SemiBold", size: 18))
+                         .foregroundColor(Color.white)
+                         .padding(.bottom)
+                    }
+                
+                    //we have to link the junior media kit pdf to this somehow 
          
-                Text("Share Your Story")
-                    .font(Font.custom("Montserrat-SemiBold", size: 18))
-                    .foregroundColor(Color.white)
-                    .padding(.bottom)
+                
+                    NavigationLink(destination: ShareYourStory()){
+                     Text("Share Your Story")
+                         .font(Font.custom("Montserrat-SemiBold", size: 18))
+                         .foregroundColor(Color.white)
+                         .padding(.bottom)
+                         
+                     }
+                     
 
                 Text("Shop for BCA")
                     .font(Font.custom("Montserrat-SemiBold", size: 18))

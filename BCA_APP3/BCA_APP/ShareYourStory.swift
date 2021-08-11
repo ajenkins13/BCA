@@ -15,6 +15,24 @@ struct ShareYourStory: View {
             .frame(width: 400, height:1000)
             
             VStack{
+                ZStack{
+                    Rectangle()
+                        .fill(Color(UIColor(red: 115/255, green: 0, blue: 114/225, alpha: 1)))
+                        .frame(width: 400, height:90)
+                    VStack{
+                        Spacer()
+                            .padding()
+                            .frame(height: 90.0)
+                        Text("Teen Volunteers")
+                            .font(Font.custom("Montserrat-SemiBold", size: 28))
+                            .foregroundColor(Color.white)
+                            .padding(.top)
+                        Rectangle()
+                            .frame(width: 370, height:1)
+                            .foregroundColor(Color.gray)
+                       
+                    }
+                }
                
         ScrollView{
             
@@ -24,11 +42,15 @@ struct ShareYourStory: View {
                 .padding([.horizontal, .bottom])
                 .frame(width: 350.0)
                 
-            Text("If you would like to be a featured in BCA Saturday Stories on social media, or tell a longer version of your story in our newsletter, please email info@breastcanceralliance.org. Samples of earlier pieces can be found @breastcanceralliance on Instagram or on the BCA website in our newsletters, https://breastcanceralliance.org/newsletters.")
+            Text("If you would like to be a featured in BCA Saturday Stories on social media, or tell a longer version of your story in our newsletter, please email info@breastcanceralliance.org. Samples of earlier pieces can be found @breastcanceralliance on Instagram or on the BCA website in our newsletters: ")
                 .font(Font.custom("Montserrat-SemiBold", size: 15))
                 .foregroundColor(Color.white)
-                .padding(.horizontal)
+                .padding([.horizontal,.bottom])
                 .frame(width: 350.0)
+            Link("https://breastcanceralliance.org/newsletters", destination: URL(string: "https://breastcanceralliance.org/newsletters")!)
+                 .padding(.bottom)
+                 .font(Font.custom("Montserrat-SemiBold", size: 15))
+                .foregroundColor(Color.white)
         }
         }
         

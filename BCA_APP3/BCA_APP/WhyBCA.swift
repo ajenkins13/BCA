@@ -22,7 +22,7 @@ struct WhyBCA: View {
                     Spacer()
                         .padding()
                         .frame(height: 90.0)
-                    Text("Why BCA")
+                    Text("Why BCA?")
                         .font(Font.custom("Montserrat-SemiBold", size: 28))
                         .foregroundColor(Color.white)
                         .padding(.top)

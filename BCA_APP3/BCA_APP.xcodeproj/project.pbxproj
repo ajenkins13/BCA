@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		537523FE26C477D100921989 /* JuniorMediaKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537523FD26C477D100921989 /* JuniorMediaKit.swift */; };
+		5375240026C479FD00921989 /* JMK1.png in Resources */ = {isa = PBXBuildFile; fileRef = 537523FF26C479FD00921989 /* JMK1.png */; };
+		5375240226C47A0900921989 /* JMK2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5375240126C47A0900921989 /* JMK2.png */; };
+		53CF94BE26C46E4A004B077B /* Instagram.png in Resources */ = {isa = PBXBuildFile; fileRef = 53CF94BD26C46E4A004B077B /* Instagram.png */; };
 		53DB02F326C4557D00800A7B /* ShareYourStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DB02F226C4557D00800A7B /* ShareYourStory.swift */; };
 		53DB02F426C4557D00800A7B /* ShareYourStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DB02F226C4557D00800A7B /* ShareYourStory.swift */; };
 		53DB02F526C4557D00800A7B /* ShareYourStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DB02F226C4557D00800A7B /* ShareYourStory.swift */; };
@@ -30,7 +34,6 @@
 		7C937DF7269BDF4300370128 /* PopupMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C937DE8269BDF4300370128 /* PopupMenu.swift */; };
 		7C937DF8269BDF4300370128 /* Slide3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C937DE9269BDF4300370128 /* Slide3View.swift */; };
 		7C937DF9269BDF4300370128 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C937DEA269BDF4300370128 /* CircleView.swift */; };
-		7C937DFA269BDF4300370128 /* GetInvolved.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C937DEB269BDF4300370128 /* GetInvolved.swift */; };
 		7C937DFB269BDF4300370128 /* JoinUS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C937DEC269BDF4300370128 /* JoinUS.swift */; };
 		7C937DFD269BDF4300370128 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C937DEE269BDF4300370128 /* CircleImage.swift */; };
 		7C937DFE269BDF4300370128 /* GetOurSocial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C937DEF269BDF4300370128 /* GetOurSocial.swift */; };
@@ -80,7 +83,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		537523FD26C477D100921989 /* JuniorMediaKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuniorMediaKit.swift; sourceTree = "<group>"; };
+		537523FF26C479FD00921989 /* JMK1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JMK1.png; sourceTree = "<group>"; };
+		5375240126C47A0900921989 /* JMK2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JMK2.png; sourceTree = "<group>"; };
 		53CF94B926C4698D004B077B /* TwitterLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TwitterLogo.png; sourceTree = "<group>"; };
+		53CF94BD26C46E4A004B077B /* Instagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Instagram.png; sourceTree = "<group>"; };
 		53DB02F226C4557D00800A7B /* ShareYourStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareYourStory.swift; sourceTree = "<group>"; };
 		7C2200F726AF3FC1008B1A94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = SOURCE_ROOT; };
 		7C509BFE26B241470072BACB /* mom&D.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mom&D.png"; sourceTree = "<group>"; };
@@ -103,7 +110,6 @@
 		7C937DE8269BDF4300370128 /* PopupMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupMenu.swift; sourceTree = "<group>"; };
 		7C937DE9269BDF4300370128 /* Slide3View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slide3View.swift; sourceTree = "<group>"; };
 		7C937DEA269BDF4300370128 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
-		7C937DEB269BDF4300370128 /* GetInvolved.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetInvolved.swift; sourceTree = "<group>"; };
 		7C937DEC269BDF4300370128 /* JoinUS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinUS.swift; sourceTree = "<group>"; };
 		7C937DEE269BDF4300370128 /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		7C937DEF269BDF4300370128 /* GetOurSocial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetOurSocial.swift; sourceTree = "<group>"; };
@@ -166,6 +172,9 @@
 		7C7B718C26ABCF2900A3CA31 /* Photos */ = {
 			isa = PBXGroup;
 			children = (
+				5375240126C47A0900921989 /* JMK2.png */,
+				537523FF26C479FD00921989 /* JMK1.png */,
+				53CF94BD26C46E4A004B077B /* Instagram.png */,
 				7CDBB49E26C45A3B000ABE4C /* groupGalPic2.jpg */,
 				7CDBB49B26C45A3A000ABE4C /* instaPic5.jpg */,
 				7CDBB49C26C45A3A000ABE4C /* mom+Girl4.jpg */,
@@ -234,7 +243,6 @@
 				7C7B718C26ABCF2900A3CA31 /* Photos */,
 				7C937DE6269BDF4200370128 /* WhyBCA.swift */,
 				7C937DEC269BDF4300370128 /* JoinUS.swift */,
-				7C937DEB269BDF4300370128 /* GetInvolved.swift */,
 				7C937DE7269BDF4300370128 /* BCAResources.swift */,
 				53DB02F226C4557D00800A7B /* ShareYourStory.swift */,
 				7C937DEF269BDF4300370128 /* GetOurSocial.swift */,
@@ -243,6 +251,7 @@
 				7C937DEA269BDF4300370128 /* CircleView.swift */,
 				7C937DE8269BDF4300370128 /* PopupMenu.swift */,
 				7C941BAE26B06A0A002C7E3D /* test for sarah.swift */,
+				537523FD26C477D100921989 /* JuniorMediaKit.swift */,
 				7CAD6BBC269BBFEF00883E28 /* Assets.xcassets */,
 				7CAD6BBE269BBFEF00883E28 /* Preview Content */,
 			);
@@ -392,12 +401,15 @@
 				7CA03B5B26AF48E100AEAE40 /* GetInvolvedPic.jpeg in Resources */,
 				7CA1862826A4CA2500A2B318 /* BCALogo3.jpeg in Resources */,
 				7C509C0326B241470072BACB /* ribbonGirls.png in Resources */,
+				5375240226C47A0900921989 /* JMK2.png in Resources */,
 				7CA1863126A4EA8400A2B318 /* download.png in Resources */,
+				53CF94BE26C46E4A004B077B /* Instagram.png in Resources */,
 				7CA03B5D26AF48E100AEAE40 /* GroupOfGals.jpeg in Resources */,
 				7C509C0526B241470072BACB /* bcaRibbon.png in Resources */,
 				7CA1863226A4EA8400A2B318 /* GSLOGO_Canva.png in Resources */,
 				7CA1862726A4CA2500A2B318 /* BCALogo.jpeg in Resources */,
 				7C7B718B26ABC9A200A3CA31 /* instaLOGO.jpg in Resources */,
+				5375240026C479FD00921989 /* JMK1.png in Resources */,
 				7CA03B5C26AF48E100AEAE40 /* books.png in Resources */,
 				7C509C0A26B24D250072BACB /* Twitter.png in Resources */,
 				7CDBB4A326C45A3B000ABE4C /* groupGalPic2.jpg in Resources */,
@@ -436,6 +448,7 @@
 				7C937DF7269BDF4300370128 /* PopupMenu.swift in Sources */,
 				7C937DFD269BDF4300370128 /* CircleImage.swift in Sources */,
 				7C937DF6269BDF4300370128 /* BCAResources.swift in Sources */,
+				537523FE26C477D100921989 /* JuniorMediaKit.swift in Sources */,
 				7C937E00269BDF4300370128 /* Slide1View.swift in Sources */,
 				7C2200F826AF3FC1008B1A94 /* ContentView.swift in Sources */,
 				7C915C5526C3600500FE293A /* SelfExam.swift in Sources */,
@@ -445,7 +458,6 @@
 				7C937DF3269BDF4300370128 /* Slide5View.swift in Sources */,
 				7CAD6BB9269BBFEC00883E28 /* BCA_APPApp.swift in Sources */,
 				53DB02F326C4557D00800A7B /* ShareYourStory.swift in Sources */,
-				7C937DFA269BDF4300370128 /* GetInvolved.swift in Sources */,
 				7C941BAF26B06A0A002C7E3D /* test for sarah.swift in Sources */,
 				7CA1862C26A4E70300A2B318 /* Slide6View.swift in Sources */,
 				7C937DF2269BDF4300370128 /* Slide2View.swift in Sources */,

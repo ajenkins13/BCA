@@ -42,10 +42,11 @@ struct ContentView: View {
                         Slide2View()
                             .padding(.horizontal)
                     }
-                    NavigationLink(destination: GetInvolved()){
-                        Slide3View()
+                    Slide3View()
+                    /*(NavigationLink(destination: GetInvolved()){
+                        
                             .padding(.horizontal)
-                        }
+                        }*/
                     NavigationLink(destination: BCAResources()){
                         Slide4View()
                             .padding(.horizontal)
