@@ -22,7 +22,7 @@ struct Slide5View: View {
                     .resizable()
                    // .padding(.top)
                     .scaledToFit()
-                    .frame(width: 338, height: 210)
+                    .frame(width: 335, height: 210)
                 Spacer()
                     .frame(height: 15.0)
                 Rectangle()

@@ -23,6 +23,8 @@
 		537DDDFB26CB5741005A42EA /* 167x167.png in Resources */ = {isa = PBXBuildFile; fileRef = 537DDDFA26CB5741005A42EA /* 167x167.png */; };
 		537DDDFD26CB5834005A42EA /* 87x87.png in Resources */ = {isa = PBXBuildFile; fileRef = 537DDDFC26CB5834005A42EA /* 87x87.png */; };
 		537DDDFF26CB586C005A42EA /* 29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = 537DDDFE26CB586C005A42EA /* 29x29.png */; };
+		537DDE0126CB6047005A42EA /* Gift.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 537DDE0026CB6047005A42EA /* Gift.jpeg */; };
+		537DDE0526CB637F005A42EA /* Venmo.png in Resources */ = {isa = PBXBuildFile; fileRef = 537DDE0426CB637F005A42EA /* Venmo.png */; };
 		53CF94BE26C46E4A004B077B /* Instagram.png in Resources */ = {isa = PBXBuildFile; fileRef = 53CF94BD26C46E4A004B077B /* Instagram.png */; };
 		53DB02F326C4557D00800A7B /* ShareYourStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DB02F226C4557D00800A7B /* ShareYourStory.swift */; };
 		53DB02F426C4557D00800A7B /* ShareYourStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DB02F226C4557D00800A7B /* ShareYourStory.swift */; };
@@ -112,6 +114,8 @@
 		537DDDFA26CB5741005A42EA /* 167x167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 167x167.png; sourceTree = "<group>"; };
 		537DDDFC26CB5834005A42EA /* 87x87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 87x87.png; sourceTree = "<group>"; };
 		537DDDFE26CB586C005A42EA /* 29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 29x29.png; sourceTree = "<group>"; };
+		537DDE0026CB6047005A42EA /* Gift.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gift.jpeg; sourceTree = "<group>"; };
+		537DDE0426CB637F005A42EA /* Venmo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Venmo.png; sourceTree = "<group>"; };
 		53CF94B926C4698D004B077B /* TwitterLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TwitterLogo.png; sourceTree = "<group>"; };
 		53CF94BD26C46E4A004B077B /* Instagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Instagram.png; sourceTree = "<group>"; };
 		53DB02F226C4557D00800A7B /* ShareYourStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareYourStory.swift; sourceTree = "<group>"; };
@@ -198,6 +202,8 @@
 		7C7B718C26ABCF2900A3CA31 /* Photos */ = {
 			isa = PBXGroup;
 			children = (
+				537DDE0426CB637F005A42EA /* Venmo.png */,
+				537DDE0026CB6047005A42EA /* Gift.jpeg */,
 				537DDDFE26CB586C005A42EA /* 29x29.png */,
 				537DDDFC26CB5834005A42EA /* 87x87.png */,
 				537DDDFA26CB5741005A42EA /* 167x167.png */,
@@ -436,6 +442,8 @@
 				7CAD6BBD269BBFEF00883E28 /* Assets.xcassets in Resources */,
 				7C7B718626AB2A5600A3CA31 /* Screen Shot 2021-07-20 at 11.01.47 AM.png in Resources */,
 				7CDBB4A426C45A3B000ABE4C /* RibbonPics1.jpg in Resources */,
+				537DDE0526CB637F005A42EA /* Venmo.png in Resources */,
+				537DDE0126CB6047005A42EA /* Gift.jpeg in Resources */,
 				537DDDF326CB513B005A42EA /* 20x20.png in Resources */,
 				7CDBB4A226C45A3B000ABE4C /* teensPic3.jpg in Resources */,
 				537DDDF926CB525D005A42EA /* 1024x1024.png in Resources */,

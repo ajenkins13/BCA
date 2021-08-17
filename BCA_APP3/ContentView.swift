@@ -55,6 +55,8 @@ struct ContentView: View {
                         Slide5View()
                             .padding(.horizontal)
                         }
+                    Slide6View()
+                        .padding(.horizontal)
                  /*   NavigationLink(destination: Donate()){
                         Slide6View()
                             .padding(.horizontal)*/
