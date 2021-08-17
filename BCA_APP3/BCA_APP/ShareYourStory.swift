@@ -23,7 +23,7 @@ struct ShareYourStory: View {
                         Spacer()
                             .padding()
                             .frame(height: 90.0)
-                        Text("Teen Volunteers")
+                        Text("Share Your Story")
                             .font(Font.custom("Montserrat-SemiBold", size: 28))
                             .foregroundColor(Color.white)
                             .padding(.top)
