@@ -75,18 +75,18 @@ struct WhyBCA: View {
                Text("Gloria Echeverria, PhD, Baylor College of Medicine,characterizing and targeting mitochondrial metabolism in chemoresistant triple negative breast cancer")
                 .font(Font.custom("Montserrat-SemiBold", size: 15))
                         .foregroundColor(Color.white)
-                        .padding([.leading, .bottom, .trailing])
+                .padding([.leading, .bottom, .trailing, .horizontal])
                 Text("Jennifer Rosenbluth, MD, PhD, Dana Farber Cancer Center, Modeling cancer prevention in mammary organoids derived from BRCA1/2 mutation carriers")
                     .font(Font.custom("Montserrat-SemiBold", size: 15))
                         .foregroundColor(Color.white)
-                        .padding([.leading, .bottom, .trailing])
-                    Text("Maria Soledad Sosa, PhD, Icahn School of Medicine at Mt. Sinai, Targeting disseminated breast cancer cells to prevent metastasis, Deborah G. Black Memorial Research Grant")
+                    .padding([.leading, .bottom, .trailing, .horizontal])
+                Text("Maria Soledad Sosa, PhD, Icahn School of Medicine at Mt. Sinai, Targeting disseminated breast cancer cells to prevent metastasis, Deborah G. Black Memorial Research Grant")
                         .font(Font.custom("Montserrat-SemiBold", size: 15))
                         .foregroundColor(Color.white)
                         .padding(.horizontal)
                 }
-                .padding(.horizontal)
-                Text("How to donate: ")
+                .padding([.horizontal, .bottom])
+                /*Text("How to donate: ")
                     .font(Font.custom("Montserrat-SemiBold", size: 15))
                     .foregroundColor(Color.white)
                     .padding()
@@ -107,16 +107,32 @@ struct WhyBCA: View {
                     }
                     .frame(width: 100.0, height: 5.0)
                 }
+                */
+               
+                    ZStack{
+                        
+                        RoundedRectangle(cornerRadius:15)
+                            .fill(Color(UIColor(red: 255/255, green: 0, blue: 133/225, alpha: 1)))
+                        
+                    Link("Our Team", destination: URL(string: "https://breastcanceralliance.org/our-team")!)
+                        .font(Font.custom("Montserrat-SemiBold", size: 15))
+                        .foregroundColor(Color.white)
+                        .padding(.vertical)
+                    }
+                    .padding([.vertical, .top])
+                    .frame(width: 100.0, height: 10.0)
+                //we need an additional space here idk how to do it
                 
-                Text("Staff + link to “Our Team” Board page on website")
+                
+                /*Text("Staff + link to “Our Team” Board page on website")
                     .font(Font.custom("Montserrat-SemiBold", size: 15))
                     .foregroundColor(Color.white)
                     .padding()
                 Spacer()
-                    .frame(height: 50.0)
+                    .frame(height: 50.0)*/
             }
             Spacer()
-                .frame(height: 50.0)
+               .frame(height: 50.0)
         }
             
         }

@@ -28,6 +28,7 @@ struct Slide5View: View {
                 Rectangle()
                     .frame(width: 340, height:1)
                     .foregroundColor(Color.gray)
+                //maybe no white?
                 Text("GET SOCIAL")
                     .font(Font.custom("Montserrat-SemiBold", size: 33))
                     .foregroundColor(Color.white)
