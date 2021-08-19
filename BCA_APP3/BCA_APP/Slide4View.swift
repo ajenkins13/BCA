@@ -48,7 +48,7 @@ struct Slide4View: View {
                     .foregroundColor(Color.white)
                     .padding(.bottom)
 
-                Text("Online and Patient Resources, Support")
+                Text("Patient Resources, Support")
                     .font(Font.custom("Montserrat-SemiBold", size: 15))
                     .foregroundColor(Color.white)
                 Spacer()

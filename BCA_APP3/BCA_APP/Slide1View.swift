@@ -22,7 +22,7 @@ struct Slide1View: View {
             VStack{
                 Spacer()
                     .frame(height: 30.0)
-                
+                //change image to 3 girls
                 Image("ribbonGirls")
                     .resizable()
                     .scaledToFit()

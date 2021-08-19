@@ -12,7 +12,7 @@ struct WhyBCA: View {
         ZStack{
             Rectangle()
                 .fill(Color(UIColor(red: 26/255, green: 0, blue: 91/225, alpha: 1)))
-                .frame(width: 400, height:1000)
+                .frame(width: 700, height:1300)
         VStack{
             ZStack{
                 Rectangle()
@@ -69,7 +69,7 @@ struct WhyBCA: View {
                         .font(Font.custom("Montserrat-SemiBold", size: 15))
                         .foregroundColor(Color.white)
                        // .padding()
-                    Text("Education and Outreach Grants.")
+                    Text("Education and Outreach Grants")
                         .font(Font.custom("Montserrat-SemiBold", size: 15))
                             .foregroundColor(Color.white)
                             //.padding()
@@ -80,6 +80,7 @@ struct WhyBCA: View {
                         .padding()
                 }
                 VStack{
+                    //add all the 2021 grants
                 Text("2021 Grants with Institutions")
                     .font(Font.custom("Montserrat-SemiBold", size: 17))
                     .foregroundColor(Color.white)
@@ -87,15 +88,18 @@ struct WhyBCA: View {
                Text("Gloria Echeverria, PhD, Baylor College of Medicine, Characterizing and targeting mitochondrial metabolism in chemoresistant triple negative breast cancer")
                 .font(Font.custom("Montserrat-SemiBold", size: 15))
                         .foregroundColor(Color.white)
-                .padding([.leading, .bottom, .trailing, .horizontal])
+                .padding(.bottom)
+                .frame(width: 350.0)
                 Text("Jennifer Rosenbluth, MD, PhD, Dana Farber Cancer Center, Modeling cancer prevention in mammary organoids derived from BRCA1/2 mutation carriers")
                     .font(Font.custom("Montserrat-SemiBold", size: 15))
                         .foregroundColor(Color.white)
-                    .padding([.leading, .bottom, .trailing, .horizontal])
+                        .padding(.bottom)
+                        .frame(width: 350.0)
                 Text("Maria Soledad Sosa, PhD, Icahn School of Medicine at Mt. Sinai, Targeting disseminated breast cancer cells to prevent metastasis, Deborah G. Black Memorial Research Grant")
                         .font(Font.custom("Montserrat-SemiBold", size: 15))
                         .foregroundColor(Color.white)
-                        .padding(.horizontal)
+                        .padding(.bottom)
+                        .frame(width: 350.0)
                 }
                 .padding([.horizontal, .bottom])
                 VStack{

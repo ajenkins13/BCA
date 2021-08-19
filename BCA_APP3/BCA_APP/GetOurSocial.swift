@@ -12,7 +12,7 @@ struct GetOurSocial: View {
         ZStack{
             Rectangle()
                 .fill(Color(UIColor(red: 255/255, green: 0, blue: 133/225, alpha: 1)))
-                .frame(width: 400, height:1000)
+                .frame(width: 700, height:1300)
         
             VStack{
                 VStack{

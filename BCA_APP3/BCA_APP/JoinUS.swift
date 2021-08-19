@@ -12,7 +12,7 @@ struct JoinUS: View {
         ZStack{
             Rectangle()
                 .fill(Color(UIColor(red: 87/255, green: 0, blue: 103/225, alpha: 1)))
-                .frame(width: 400, height:1000)
+                .frame(width: 700, height:1300)
         VStack{
          //   Rectangle()
             Spacer()
