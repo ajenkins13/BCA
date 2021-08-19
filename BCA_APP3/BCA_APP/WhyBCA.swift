@@ -41,14 +41,21 @@ struct WhyBCA: View {
                     .foregroundColor(Color.white)
                     .padding(.horizontal)
                     .frame(width: 350.0)
+                
+                Rectangle()
+                    .frame(width: 340, height:1)
+                    .foregroundColor(Color.gray)
+                    .padding()
                 VStack{
                   //  Text("What we fund")
                     //    .foregroundColor(Color.white)
                     //    .padding()
                     Text("BCA funds four types of grants annually:")
-                        .font(Font.custom("Montserrat-SemiBold", size: 15))
+                        .font(Font.custom("Montserrat-SemiBold", size: 16))
                         .foregroundColor(Color.white)
                         .padding()
+                    
+                
                     Text("Exceptional Project Grants")
                         .font(Font.custom("Montserrat-SemiBold", size: 15))
                         .foregroundColor(Color.white)
@@ -66,10 +73,15 @@ struct WhyBCA: View {
                         .font(Font.custom("Montserrat-SemiBold", size: 15))
                             .foregroundColor(Color.white)
                             //.padding()
+                    
+                    Rectangle()
+                        .frame(width: 340, height:1)
+                        .foregroundColor(Color.gray)
+                        .padding()
                 }
                 VStack{
                 Text("2021 Grants with Institutions")
-                    .font(Font.custom("Montserrat-SemiBold", size: 15))
+                    .font(Font.custom("Montserrat-SemiBold", size: 17))
                     .foregroundColor(Color.white)
                     .padding()
                Text("Gloria Echeverria, PhD, Baylor College of Medicine, Characterizing and targeting mitochondrial metabolism in chemoresistant triple negative breast cancer")
@@ -86,29 +98,13 @@ struct WhyBCA: View {
                         .padding(.horizontal)
                 }
                 .padding([.horizontal, .bottom])
-                /*Text("How to donate: ")
-                    .font(Font.custom("Montserrat-SemiBold", size: 15))
-                    .foregroundColor(Color.white)
+                VStack{
+                Rectangle()
+                    .frame(width: 340, height:1)
+                    .foregroundColor(Color.gray)
                     .padding()
-                    Text("Credit card; check; stock; wire transfer; venmo")
-                        .font(Font.custom("Montserrat-SemiBold", size: 15))
-                    .foregroundColor(Color.white)
-                    .padding()
-                
-                NavigationLink(destination: Donate()){
-                    ZStack{
-                        Rectangle()
-                            .foregroundColor(Color(UIColor(red: 255/255, green: 0, blue: 133/225, alpha: 1)))
-                        
-                    Text("Donate")
-                        .font(Font.custom("Montserrat-SemiBold", size: 15))
-                        .foregroundColor(Color.white)
-                        .padding(.vertical)
-                    }
-                    .frame(width: 100.0, height: 5.0)
-                }
-                */
-               
+                Spacer()
+                    .frame(height: 26.0)
                     ZStack{
                         
                         RoundedRectangle(cornerRadius:15)
@@ -120,7 +116,10 @@ struct WhyBCA: View {
                         .padding(.vertical)
                     }
                     .padding([.vertical, .top])
-                    .frame(width: 100.0, height: 10.0)
+                    .frame(width: 190.0, height: 10.0)
+                    Spacer()
+                        .frame(height: 130.0)
+                }
                 //we need an additional space here idk how to do it
                 
                 
