@@ -55,52 +55,63 @@ struct WhyBCA: View {
                         .foregroundColor(Color.white)
                         .padding()
                     
-                
+                    VStack{
                     Text("Exceptional Project Grants")
                         .font(Font.custom("Montserrat-SemiBold", size: 15))
                         .foregroundColor(Color.white)
+                        Spacer()
+                            .frame(height: 10.0)
                         
+                        
+                        Text("Gloria Echeverria, PhD, Baylor College of Medicine:")
+                            .font(Font.custom("Montserrat-Bold", size: 15))
+                                    .foregroundColor(Color.white)
+                            .frame(width: 397.0)
+                        
+                        Text("Characterizing and targeting mitochondrial metabolism in chemoresistant triple negative breast cancer")
+                         .font(Font.custom("Montserrat-SemiBold", size: 15))
+                                 .foregroundColor(Color.white)
+                         .padding(.bottom)
+                         .frame(width: 350.0)
+                        
+                         Text("Jennifer Rosenbluth, MD, PhD, Dana Farber Cancer Center, Modeling cancer prevention in mammary organoids derived from BRCA1/2 mutation carriers")
+                             .font(Font.custom("Montserrat-SemiBold", size: 15))
+                                 .foregroundColor(Color.white)
+                                 .padding(.bottom)
+                                 .frame(width: 350.0)
+                         Text("Maria Soledad Sosa, PhD, Icahn School of Medicine at Mt. Sinai, Targeting disseminated breast cancer cells to prevent metastasis, Deborah G. Black Memorial Research Grant")
+                                 .font(Font.custom("Montserrat-SemiBold", size: 15))
+                                 .foregroundColor(Color.white)
+                                 .padding(.bottom)
+                                 .frame(width: 350.0)
+                        
+                    }
                        // .padding()
+                    VStack{
                     Text("Young Investigator Grants")
                         .font(Font.custom("Montserrat-SemiBold", size: 15))
                         .foregroundColor(Color.white)
+                    }
                       //  .padding()
+                    VStack{
                     Text("Breast Surgery Fellowships")
                         .font(Font.custom("Montserrat-SemiBold", size: 15))
                         .foregroundColor(Color.white)
+                    }
                        // .padding()
+                    VStack{
                     Text("Education and Outreach Grants")
                         .font(Font.custom("Montserrat-SemiBold", size: 15))
                             .foregroundColor(Color.white)
                             //.padding()
                     
+                    }
                     Rectangle()
                         .frame(width: 340, height:1)
                         .foregroundColor(Color.gray)
                         .padding()
                 }
-                VStack{
-                    //add all the 2021 grants
-                Text("2021 Grants with Institutions")
-                    .font(Font.custom("Montserrat-SemiBold", size: 17))
-                    .foregroundColor(Color.white)
-                    .padding()
-               Text("Gloria Echeverria, PhD, Baylor College of Medicine, Characterizing and targeting mitochondrial metabolism in chemoresistant triple negative breast cancer")
-                .font(Font.custom("Montserrat-SemiBold", size: 15))
-                        .foregroundColor(Color.white)
-                .padding(.bottom)
-                .frame(width: 350.0)
-                Text("Jennifer Rosenbluth, MD, PhD, Dana Farber Cancer Center, Modeling cancer prevention in mammary organoids derived from BRCA1/2 mutation carriers")
-                    .font(Font.custom("Montserrat-SemiBold", size: 15))
-                        .foregroundColor(Color.white)
-                        .padding(.bottom)
-                        .frame(width: 350.0)
-                Text("Maria Soledad Sosa, PhD, Icahn School of Medicine at Mt. Sinai, Targeting disseminated breast cancer cells to prevent metastasis, Deborah G. Black Memorial Research Grant")
-                        .font(Font.custom("Montserrat-SemiBold", size: 15))
-                        .foregroundColor(Color.white)
-                        .padding(.bottom)
-                        .frame(width: 350.0)
-                }
+                
                 .padding([.horizontal, .bottom])
                 VStack{
                 Rectangle()

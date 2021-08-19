@@ -29,6 +29,9 @@
 		53DB02F326C4557D00800A7B /* ShareYourStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DB02F226C4557D00800A7B /* ShareYourStory.swift */; };
 		53DB02F426C4557D00800A7B /* ShareYourStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DB02F226C4557D00800A7B /* ShareYourStory.swift */; };
 		53DB02F526C4557D00800A7B /* ShareYourStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DB02F226C4557D00800A7B /* ShareYourStory.swift */; };
+		7C18DE0126CEB95700721792 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C18DDFF26CEB95200721792 /* Montserrat-SemiBoldItalic.ttf */; };
+		7C18DE0226CEB95700721792 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C18DE0026CEB95600721792 /* Montserrat-Bold.ttf */; };
+		7C18DE0426CEBAD900721792 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C18DE0326CEBAD500721792 /* Montserrat-ExtraBold.ttf */; };
 		7C2200F826AF3FC1008B1A94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2200F726AF3FC1008B1A94 /* ContentView.swift */; };
 		7C509C0226B241470072BACB /* mom&D.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C509BFE26B241470072BACB /* mom&D.png */; };
 		7C509C0326B241470072BACB /* ribbonGirls.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C509BFF26B241470072BACB /* ribbonGirls.png */; };
@@ -119,6 +122,9 @@
 		53CF94B926C4698D004B077B /* TwitterLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TwitterLogo.png; sourceTree = "<group>"; };
 		53CF94BD26C46E4A004B077B /* Instagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Instagram.png; sourceTree = "<group>"; };
 		53DB02F226C4557D00800A7B /* ShareYourStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareYourStory.swift; sourceTree = "<group>"; };
+		7C18DDFF26CEB95200721792 /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		7C18DE0026CEB95600721792 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		7C18DE0326CEBAD500721792 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
 		7C2200F726AF3FC1008B1A94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = SOURCE_ROOT; };
 		7C509BFE26B241470072BACB /* mom&D.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mom&D.png"; sourceTree = "<group>"; };
 		7C509BFF26B241470072BACB /* ribbonGirls.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ribbonGirls.png; sourceTree = "<group>"; };
@@ -275,6 +281,9 @@
 			isa = PBXGroup;
 			children = (
 				7C93426426B3A4D9000E972A /* BCA-APP-Info.plist */,
+				7C18DE0026CEB95600721792 /* Montserrat-Bold.ttf */,
+				7C18DE0326CEBAD500721792 /* Montserrat-ExtraBold.ttf */,
+				7C18DDFF26CEB95200721792 /* Montserrat-SemiBoldItalic.ttf */,
 				7CA1AB8D26BDC19000CA4EBD /* Montserrat-SemiBold.ttf */,
 				7CAD6BB8269BBFEC00883E28 /* BCA_APPApp.swift */,
 				7C2200F726AF3FC1008B1A94 /* ContentView.swift */,
@@ -451,6 +460,7 @@
 				537DDDF126CB50B8005A42EA /* 58x58.png in Resources */,
 				537DDDF526CB518B005A42EA /* 76x76.png in Resources */,
 				537DDDEF26CB5035005A42EA /* 60x60.png in Resources */,
+				7C18DE0226CEB95700721792 /* Montserrat-Bold.ttf in Resources */,
 				7C509C0B26B24D250072BACB /* amazonSmile.png in Resources */,
 				7CA03B5B26AF48E100AEAE40 /* GetInvolvedPic.jpeg in Resources */,
 				7CA1862826A4CA2500A2B318 /* BCALogo3.jpeg in Resources */,
@@ -473,7 +483,9 @@
 				7C509C0A26B24D250072BACB /* Twitter.png in Resources */,
 				7CDBB4A326C45A3B000ABE4C /* groupGalPic2.jpg in Resources */,
 				7CA1AB8E26BDC19000CA4EBD /* Montserrat-SemiBold.ttf in Resources */,
+				7C18DE0126CEB95700721792 /* Montserrat-SemiBoldItalic.ttf in Resources */,
 				537DDDE526CB4E7B005A42EA /* 180x180.png in Resources */,
+				7C18DE0426CEBAD900721792 /* Montserrat-ExtraBold.ttf in Resources */,
 				7C509C0226B241470072BACB /* mom&D.png in Resources */,
 				7CDBB4A026C45A3B000ABE4C /* instaPic5.jpg in Resources */,
 				7C509C0426B241470072BACB /* teens.png in Resources */,
