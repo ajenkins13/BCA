@@ -38,11 +38,14 @@ struct ContentView: View {
                             Slide1View()
                                 .padding(.horizontal)
                              }
-                    NavigationLink(destination: JoinUS()){
+                    /*NavigationLink(destination: JoinUS()){
                         Slide2View()
                             .padding(.horizontal)
-                    }
+                    }*/
+                    Slide2View()
+                        .padding(.horizontal)
                     Slide3View()
+                        .padding(.horizontal)
                     /*(NavigationLink(destination: GetInvolved()){
                         
                             .padding(.horizontal)
@@ -55,6 +58,8 @@ struct ContentView: View {
                         Slide5View()
                             .padding(.horizontal)
                         }
+                    Slide6View()
+                        .padding(.horizontal)
                  /*   NavigationLink(destination: Donate()){
                         Slide6View()
                             .padding(.horizontal)*/

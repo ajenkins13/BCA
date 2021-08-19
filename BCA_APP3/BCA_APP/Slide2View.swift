@@ -13,11 +13,14 @@ struct Slide2View: View {
     
     var body: some View {
         ZStack {
-            NavigationLink(destination: JoinUS()) {
+            /*NavigationLink(destination: JoinUS()) {
                 RoundedRectangle(cornerRadius: 60)
                     .fill(Color(UIColor(red: 87/255, green: 0, blue: 103/225, alpha: 1)))
                     .frame(width: 340, height:600)
-            }
+            }*/ //i kept this here alex if you decide you want to link to the other page but temporarily just going to link calendar and sponsor directly on this page
+            RoundedRectangle(cornerRadius: 60)
+                .fill(Color(UIColor(red: 87/255, green: 0, blue: 103/225, alpha: 1)))
+                .frame(width: 340, height:600)
             VStack{
                 Image("GroupOfGals")
                     .resizable()
@@ -38,18 +41,30 @@ struct Slide2View: View {
                 VStack{
                     Spacer()
                         .frame(height: 25.0)
-                Text("Calendar of Events")
+                    Link("Upcoming Events", destination: URL(string: "https://breastcanceralliance.org/events")!)
+                         .font(Font.custom("Montserrat-SemiBold", size: 18))
+                        .foregroundColor(Color.white)
+                        .multilineTextAlignment(.center)
+                        .padding(.bottom)
+                /*Text("Upcoming Events")
                     .font(Font.custom("Montserrat-SemiBold", size: 18))
                     .foregroundColor(Color.white)
                     .multilineTextAlignment(.center)
                     .padding(.bottom)
+                     
+                     Text("Sponsor")
+                         .font(Font.custom("Montserrat-SemiBold", size: 18))
+                         .foregroundColor(Color.white)
+                         .multilineTextAlignment(.center)
+                         .padding(.bottom)
+                     */
                    
-               
-                Text("Sponsor")
-                    .font(Font.custom("Montserrat-SemiBold", size: 18))
-                    .foregroundColor(Color.white)
-                    .multilineTextAlignment(.center)
-                    .padding(.bottom)
+                    Link("Sponsor", destination: URL(string: "https://breastcanceralliance.org/naming-opportunities")!)
+                         .font(Font.custom("Montserrat-SemiBold", size: 18))
+                        .foregroundColor(Color.white)
+                        .multilineTextAlignment(.center)
+                        .padding(.bottom)
+                
                  
                
                 }
