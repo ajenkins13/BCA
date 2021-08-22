@@ -56,7 +56,7 @@ struct WhyBCA: View {
                         .padding()
                     
                     VStack{
-                    Text("Exceptional Project Grants")
+                    Text("Young Investigator Grants")
                         .font(Font.custom("Montserrat-SemiBold", size: 15))
                         .foregroundColor(Color.white)
                         Spacer()
@@ -88,23 +88,56 @@ struct WhyBCA: View {
                     }
                        // .padding()
                     VStack{
-                    Text("Young Investigator Grants")
+                    Text("Exceptional Project Grants")
                         .font(Font.custom("Montserrat-SemiBold", size: 15))
                         .foregroundColor(Color.white)
+                        
+                        Text("Scott Abrams, PhD and Michael Nemeth, Roswell Park")
+                                .font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
+                             
+                        Text("Unique combination immunotherapy to confront triple negative breast cancer").font(Font.custom("Montserrat-SemiBold", size: 15)).foregroundColor(Color.white).padding(.bottom).frame(width: 350.0)
+                      
+                        Text("Rumela Chakrabarti, PhD, University of Pennsylvania").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
+                        Text("A novel combination immunotherapy to improve treatment of metastatic triple negative breast cancer, Deborah G. Black Memorial Research Grant").font(Font.custom("Montserrat-SemiBold", size: 15)).foregroundColor(Color.white).padding(.bottom).frame(width: 350.0)
+
+                        Text("Jianua Yu, PhD, City of Hope").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
+                        Text("An oncolytic virus-engineered to express a full-length anti-CD47 lgG1 antibody for the treatment of breast cancer brain metastasis, Supported by Jane and Stuart Weitzman in memory of Irma Wallin").font(Font.custom("Montserrat-SemiBold", size: 15)).foregroundColor(Color.white).padding(.bottom).frame(width: 350.0)
+                        
                     }
                       //  .padding()
                     VStack{
                     Text("Breast Surgery Fellowships")
                         .font(Font.custom("Montserrat-SemiBold", size: 15))
                         .foregroundColor(Color.white)
+                        Text("Memorial Sloan Kettering Cancer Center, Marissa Srour, MD").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
+                        Text("Rutgers Cancer Institute of New Jersey, Kelly Krupa, MD, Rodkin Family Breast Surgery Fellowship").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
+                        Text("Yale University, Billie Borden, MD, Supported by the Mitchell Family").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
                     }
                        // .padding()
                     VStack{
-                    Text("Education and Outreach Grants")
-                        .font(Font.custom("Montserrat-SemiBold", size: 15))
+                        Text("Education and Outreach Grants")
+                            .font(Font.custom("Montserrat-SemiBold", size: 15))
                             .foregroundColor(Color.white)
                             //.padding()
-                    
+                        VStack{
+                        Text("Danbury Hospital/New Milford Hospital").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
+                        Text("Paula L. Banwell Memorial Grant").font(Font.custom("Montserrat-SemiBold", size: 15)).foregroundColor(Color.white).padding(.bottom).frame(width: 350.0)
+                        Text("Gilda’s Club Westchester").font(Font.custom("Montserrat-Bold", size: 15)).frame(width: 397.0)
+                        Text("Greenwich Hospital").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
+                        Text("Griffin Hospital").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
+                        Text("Hartford Hospital").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
+                        }
+                        Text("Hospital of Central Connecticut Mary's Center").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
+                        Text("MedStar Georgetown").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
+                        Text("Middlesex Hospital").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
+                        Text("Norma F. Pfriem Breast Cancer Center").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
+                        Text("Norwalk Hospital").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
+                        Text("Open Door Family Medical Center").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
+                        VStack{
+                        Text("Stamford Hospital").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
+                        Text("White Plains Hospital").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
+                        Text("Yale New Haven Hospital").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
+                        }
                     }
                     Rectangle()
                         .frame(width: 340, height:1)
