@@ -58,6 +58,10 @@ struct BCAResources: View {
                      .padding(.vertical)
                      .font(Font.custom("Montserrat-SemiBold", size: 18))
                     .foregroundColor(Color.white)
+                /*Link("Recursos de Paciente", destination: URL(string: "https://breastcanceralliance.org/resources.asp?c=Patient%20Resources&t=L")!)
+                     .padding(.vertical)
+                     .font(Font.custom("Montserrat-SemiBold", size: 18))
+                    .foregroundColor(Color.white)*/
                 Link("Self-Exam", destination: URL(string: "https://www.breastcancer.org/symptoms/testing/types/self_exam?gclid=Cj0KCQjw5uWGBhCTARIsAL70sLL6XZrGmsqnJ68qs3WDYblv-1Dy07A4JHsl2aSqOouaB6C18oPD8MEaAmkHEALw_wcB")!)
                      .padding(.vertical)
                      .font(Font.custom("Montserrat-SemiBold", size: 18))

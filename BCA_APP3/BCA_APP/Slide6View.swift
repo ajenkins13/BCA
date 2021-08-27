@@ -62,7 +62,7 @@ struct Slide6View: View {
                 //placeholder
                 //Spacer()
                     .frame(height: 51.0)
-                    Link("", destination: URL(string: "https://donatestock.com/breast-cancer-alliance")!)
+                    Link("", destination: URL(string: "venmo://paycharge?txn=pay&recipients=breastcanceralliance")!)
                          .padding(.bottom)
                          .font(Font.custom("Montserrat-SemiBold", size: 18))
                         .foregroundColor(Color.white)
