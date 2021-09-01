@@ -18,7 +18,7 @@ struct GetOurSocial: View {
                 VStack{
                 Spacer()
                     .padding()
-                    .frame(height: sx150.0)
+                    .frame(height: 150.0)
                   Text("Get Social:")
                     .font(Font.custom("Montserrat-SemiBold", size: 33))
                     .foregroundColor(Color.white)
