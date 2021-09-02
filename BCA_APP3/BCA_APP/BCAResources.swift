@@ -42,7 +42,7 @@ struct BCAResources: View {
                     .foregroundColor(Color.white)
                
                 //no link yet possibly page destination
-                Link("Male Breast Health", destination: URL(string: "https://www.goingbeyondthepink.org/blog/what-you-need-to-know-about-breast-cancer?gclid=CjwKCAjwgviIBhBkEiwA10D2j22-kxGVlVNdTsE4GE1qgJPX8XeSBGDCve5AijRaUZpXowlPT-QzYhoCOH0QAvD_BwE")!)
+                Link("Male Breast Health", destination: URL(string: "https://malebreastcancercoalition.org")!)
                      .padding(.vertical)
                      .font(Font.custom("Montserrat-SemiBold", size: 18))
                     .foregroundColor(Color.white)
