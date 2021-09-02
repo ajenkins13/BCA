@@ -14,14 +14,14 @@ struct WhyBCA: View {
                 .fill(Color(UIColor(red: 26/255, green: 0, blue: 91/225, alpha: 1)))
                 .frame(width: 700, height:1300)
         VStack{
-          /*  ZStack{
+            ZStack{
                 Rectangle()
                     .fill(Color(UIColor(red: 26/255, green: 0, blue: 91/225, alpha: 1)))
-                    .frame(width: 400, height:90)*/
+                    .frame(width: 400, height:90)
                 VStack{
                     Spacer()
                         .padding()
-                        .frame(height: 230.0)
+                        .frame(height: 180.0)
                     Text("Why BCA?")
                         .font(Font.custom("Montserrat-SemiBold", size: 28))
                         .foregroundColor(Color.white)
@@ -30,13 +30,13 @@ struct WhyBCA: View {
                         .frame(width: 370, height:1)
                         .foregroundColor(Color.gray)
                    
-                }
-           // }
+                }//end of V Stack
+          }//end of Zstack b
             ScrollView {
                 Spacer()
                     .padding()
                     .frame(height: 3.0)
-                Text("Breast Cancer Alliance's mission is to improve survival rates and quality of life for those impacted by breast cancer through better prevention, early detection, treatment and cure. To promote these goals, we invest in innovative research, breast surgery fellowships, regional education, dignified support and screening for the underserved.").font(Font.custom("Montserrat-SemiBold", size: 15)).foregroundColor(Color.white).padding(.horizontal).multilineTextAlignment(.center).frame(width: 350.0)
+                Text("Breast Cancer Alliance's mission is to improve survival rates and quality of life for those impacted by breast cancer through better prevention, early detection, treatment and cure. To promote these goals, we invest in innovative research, breast surgery fellowships, regional education, dignified support and screening for the underserved.").font(Font.custom("Montserrat-SemiBold", size: 15)).foregroundColor(Color.white).padding(.horizontal).multilineTextAlignment(.center).frame(width: 340.0)
                 
                 Rectangle().frame(width: 340, height:1).foregroundColor(Color.gray).padding()
                 VStack{
@@ -83,6 +83,7 @@ struct WhyBCA: View {
                         Text("Unique combination immunotherapy to confront triple negative breast cancer").font(Font.custom("Montserrat-SemiBold", size: 15)).foregroundColor(Color.white).padding(.bottom).multilineTextAlignment(.leading).frame(width: 350.0)
                       
                         Text("Rumela Chakrabarti, PhD, University of Pennsylvania:").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white) .multilineTextAlignment(.center).frame(width: 397.0)
+                        
                         Text("A novel combination immunotherapy to improve treatment of metastatic triple negative breast cancer, Deborah G. Black Memorial Research Grant").font(Font.custom("Montserrat-SemiBold", size: 15)).foregroundColor(Color.white).padding(.bottom).multilineTextAlignment(.leading).frame(width: 350.0)
 
                         Text("Jianua Yu, PhD, City of Hope:").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white) .multilineTextAlignment(.center).frame(width: 397.0)
@@ -109,7 +110,7 @@ struct WhyBCA: View {
                         VStack{
                         Text("Danbury Hospital/New Milford Hospital").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
                         Text("Paula L. Banwell Memorial Grant").font(Font.custom("Montserrat-SemiBold", size: 15)).foregroundColor(Color.white).padding(.bottom).frame(width: 350.0)
-                        Text("Gilda’s Club Westchester").font(Font.custom("Montserrat-Bold", size: 15)).frame(width: 397.0)
+                        Text("Gilda’s Club Westchester").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
                         Text("Greenwich Hospital").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
                         Text("Griffin Hospital").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
                         Text("Hartford Hospital").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
