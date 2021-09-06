@@ -17,7 +17,7 @@ struct BCAResources: View {
             
             Spacer()
                 .padding()
-                .frame(height: 120.0)
+                .frame(height: 212.0)
             Text("BCA Resources")
                 .font(Font.custom("Montserrat-SemiBold", size: 28))
                 .foregroundColor(Color.white)

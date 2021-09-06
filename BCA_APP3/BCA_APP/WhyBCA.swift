@@ -17,11 +17,11 @@ struct WhyBCA: View {
             ZStack{
                 Rectangle()
                     .fill(Color(UIColor(red: 26/255, green: 0, blue: 91/225, alpha: 1)))
-                    .frame(width: 400, height:90)
+                    .frame(width: 400, height:310)
                 VStack{
                     Spacer()
                         .padding()
-                        .frame(height: 180.0)
+                        .frame(height: 192.0)
                     Text("Why BCA?")
                         .font(Font.custom("Montserrat-SemiBold", size: 28))
                         .foregroundColor(Color.white)
@@ -30,8 +30,8 @@ struct WhyBCA: View {
                         .frame(width: 370, height:1)
                         .foregroundColor(Color.gray)
                    
-                }//end of V Stack
-          }//end of Zstack b
+                    }//end of V Stack
+                }//end of Zstack b
             ScrollView {
                 Spacer()
                     .padding()
@@ -46,7 +46,7 @@ struct WhyBCA: View {
                     Text("BCA funds four types of grants annually:").font(Font.custom("Montserrat-ExtraBold", size: 16)).foregroundColor(Color.white).padding()
                     
                     VStack{
-                    Text("Young Investigator Grants").font(Font.custom("Montserrat-SemiBold", size: 15)).foregroundColor(Color.white)
+                    Text("Young Investigator Grants").font(Font.custom("Montserrat-ExtraBold", size: 17)).foregroundColor(Color.white)
                         
                         
                         Spacer().frame(height: 10.0)
@@ -75,7 +75,11 @@ struct WhyBCA: View {
                     }
                        // .padding()
                     VStack{
-                    Text("Exceptional Project Grants").font(Font.custom("Montserrat-ExtraBold", size: 15)).foregroundColor(Color.white)
+                        Spacer().frame(height: 10.0)
+                        
+                    Text("Exceptional Project Grants").font(Font.custom("Montserrat-ExtraBold", size: 17)).foregroundColor(Color.white)
+                        
+                        Spacer().frame(height: 10.0)
                         
                         Text("Scott Abrams, PhD and Michael Nemeth, Roswell Park:")
                                 .font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white) .multilineTextAlignment(.center).frame(width: 397.0)
@@ -92,45 +96,55 @@ struct WhyBCA: View {
                     }
                       //  .padding()
                     VStack{
+                        Spacer().frame(height: 10.0)
                     Text("Breast Surgery Fellowships")
-                        .font(Font.custom("Montserrat-ExtraBold", size: 15))
+                        .font(Font.custom("Montserrat-ExtraBold", size: 17))
                         .foregroundColor(Color.white)
-                        Text("Memorial Sloan Kettering Cancer Center, Marissa Srour, MD").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
-                        Text("Rutgers Cancer Institute of New Jersey")
-                            .font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
-                        Text("Kelly Krupa, MD, Rodkin Family Breast Surgery Fellowship").font(Font.custom("Montserrat-SemiBoldItalic", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
+                        
+                        Spacer().frame(height: 10.0)
+                        
+                        Text("Memorial Sloan Kettering Cancer Center, Marissa Srour, MD").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 350.0).padding(.bottom)
+                        
+                        Text("Rutgers Cancer Institute of New Jersey").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
+                        
+                        Text("Kelly Krupa, MD, Rodkin Family Breast Surgery Fellowship").font(Font.custom("Montserrat-SemiBoldItalic", size: 15)).foregroundColor(Color.white).frame(width: 397.0).padding(.bottom)
                         Text("Yale University, Billie Borden, MD")
                             .font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
                         Text("Supported by the Mitchell Family").font(Font.custom("Montserrat-SemiBoldItalic", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
                     }
                        // .padding()
                     VStack{
-                        Text("Education and Outreach Grants").font(Font.custom("Montserrat-SemiBold", size: 15)).foregroundColor(Color.white)
+                        
+                        Spacer().frame(height: 14.0)
+                        
+                        Text("Education and Outreach Grants").font(Font.custom("Montserrat-ExtraBold", size: 17)).foregroundColor(Color.white)
                             //.padding()
+                        
+                        Spacer().frame(height: 14.0)
+                        
                         VStack{
-                        Text("Danbury Hospital/New Milford Hospital").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
-                        Text("Paula L. Banwell Memorial Grant").font(Font.custom("Montserrat-SemiBold", size: 15)).foregroundColor(Color.white).padding(.bottom).frame(width: 350.0)
-                        Text("Gilda’s Club Westchester").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
-                        Text("Greenwich Hospital").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
-                        Text("Griffin Hospital").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
-                        Text("Hartford Hospital").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
+                            Text("Danbury Hospital/New Milford Hospital").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0).padding(.bottom, 2.0)
+                            Text("Paula L. Banwell Memorial Grant").font(Font.custom("Montserrat-SemiBold", size: 15)).foregroundColor(Color.white).frame(width: 350.0).padding(.bottom, 2.0)
+                            Text("Gilda’s Club Westchester").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0).padding(.bottom, 2.0)
+                        Text("Greenwich Hospital").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0).padding(.bottom, 2.0)
+                        Text("Griffin Hospital").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0).padding(.bottom, 2.0)
+                        Text("Hartford Hospital").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0).padding(.bottom, 2.0)
                         }
-                        Text("Hospital of Central Connecticut Mary's Center").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
-                        Text("MedStar Georgetown").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
-                        Text("Middlesex Hospital").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
-                        Text("Norma F. Pfriem Breast Cancer Center").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
-                        Text("Norwalk Hospital").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
-                        Text("Open Door Family Medical Center").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
                         VStack{
-                        Text("Stamford Hospital").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
-                        Text("White Plains Hospital").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
+                        Text("Hospital of Central Connecticut Mary's Center").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0).padding(.bottom, 2.0)
+                        Text("MedStar Georgetown").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0).padding(.bottom, 2.0)
+                        Text("Middlesex Hospital").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0).padding(.bottom, 2.0)
+                        Text("Norma F. Pfriem Breast Cancer Center").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0).padding(.bottom, 2.0)
+                        Text("Norwalk Hospital").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0).padding(.bottom, 2.0)
+                        Text("Open Door Family Medical Center").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0).padding(.bottom, 2.0)
+                        }
+                            VStack{
+                        Text("Stamford Hospital").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0).padding(.bottom, 2.0)
+                        Text("White Plains Hospital").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0).padding(.bottom, 2.0)
                         Text("Yale New Haven Hospital").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
                         }
                     }
-                    Rectangle()
-                        .frame(width: 340, height:1)
-                        .foregroundColor(Color.gray)
-                        .padding()
+                    
                 }
                 
                 .padding([.horizontal, .bottom])
