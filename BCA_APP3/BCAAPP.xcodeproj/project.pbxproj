@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 53;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -164,13 +164,13 @@
 		7CA1862F26A4EA8400A2B318 /* download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = download.png; sourceTree = "<group>"; };
 		7CA1863026A4EA8400A2B318 /* GSLOGO_Canva.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GSLOGO_Canva.png; sourceTree = "<group>"; };
 		7CA1AB8D26BDC19000CA4EBD /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
-		7CAD6BB5269BBFEC00883E28 /* BCA_APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BCA_APP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CAD6BB5269BBFEC00883E28 /* BCAAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BCAAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CAD6BB8269BBFEC00883E28 /* BCA_APPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BCA_APPApp.swift; sourceTree = "<group>"; };
 		7CAD6BBC269BBFEF00883E28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CAD6BBF269BBFEF00883E28 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		7CAD6BC5269BBFEF00883E28 /* BCA_APPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BCA_APPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CAD6BC5269BBFEF00883E28 /* BCAAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BCAAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CAD6BC9269BBFEF00883E28 /* BCA_APPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BCA_APPTests.swift; sourceTree = "<group>"; };
-		7CAD6BCF269BBFEF00883E28 /* BCA_APPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BCA_APPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CAD6BCF269BBFEF00883E28 /* BCAAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BCAAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CAD6BD3269BBFEF00883E28 /* BCA_APPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BCA_APPUITests.swift; sourceTree = "<group>"; };
 		7CDBB49926C45509000ABE4C /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpg; sourceTree = "<group>"; };
 		7CDBB49B26C45A3A000ABE4C /* instaPic5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = instaPic5.jpg; sourceTree = "<group>"; };
@@ -270,9 +270,9 @@
 		7CAD6BB6269BBFEC00883E28 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7CAD6BB5269BBFEC00883E28 /* BCA_APP.app */,
-				7CAD6BC5269BBFEF00883E28 /* BCA_APPTests.xctest */,
-				7CAD6BCF269BBFEF00883E28 /* BCA_APPUITests.xctest */,
+				7CAD6BB5269BBFEC00883E28 /* BCAAPP.app */,
+				7CAD6BC5269BBFEF00883E28 /* BCAAPPTests.xctest */,
+				7CAD6BCF269BBFEF00883E28 /* BCAAPPUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -339,9 +339,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7CAD6BB4269BBFEC00883E28 /* BCA_APP */ = {
+		7CAD6BB4269BBFEC00883E28 /* BCAAPP */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7CAD6BD7269BBFEF00883E28 /* Build configuration list for PBXNativeTarget "BCA_APP" */;
+			buildConfigurationList = 7CAD6BD7269BBFEF00883E28 /* Build configuration list for PBXNativeTarget "BCAAPP" */;
 			buildPhases = (
 				7CAD6BB1269BBFEC00883E28 /* Sources */,
 				7CAD6BB2269BBFEC00883E28 /* Frameworks */,
@@ -351,14 +351,14 @@
 			);
 			dependencies = (
 			);
-			name = BCA_APP;
+			name = BCAAPP;
 			productName = BCA_APP;
-			productReference = 7CAD6BB5269BBFEC00883E28 /* BCA_APP.app */;
+			productReference = 7CAD6BB5269BBFEC00883E28 /* BCAAPP.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7CAD6BC4269BBFEF00883E28 /* BCA_APPTests */ = {
+		7CAD6BC4269BBFEF00883E28 /* BCAAPPTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7CAD6BDA269BBFEF00883E28 /* Build configuration list for PBXNativeTarget "BCA_APPTests" */;
+			buildConfigurationList = 7CAD6BDA269BBFEF00883E28 /* Build configuration list for PBXNativeTarget "BCAAPPTests" */;
 			buildPhases = (
 				7CAD6BC1269BBFEF00883E28 /* Sources */,
 				7CAD6BC2269BBFEF00883E28 /* Frameworks */,
@@ -369,14 +369,14 @@
 			dependencies = (
 				7CAD6BC7269BBFEF00883E28 /* PBXTargetDependency */,
 			);
-			name = BCA_APPTests;
+			name = BCAAPPTests;
 			productName = BCA_APPTests;
-			productReference = 7CAD6BC5269BBFEF00883E28 /* BCA_APPTests.xctest */;
+			productReference = 7CAD6BC5269BBFEF00883E28 /* BCAAPPTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7CAD6BCE269BBFEF00883E28 /* BCA_APPUITests */ = {
+		7CAD6BCE269BBFEF00883E28 /* BCAAPPUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7CAD6BDD269BBFEF00883E28 /* Build configuration list for PBXNativeTarget "BCA_APPUITests" */;
+			buildConfigurationList = 7CAD6BDD269BBFEF00883E28 /* Build configuration list for PBXNativeTarget "BCAAPPUITests" */;
 			buildPhases = (
 				7CAD6BCB269BBFEF00883E28 /* Sources */,
 				7CAD6BCC269BBFEF00883E28 /* Frameworks */,
@@ -387,9 +387,9 @@
 			dependencies = (
 				7CAD6BD1269BBFEF00883E28 /* PBXTargetDependency */,
 			);
-			name = BCA_APPUITests;
+			name = BCAAPPUITests;
 			productName = BCA_APPUITests;
-			productReference = 7CAD6BCF269BBFEF00883E28 /* BCA_APPUITests.xctest */;
+			productReference = 7CAD6BCF269BBFEF00883E28 /* BCAAPPUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -415,8 +415,8 @@
 					};
 				};
 			};
-			buildConfigurationList = 7CAD6BB0269BBFEC00883E28 /* Build configuration list for PBXProject "BCA_APP" */;
-			compatibilityVersion = "Xcode 9.3";
+			buildConfigurationList = 7CAD6BB0269BBFEC00883E28 /* Build configuration list for PBXProject "BCAAPP" */;
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -428,9 +428,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7CAD6BB4269BBFEC00883E28 /* BCA_APP */,
-				7CAD6BC4269BBFEF00883E28 /* BCA_APPTests */,
-				7CAD6BCE269BBFEF00883E28 /* BCA_APPUITests */,
+				7CAD6BB4269BBFEC00883E28 /* BCAAPP */,
+				7CAD6BC4269BBFEF00883E28 /* BCAAPPTests */,
+				7CAD6BCE269BBFEF00883E28 /* BCAAPPUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -560,12 +560,12 @@
 /* Begin PBXTargetDependency section */
 		7CAD6BC7269BBFEF00883E28 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7CAD6BB4269BBFEC00883E28 /* BCA_APP */;
+			target = 7CAD6BB4269BBFEC00883E28 /* BCAAPP */;
 			targetProxy = 7CAD6BC6269BBFEF00883E28 /* PBXContainerItemProxy */;
 		};
 		7CAD6BD1269BBFEF00883E28 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7CAD6BB4269BBFEC00883E28 /* BCA_APP */;
+			target = 7CAD6BB4269BBFEC00883E28 /* BCAAPP */;
 			targetProxy = 7CAD6BD0269BBFEF00883E28 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -696,6 +696,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BCA_APP/Preview Content\"";
+				DEVELOPMENT_TEAM = FRVVZFDUA5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "BCA-APP-Info.plist";
@@ -713,7 +714,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "BCA.BCA-APP";
+				PRODUCT_BUNDLE_IDENTIFIER = BCA.BCAAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -730,6 +731,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BCA_APP/Preview Content\"";
+				DEVELOPMENT_TEAM = FRVVZFDUA5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "BCA-APP-Info.plist";
@@ -747,7 +749,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "BCA.BCA-APP";
+				PRODUCT_BUNDLE_IDENTIFIER = BCA.BCAAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -760,8 +762,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FRVVZFDUA5;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -775,7 +779,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BCA_APP.app/BCA_APP";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BCAAPP.app/BCAAPP";
 			};
 			name = Debug;
 		};
@@ -784,8 +788,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FRVVZFDUA5;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -799,7 +805,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BCA_APP.app/BCA_APP";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BCAAPP.app/BCAAPP";
 			};
 			name = Release;
 		};
@@ -807,9 +813,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QGQA5MSHFY;
+				DEVELOPMENT_TEAM = FRVVZFDUA5;
 				GENERATE_INFOPLIST_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -830,9 +837,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QGQA5MSHFY;
+				DEVELOPMENT_TEAM = FRVVZFDUA5;
 				GENERATE_INFOPLIST_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -852,7 +860,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7CAD6BB0269BBFEC00883E28 /* Build configuration list for PBXProject "BCA_APP" */ = {
+		7CAD6BB0269BBFEC00883E28 /* Build configuration list for PBXProject "BCAAPP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7CAD6BD5269BBFEF00883E28 /* Debug */,
@@ -861,7 +869,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7CAD6BD7269BBFEF00883E28 /* Build configuration list for PBXNativeTarget "BCA_APP" */ = {
+		7CAD6BD7269BBFEF00883E28 /* Build configuration list for PBXNativeTarget "BCAAPP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7CAD6BD8269BBFEF00883E28 /* Debug */,
@@ -870,7 +878,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7CAD6BDA269BBFEF00883E28 /* Build configuration list for PBXNativeTarget "BCA_APPTests" */ = {
+		7CAD6BDA269BBFEF00883E28 /* Build configuration list for PBXNativeTarget "BCAAPPTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7CAD6BDB269BBFEF00883E28 /* Debug */,
@@ -879,7 +887,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7CAD6BDD269BBFEF00883E28 /* Build configuration list for PBXNativeTarget "BCA_APPUITests" */ = {
+		7CAD6BDD269BBFEF00883E28 /* Build configuration list for PBXNativeTarget "BCAAPPUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7CAD6BDE269BBFEF00883E28 /* Debug */,

@@ -9,6 +9,10 @@ import SwiftUI
 
 struct CircleImage: View {
     var body: some View {
+        ZStack{
+            RoundedRectangle(cornerRadius: 60)
+                .fill(Color(UIColor(red: 1, green: 1, blue: 1, alpha: 1)))
+                .frame(width: 340, height:600)
         VStack{
             Image("BCALogo")
                 .clipShape(Rectangle())
@@ -48,6 +52,7 @@ struct CircleImage: View {
             Spacer()
                 .frame(height: 20.0)
         }
+    }
     }
 }
 

@@ -18,7 +18,7 @@ struct GetOurSocial: View {
                 VStack{
                 Spacer()
                     .padding()
-                    .frame(height: 190.0)
+                    .frame(height: 220.0)
                   Text("Get Social:")
                     .font(Font.custom("Montserrat-SemiBold", size: 33))
                     .foregroundColor(Color.white)
@@ -33,7 +33,7 @@ struct GetOurSocial: View {
                 }
                 //make each link the logo not the words
                 //website
-                ScrollView {
+               // ScrollView {
                 ZStack{
                     VStack{
                     Image("BCALogo")
@@ -130,7 +130,7 @@ struct GetOurSocial: View {
                     .frame(height: 170.0)
                
               //sign up for the newsletter
-                }
+            //}
         }
        
         }

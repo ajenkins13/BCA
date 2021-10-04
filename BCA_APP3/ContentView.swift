@@ -9,8 +9,11 @@
 import SwiftUI
 struct ContentView: View {
     var body: some View {
+       // ZStack{
+          //  Rectangle().fill(Color(UIColor(red: 1, green: 1, blue: 1, alpha: 1))).frame(width: 700, height:1300)
         NavigationView {
         VStack(alignment: .leading){
+            Color.yellow
             //Spacer()
               //  .frame(height: 1.0)
             
@@ -24,12 +27,13 @@ struct ContentView: View {
                    // .frame(height: 40.0)
                // CircleImage()
                  //   .frame(width: 30, height:20)
-            }
+            }.background(Color.red)
+           
         
             Divider()
             ScrollView(.horizontal){
                 HStack(spacing: 20) {
-                    //Spacer().frame(width: 1.0)
+                  //  Spacer().frame(width: 140)
                     
                     CircleImage()
                         .padding(.horizontal)
@@ -105,14 +109,19 @@ struct ContentView: View {
                 .padding()
                 .frame(height: 100.0)
       
-        }
+        }.background(Color.white.ignoresSafeArea())
             Spacer()
-        }
+        }//.background(Color.red)
+       // }
+      //  .background(Color.red.ignoresSafeArea())
 }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Group {
+            ContentView()
+
+        }
     }
 }

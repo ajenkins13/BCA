@@ -54,18 +54,9 @@ struct Slide6View: View {
                 
 
                 ZStack{
-                Image("Venmo")
-                    .resizable()
-                    .scaledToFit()
-                    .frame(width: 110, height: 110)
-                    .padding(.top)
-                //placeholder
-                //Spacer()
-                    .frame(height: 51.0)
-                    Link("", destination: URL(string: "venmo://paycharge?txn=pay&recipients=breastcanceralliance")!)
-                         .padding(.bottom)
-                         .font(Font.custom("Montserrat-SemiBold", size: 18))
-                        .foregroundColor(Color.white)
+                    Image("Venmo").resizable().scaledToFit().frame(width: 110, height: 110).padding(.top).frame(height: 51.0)
+                    Link(" ", destination: URL(string: "venmo://paycharge?txn=pay&recipients=breastcanceralliance")!).padding()
+                        .frame(height: 51)
                     //placeholder i dont know the venmo
                 }
             
