@@ -15,21 +15,47 @@ struct Donate: View {
                 .frame(width: 400, height:1000)
         VStack{
            
-                Spacer()
-                    .padding()
-                    .frame(height: 120.0)
+               // Spacer().padding().frame(height: 120.0)
                   Text("Donate")
-                    .font(.largeTitle)
+                .font(Font.custom("Montserrat-ExtraBold", size: 30))
                     .foregroundColor(Color.white)
                     .padding()
-                Spacer()
-                    .padding()
-                    .frame(height: 10.0)
+            Rectangle()
+                .frame(width: 370, height:1)
+                .foregroundColor(Color.gray)
+            
+                Spacer().padding().frame(height: 10.0)
+            ZStack{
+                RoundedRectangle(cornerRadius: 15).fill(Color.white).frame(width: 200, height:50)
+                Link("Make a Gift", destination: URL(string: "https://interland3.donorperfect.net/weblink/weblink.aspx?name=bca&id=1")!).font(Font.custom("Montserrat-Bold", size: 18)).foregroundColor(Color(UIColor(red: 87/255, green: 0, blue: 103/225, alpha: 1))).frame(width: 230, height: 50).padding(.vertical)
+            }
       
-                Link("Donate Stock", destination: URL(string: "https://breastcanceralliance.org/donatestock")!)
-                        .padding()
-                        
-        Text("Venmo")
+            ZStack{
+                RoundedRectangle(cornerRadius: 15).fill(Color.white).frame(width: 200, height:50)
+                
+                Link("Donate Stock", destination: URL(string: "https://breastcanceralliance.org/donatestock")!).font(Font.custom("Montserrat-Bold", size: 18)).foregroundColor(Color(UIColor(red: 87/255, green: 0, blue: 103/225, alpha: 1))).frame(width: 230, height: 50).padding(.vertical)
+            }
+          /*  ZStack{
+                RoundedRectangle(cornerRadius: 15).fill(Color.white).frame(width: 200, height:50)
+                
+                Link("Venmo", destination: URL(string: "venmo://paycharge?txn=pay&recipients=breastcanceralliance")!).font(Font.custom("Montserrat-SemiBold", size: 18)).foregroundColor(Color(UIColor(red: 87/255, green: 0, blue: 103/225, alpha: 1))).frame(width: 230, height: 50).padding(.vertical)
+            }*/
+            ZStack{
+                RoundedRectangle(cornerRadius: 15).fill(Color.white).frame(width: 200, height:120)
+                VStack{
+                    Text("Venmo").font(Font.custom("Montserrat-Bold", size: 18)).foregroundColor(Color(UIColor(red: 87/255, green: 0, blue: 103/225, alpha: 1)))
+                    Text("@BreastCancerAlliance").font(Font.custom("Montserrat-SemiBold", size: 15)).foregroundColor(Color(UIColor(red: 87/255, green: 0, blue: 103/225, alpha: 1)))
+                    ZStack{
+                    Image("Venmo").resizable().scaledToFit().frame(width: 110, height: 110).frame(height: 51.0)
+                        RoundedRectangle(cornerRadius: 10).stroke(Color.black, lineWidth: 1).frame(width: 53, height: 53)
+                    }//end of venmo image zstack
+                    
+                }
+                Link(" ", destination: URL(string: "venmo://paycharge?txn=pay&recipients=breastcanceralliance")!).padding()
+                    .frame(width: 200, height:110)
+              //  Link("Donate Stock", destination: URL(string: "https://breastcanceralliance.org/donatestock")!).padding()
+            }
+       // Text("Venmo")
         }
     }
     }
