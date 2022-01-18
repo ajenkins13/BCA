@@ -15,8 +15,7 @@ struct WhyBCA: View {
                 .frame(width: 700, height:1300)
         VStack{
             ZStack{
-                Rectangle()
-                    .fill(Color(UIColor(red: 26/255, green: 0, blue: 91/225, alpha: 1)))
+                Rectangle().fill(Color(UIColor(red: 26/255, green: 0, blue: 91/225, alpha: 1)))
                     .frame(width: 400, height:310)
                 VStack{
                     Spacer()
