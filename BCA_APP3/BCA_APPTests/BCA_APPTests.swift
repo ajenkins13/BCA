@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import BCA_APP
+@testable import BCAAPP
 
 class BCA_APPTests: XCTestCase {
 

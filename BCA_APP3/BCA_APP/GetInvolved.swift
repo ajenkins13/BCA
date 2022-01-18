@@ -1,12 +1,12 @@
 //
 //  GetInvolved.swift
-//  
+//  BCAAPP
 //
-//  Created by Alexandra Jenkins on 7/11/21.
+//  Created by Alexandra Jenkins on 1/18/22.
 //
 
 import SwiftUI
-//delete this page
+
 struct GetInvolved: View {
     var body: some View {
         ZStack{
@@ -70,3 +70,4 @@ struct GetInvolved_Previews: PreviewProvider {
            // .background(Color(UIColor(red: 115/255, green: 0, blue: 114/225, alpha: 1)))
     }
 }
+

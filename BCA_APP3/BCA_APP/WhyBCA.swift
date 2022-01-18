@@ -155,18 +155,7 @@ struct WhyBCA: View {
                     .padding()
                 Spacer()
                     .frame(height: 26.0)
-                    ZStack{
-                        
-                        RoundedRectangle(cornerRadius:15)
-                            .fill(Color(UIColor(red: 255/255, green: 0, blue: 133/225, alpha: 1)))
-                        
-                    Link("Our Team", destination: URL(string: "https://breastcanceralliance.org/our-team")!)
-                        .font(Font.custom("Montserrat-SemiBold", size: 15))
-                        .foregroundColor(Color.white)
-                        .padding(.vertical)
-                    }
-                    .padding([.vertical, .top])
-                    .frame(width: 190.0, height: 10.0)
+                    
                     Spacer()
                         .frame(height: 130.0)
                 }

@@ -18,7 +18,7 @@ struct GetOurSocial: View {
                 VStack{
                 Spacer()
                     .padding()
-                    .frame(height: 220.0)
+                    .frame(height: 300.0)
                   Text("Get Social:")
                     .font(Font.custom("Montserrat-SemiBold", size: 33))
                     .foregroundColor(Color.white)
@@ -33,13 +33,14 @@ struct GetOurSocial: View {
                 }
                 //make each link the logo not the words
                 //website
-               // ScrollView {
+                ScrollView {
                 ZStack{
                     VStack{
+                        
                     Image("BCALogo")
                         .resizable()
                         .scaledToFit()
-                        .frame(width: 120, height: 50)
+                        .frame(width: 170, height: 80)
                         Text("breastcanceralliance.org")
                             .font(Font.custom("Montserrat-SemiBold", size: 18))
                             .foregroundColor(Color.white)
@@ -47,15 +48,16 @@ struct GetOurSocial: View {
                     }
                     Link(" ", destination: URL(string: "https://breastcanceralliance.org")!)
                             .padding()
-                            .frame(width: 210, height: 90)
+                            .frame(width: 230, height: 120)
                 }
                 //instagram
+                    HStack{
                 ZStack{
                     VStack{
                     Image("Insta")
                         .resizable()
                         .scaledToFit()
-                        .frame(width: 80, height: 80)
+                        .frame(width: 95, height: 95)
                     //    Text(" ")
                        //     .foregroundColor(Color.white)
                     }
@@ -69,22 +71,23 @@ struct GetOurSocial: View {
                     Image("FB")
                         .resizable()
                         .scaledToFit()
-                        .frame(width: 80, height: 80)
+                        .frame(width: 95, height: 95)
                       //  Text(" ")
                       //      .foregroundColor(Color.white)
                    
                 
                     Link(" ", destination: URL(string: "https://www.facebook.com/BreastCancerAlliance")!)
                             .padding()
-                            .frame(width: 100, height: 110)
+                            .frame(width: 130, height: 130)
                 }
-                
+                    } //end of Hstack1
+                    HStack{
                 ZStack{
                     VStack{
                     Image("linkedIn")
                         .resizable()
                         .scaledToFit()
-                        .frame(width: 80, height: 80)
+                        .frame(width: 95, height: 95)
                         //Text("")
                          //   .foregroundColor(Color.white)
                     
@@ -100,7 +103,7 @@ struct GetOurSocial: View {
                     Image("Twitter")
                         .resizable()
                         .scaledToFit()
-                        .frame(width: 100, height: 100)
+                        .frame(width: 120, height: 120)
                 //        Text("Twitter")
                     //        .foregroundColor(Color.white)
                     
@@ -109,20 +112,21 @@ struct GetOurSocial: View {
                             .padding()
                             .frame(width: 105, height: 105)
                 }
+                    }//End of HStack 2
                 //Amazon Smile
                 ZStack{
                     VStack{
                     Image("amazonSmile")
                         .resizable()
                         .scaledToFit()
-                        .frame(width: 80, height: 80)
+                        .frame(width: 95, height: 95)
                    //     Text("Amazon Smile")
                     //        .foregroundColor(Color.white)
                     
                     }
                     Link(" ", destination: URL(string: "https://smile.amazon.com/gp/chpf/homepage/ref=smi_chpf_redirect/139-3799044-4989460?ie=UTF8&ein=06-1453500&ref_=smi_ext_ch_06-1453500_cl")!)
                             .padding()
-                            .frame(width: 130, height: 110)
+                            .frame(width: 150, height: 120)
                 }
                 
                 Spacer()
@@ -130,7 +134,7 @@ struct GetOurSocial: View {
                     .frame(height: 170.0)
                
               //sign up for the newsletter
-            //}
+            }
         }
        
         }

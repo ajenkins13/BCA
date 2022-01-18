@@ -17,7 +17,7 @@ struct JoinUS: View {
          //   Rectangle()
             Spacer()
                 .padding()
-                .frame(height: 120.0)
+                .frame(height: 300.0)
             Text("Join Us")
                 .font(Font.custom("Montserrat-SemiBold", size: 28))
                 .foregroundColor(Color.white)
@@ -51,6 +51,20 @@ struct JoinUS: View {
                         .foregroundColor(Color(UIColor(red: 87/255, green: 0, blue: 103/225, alpha: 1)))
                         .padding(.vertical)
                 }
+                Spacer()
+                   .frame(height: 40.0)
+                ZStack{
+                    
+                    RoundedRectangle(cornerRadius:15)
+                        .fill(Color(UIColor(red: 255/255, green: 0, blue: 133/225, alpha: 1)))
+                    
+                Link("Our Team", destination: URL(string: "https://breastcanceralliance.org/our-team")!)
+                    .font(Font.custom("Montserrat-SemiBold", size: 15))
+                    .foregroundColor(Color.white)
+                    .padding(.vertical)
+                }
+                .padding([.vertical, .top])
+                .frame(width: 190.0, height: 10.0)
         //
             }
         }

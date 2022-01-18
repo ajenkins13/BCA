@@ -75,6 +75,7 @@
 		7CAD6BC0269BBFEF00883E28 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CAD6BBF269BBFEF00883E28 /* Preview Assets.xcassets */; };
 		7CAD6BCA269BBFEF00883E28 /* BCA_APPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAD6BC9269BBFEF00883E28 /* BCA_APPTests.swift */; };
 		7CAD6BD4269BBFEF00883E28 /* BCA_APPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAD6BD3269BBFEF00883E28 /* BCA_APPUITests.swift */; };
+		7CC25DF52797734300A8CA15 /* GetInvolved.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC25DF42797734300A8CA15 /* GetInvolved.swift */; };
 		7CDBB49A26C45509000ABE4C /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CDBB49926C45509000ABE4C /* images.jpg */; };
 		7CDBB4A026C45A3B000ABE4C /* instaPic5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CDBB49B26C45A3A000ABE4C /* instaPic5.jpg */; };
 		7CDBB4A126C45A3B000ABE4C /* mom+Girl4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CDBB49C26C45A3A000ABE4C /* mom+Girl4.jpg */; };
@@ -172,6 +173,7 @@
 		7CAD6BC9269BBFEF00883E28 /* BCA_APPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BCA_APPTests.swift; sourceTree = "<group>"; };
 		7CAD6BCF269BBFEF00883E28 /* BCAAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BCAAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CAD6BD3269BBFEF00883E28 /* BCA_APPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BCA_APPUITests.swift; sourceTree = "<group>"; };
+		7CC25DF42797734300A8CA15 /* GetInvolved.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetInvolved.swift; sourceTree = "<group>"; };
 		7CDBB49926C45509000ABE4C /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpg; sourceTree = "<group>"; };
 		7CDBB49B26C45A3A000ABE4C /* instaPic5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = instaPic5.jpg; sourceTree = "<group>"; };
 		7CDBB49C26C45A3A000ABE4C /* mom+Girl4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mom+Girl4.jpg"; sourceTree = "<group>"; };
@@ -296,6 +298,7 @@
 				7CA1862B26A4E70300A2B318 /* Slide6View.swift */,
 				7C7B718C26ABCF2900A3CA31 /* Photos */,
 				7C937DE6269BDF4200370128 /* WhyBCA.swift */,
+				7CC25DF42797734300A8CA15 /* GetInvolved.swift */,
 				7C937DEC269BDF4300370128 /* JoinUS.swift */,
 				7C937DE7269BDF4300370128 /* BCAResources.swift */,
 				53DB02F226C4557D00800A7B /* ShareYourStory.swift */,
@@ -514,6 +517,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CC25DF52797734300A8CA15 /* GetInvolved.swift in Sources */,
 				7C937DFE269BDF4300370128 /* GetOurSocial.swift in Sources */,
 				7CA1862E26A4E86200A2B318 /* Donate.swift in Sources */,
 				7C937DF9269BDF4300370128 /* CircleView.swift in Sources */,

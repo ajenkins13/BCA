@@ -42,18 +42,19 @@ struct ContentView: View {
                             Slide1View()
                                 .padding(.horizontal)
                              }
-                    /*NavigationLink(destination: JoinUS()){
+                    NavigationLink(destination: JoinUS()){
                         Slide2View()
                             .padding(.horizontal)
-                    }*/
-                    Slide2View()
+                    }
+                    /*Slide2View()
                         .padding(.horizontal)
                     Slide3View()
-                        .padding(.horizontal)
-                    /*(NavigationLink(destination: GetInvolved()){
-                        
-                            .padding(.horizontal)
-                        }*/
+                        .padding(.horizontal)*/
+                    NavigationLink(destination:
+                        GetInvolved()){
+                        Slide3View().padding(.horizontal)
+
+                        }
                     NavigationLink(destination: BCAResources()){
                         Slide4View()
                             .padding(.horizontal)
@@ -62,12 +63,11 @@ struct ContentView: View {
                         Slide5View()
                             .padding(.horizontal)
                         }
-                    Slide6View()
-                        .padding(.horizontal)
-                 /*   NavigationLink(destination: Donate()){
+                    //Slide6View().padding(.horizontal)
+                    NavigationLink(destination: Donate()){
                         Slide6View()
-                            .padding(.horizontal)*/
-       // }
+                            .padding(.horizontal)
+        }
                 } //.padding(.horizontal)
             }//.frame(height: 100)
           //  Divider()
