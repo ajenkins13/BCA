@@ -81,7 +81,7 @@ struct WhyBCA: View {
                         
                         Spacer().frame(height: 10.0)
                         
-                        Text("Scott Abrams, PhD and Michael Nemeth, Roswell Park:").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white) .multilineTextAlignment(.center).frame(width: 397.0)
+                        Text("Scott Abrams, PhD and Michael Nemeth, Roswell Park:").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white) .multilineTextAlignment(.center).frame(width: 380.0)
                             
                              
                         Text("Unique combination immunotherapy to confront triple negative breast cancer").font(Font.custom("Montserrat-SemiBold", size: 15)).foregroundColor(Color.white).padding(.bottom).multilineTextAlignment(.leading).frame(width: 350.0)
