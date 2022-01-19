@@ -32,7 +32,7 @@ struct BCAResources: View {
                      .padding(.vertical)
                      .font(Font.custom("Montserrat-SemiBold", size: 18))
                     .foregroundColor(Color.white)
-                Link("Exercises & Nutrition", destination: URL(string: "https://breastcanceralliance.org/resources.asp?c=Exercise&t=L")!)
+                Link("Exercises", destination: URL(string: "https://breastcanceralliance.org/resources.asp?c=Exercise&t=L")!)
                      .padding(.vertical)
                      .font(Font.custom("Montserrat-SemiBold", size: 18))
                     .foregroundColor(Color.white)
@@ -84,6 +84,7 @@ struct BCAResources: View {
 struct BCAResources_Previews: PreviewProvider {
     static var previews: some View {
         BCAResources()
+            .previewLayout(.sizeThatFits)
           //  .frame(width: 400.0, height: 870.0)
           //  .environment(\.sizeCategory, .extraLarge)
            // .background(Color(UIColor(red: 166/255, green: 0, blue: 131/225, alpha: 1)))

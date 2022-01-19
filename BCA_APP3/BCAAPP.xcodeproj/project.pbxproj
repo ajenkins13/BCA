@@ -40,6 +40,7 @@
 		7C509C0926B24D250072BACB /* LinkedIn.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C509C0626B24D240072BACB /* LinkedIn.png */; };
 		7C509C0A26B24D250072BACB /* Twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C509C0726B24D250072BACB /* Twitter.png */; };
 		7C509C0B26B24D250072BACB /* amazonSmile.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C509C0826B24D250072BACB /* amazonSmile.png */; };
+		7C55CD2E2797A3910036BDE3 /* Grants2021.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C55CD2D2797A3910036BDE3 /* Grants2021.swift */; };
 		7C7B718626AB2A5600A3CA31 /* Screen Shot 2021-07-20 at 11.01.47 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C7B718426AB2A5600A3CA31 /* Screen Shot 2021-07-20 at 11.01.47 AM.png */; };
 		7C7B718926AB2AF200A3CA31 /* Screen Shot 2021-07-20 at 11.00.51 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C7B718826AB2AF200A3CA31 /* Screen Shot 2021-07-20 at 11.00.51 AM.png */; };
 		7C7B718B26ABC9A200A3CA31 /* instaLOGO.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C7B718A26ABC9A200A3CA31 /* instaLOGO.jpg */; };
@@ -134,6 +135,7 @@
 		7C509C0626B24D240072BACB /* LinkedIn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LinkedIn.png; sourceTree = "<group>"; };
 		7C509C0726B24D250072BACB /* Twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Twitter.png; sourceTree = "<group>"; };
 		7C509C0826B24D250072BACB /* amazonSmile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amazonSmile.png; sourceTree = "<group>"; };
+		7C55CD2D2797A3910036BDE3 /* Grants2021.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grants2021.swift; sourceTree = "<group>"; };
 		7C7B718426AB2A5600A3CA31 /* Screen Shot 2021-07-20 at 11.01.47 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2021-07-20 at 11.01.47 AM.png"; sourceTree = "<group>"; };
 		7C7B718826AB2AF200A3CA31 /* Screen Shot 2021-07-20 at 11.00.51 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2021-07-20 at 11.00.51 AM.png"; sourceTree = "<group>"; };
 		7C7B718A26ABC9A200A3CA31 /* instaLOGO.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = instaLOGO.jpg; sourceTree = "<group>"; };
@@ -298,12 +300,13 @@
 				7CA1862B26A4E70300A2B318 /* Slide6View.swift */,
 				7C7B718C26ABCF2900A3CA31 /* Photos */,
 				7C937DE6269BDF4200370128 /* WhyBCA.swift */,
-				7CC25DF42797734300A8CA15 /* GetInvolved.swift */,
+				7C55CD2D2797A3910036BDE3 /* Grants2021.swift */,
 				7C937DEC269BDF4300370128 /* JoinUS.swift */,
+				7CC25DF42797734300A8CA15 /* GetInvolved.swift */,
 				7C937DE7269BDF4300370128 /* BCAResources.swift */,
-				53DB02F226C4557D00800A7B /* ShareYourStory.swift */,
 				7C937DEF269BDF4300370128 /* GetOurSocial.swift */,
 				7CA1862D26A4E86200A2B318 /* Donate.swift */,
+				53DB02F226C4557D00800A7B /* ShareYourStory.swift */,
 				7C915C5426C3600500FE293A /* SelfExam.swift */,
 				7C937DEA269BDF4300370128 /* CircleView.swift */,
 				7C937DE8269BDF4300370128 /* PopupMenu.swift */,
@@ -536,6 +539,7 @@
 				53DB02F326C4557D00800A7B /* ShareYourStory.swift in Sources */,
 				7C941BAF26B06A0A002C7E3D /* test for sarah.swift in Sources */,
 				7CA1862C26A4E70300A2B318 /* Slide6View.swift in Sources */,
+				7C55CD2E2797A3910036BDE3 /* Grants2021.swift in Sources */,
 				7C937DF2269BDF4300370128 /* Slide2View.swift in Sources */,
 				7C937DF4269BDF4300370128 /* Slide4View.swift in Sources */,
 			);

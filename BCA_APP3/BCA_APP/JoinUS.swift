@@ -17,7 +17,7 @@ struct JoinUS: View {
          //   Rectangle()
             Spacer()
                 .padding()
-                .frame(height: 300.0)
+                .frame(height: 250.0)
             Text("Join Us")
                 .font(Font.custom("Montserrat-SemiBold", size: 28))
                 .foregroundColor(Color.white)

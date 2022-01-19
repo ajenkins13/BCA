@@ -22,7 +22,7 @@ struct ShareYourStory: View {
                     VStack{
                         Spacer()
                             .padding()
-                            .frame(height: 90.0)
+                            .frame(height: 230.0)
                         Text("Share Your Story")
                             .font(Font.custom("Montserrat-SemiBold", size: 28))
                             .foregroundColor(Color.white)
@@ -35,6 +35,9 @@ struct ShareYourStory: View {
                 }
                
         ScrollView{
+            Spacer()
+                .padding()
+                .frame(height: 40.0)
             
             Text("We know the power of stories, and how one person’s experience can help to strengthen another. As such, through Instagram, Facebook and our newsletter, Outlook, we offer women and men who have survived, are in remission from or are living with, breast cancer the opportunity to share their stories.")
                 .font(Font.custom("Montserrat-SemiBold", size: 15))
@@ -61,5 +64,6 @@ struct ShareYourStory: View {
 struct ShareYourStory_Previews: PreviewProvider {
     static var previews: some View {
         ShareYourStory()
+            .previewLayout(.sizeThatFits)
     }
 }

@@ -17,7 +17,7 @@ struct GetInvolved: View {
             
             Spacer()
                 .padding()
-                .frame(height: 50.0)
+                .frame(height: 70.0)
             Text("Get Involved")
                 .font(Font.custom("Montserrat-SemiBold", size: 28))
                 .foregroundColor(Color.white)
@@ -32,29 +32,28 @@ struct GetInvolved: View {
                 Spacer()
                     .padding()
                     .frame(height: 30.0)
-                Text("Adult Volunteers")
-                    .font(Font.custom("Montserrat-SemiBold", size: 18))
+                
+                Link("Adult Volunteers", destination: URL(string: "https://breastcanceralliance.org/volunteer")!)
+                     .padding(.vertical)
+                     .font(Font.custom("Montserrat-SemiBold", size: 18))
                     .foregroundColor(Color.white)
-                    .padding(.vertical)
-                //(Will can lift the copy)
+                
 
-                Text("Teen Volunteers")
-                    .font(Font.custom("Montserrat-SemiBold", size: 18))
-                //(Sophie can take content from the Teen one-pager I emailed last week)
-                    .foregroundColor(Color.white)
-                    .padding(.vertical)
 
-                Text("Share Your Story")
-                    .font(Font.custom("Montserrat-SemiBold", size: 18))
-                //(I can work on content for that)
-                    .foregroundColor(Color.white)
-                    .padding(.vertical)
+                NavigationLink(destination: JuniorMediaKit()){
+                Text("Teen Volunteers").font(Font.custom("Montserrat-SemiBold", size: 18)).foregroundColor(Color.white).padding(.vertical)
+                }
 
-                Text("Shop for BCA")
-                    .font(Font.custom("Montserrat-SemiBold", size: 18))
-                // (Will can provide the hyperlink)
+                NavigationLink(destination: ShareYourStory()){
+                Text("Share Your Story").font(Font.custom("Montserrat-SemiBold", size: 18)).foregroundColor(Color.white).padding(.vertical)
+                }
+
+                
+                Link("Shop for BCA", destination: URL(string: "https://breastcanceralliance.org/shop-for-bca")!)
+                     .padding(.vertical)
+                     .font(Font.custom("Montserrat-SemiBold", size: 18))
                     .foregroundColor(Color.white)
-                    .padding(.vertical)
+                
             }
             .frame(width: 370.0)
         }

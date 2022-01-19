@@ -42,107 +42,81 @@ struct WhyBCA: View {
                   //  Text("What we fund")
                     //    .foregroundColor(Color.white)
                     //    .padding()
-                    Text("BCA funds four types of grants annually:").font(Font.custom("Montserrat-ExtraBold", size: 16)).foregroundColor(Color.white).padding()
+                    Text("BCA funds four types of grants annually:").font(Font.custom("Montserrat-ExtraBold", size: 16)).foregroundColor(Color.white).multilineTextAlignment(.center).frame(width: 350.0).padding()
                     
                     VStack{
-                    Text("Young Investigator Grants").font(Font.custom("Montserrat-ExtraBold", size: 17)).foregroundColor(Color.white)
                         
+                    Text("Young Investigator Grants").font(Font.custom("Montserrat-ExtraBold", size: 17)).foregroundColor(Color.white)
+                        Text("TWO YEARS | $125,00").font(Font.custom("Montserrat-semiBold", size: 16)).foregroundColor(Color.white).multilineTextAlignment(.center).frame(width: 397.0)
                         
                         Spacer().frame(height: 10.0)
                         
+                        Text("This grant is meant for those at an early stage in their research career to help provide seed funding for the research required to apply for larger, longer term grants, often with the NIH. (To secure federal funding, a researcher must prove a theory works; the BCA creates the critical bridge between novel research and the opportunity to generate preliminary results.").font(Font.custom("Montserrat-SemiBold", size: 15)).foregroundColor(Color.white).multilineTextAlignment(.center).frame(width: 370.0)
+                             
+                            Text("Clinical doctors and research scientists with a primary focus in breast cancer-and who, following completion of their training, will not have held a faculty position for more than four years at the start date of the grant-are invited to apply. ").font(Font.custom("Montserrat-SemiBold", size: 15)).foregroundColor(Color.white).multilineTextAlignment(.center).frame(width: 370.0)
+                      
                         
-                        Text("Gloria Echeverria, PhD, Baylor College of Medicine:").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).multilineTextAlignment(.center).frame(width: 397.0)
-                        
-                        Text("Characterizing and targeting mitochondrial metabolism in chemoresistant triple negative breast cancer").font(Font.custom("Montserrat-SemiBold", size: 15)).foregroundColor(Color.white).padding(.bottom).multilineTextAlignment(.leading).frame(width: 350.0)
-                       
-                        
-                         Text("Jennifer Rosenbluth, MD, PhD, Dana Farber Cancer Center:")  .font(Font.custom("Montserrat-Bold", size: 15))
-                            .foregroundColor(Color.white)
-                            .multilineTextAlignment(.center).frame(width: 397.0)
-                        
-                        Text("Modeling cancer prevention in mammary organoids derived from BRCA1/2 mutation carriers").font(Font.custom("Montserrat-SemiBold", size: 15)).foregroundColor(Color.white).padding(.bottom).frame(width: 350.0)
-                        
-                        
-                         Text("Maria Soledad Sosa, PhD, Icahn School of Medicine at Mt. Sinai:").font(Font.custom("Montserrat-Bold", size: 15))
-                            .foregroundColor(Color.white)
-                            .multilineTextAlignment(.center).frame(width: 397.0)
-                        
-                        
-                        Text("Targeting disseminated breast cancer cells to prevent metastasis, Deborah G. Black Memorial Research Grant")
-                                 .font(Font.custom("Montserrat-SemiBold", size: 15)).foregroundColor(Color.white).padding(.bottom).multilineTextAlignment(.leading).frame(width: 350.0)
-                        
-                    }
+                    }//young investigator grant vstack end
                        // .padding()
                     VStack{
-                        Spacer().frame(height: 10.0)
+                        Spacer().frame(height: 22.0)
                         
                     Text("Exceptional Project Grants").font(Font.custom("Montserrat-ExtraBold", size: 17)).foregroundColor(Color.white)
                         
+                       Text("ONE YEAR | $100,000").font(Font.custom("Montserrat-semiBold", size: 16)).foregroundColor(Color.white).multilineTextAlignment(.center).frame(width: 370.0)
+                        
                         Spacer().frame(height: 10.0)
+                        Text("This award recognizes creative, unique and innovative research. Clinical doctors and research scientists whose primary focus is breast cancer are invited to apply.").font(Font.custom("Montserrat-SemiBold", size: 15)).foregroundColor(Color.white).multilineTextAlignment(.center).frame(width: 370.0)
                         
-                        Text("Scott Abrams, PhD and Michael Nemeth, Roswell Park:").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white) .multilineTextAlignment(.center).frame(width: 380.0)
-                            
-                             
-                        Text("Unique combination immunotherapy to confront triple negative breast cancer").font(Font.custom("Montserrat-SemiBold", size: 15)).foregroundColor(Color.white).padding(.bottom).multilineTextAlignment(.leading).frame(width: 350.0)
-                      
-                        Text("Rumela Chakrabarti, PhD, University of Pennsylvania:").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white) .multilineTextAlignment(.center).frame(width: 397.0)
                         
-                        Text("A novel combination immunotherapy to improve treatment of metastatic triple negative breast cancer, Deborah G. Black Memorial Research Grant").font(Font.custom("Montserrat-SemiBold", size: 15)).foregroundColor(Color.white).padding(.bottom).multilineTextAlignment(.leading).frame(width: 350.0)
-
-                        Text("Jianua Yu, PhD, City of Hope:").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white) .multilineTextAlignment(.center).frame(width: 397.0)
-                        Text("An oncolytic virus-engineered to express a full-length anti-CD47 lgG1 antibody for the treatment of breast cancer brain metastasis, Supported by Jane and Stuart Weitzman in memory of Irma Wallin").font(Font.custom("Montserrat-SemiBold", size: 15)).foregroundColor(Color.white).padding(.bottom) .multilineTextAlignment(.leading).frame(width: 350.0)
-                        
-                    }
+                    }//exceptional project Grant VStack end
                       //  .padding()
                     VStack{
-                        Spacer().frame(height: 10.0)
-                    Text("Breast Surgery Fellowships")
-                        .font(Font.custom("Montserrat-ExtraBold", size: 17))
-                        .foregroundColor(Color.white)
+                        Spacer().frame(height: 22.0)
+                    Text("Breast Surgery Fellowships").font(Font.custom("Montserrat-ExtraBold", size: 17)).foregroundColor(Color.white)
+                        Text("ONE YEAR | $75,00").font(Font.custom("Montserrat-semiBold", size: 16)).foregroundColor(Color.white).multilineTextAlignment(.center).frame(width: 397.0)
                         
                         Spacer().frame(height: 10.0)
+                        Text("Society of Surgical Oncology accredited institutions that are located in NY, NJ or CT may apply for funding for fellowships.").font(Font.custom("Montserrat-SemiBold", size: 15)).foregroundColor(Color.white).multilineTextAlignment(.center).frame(width: 370.0)
                         
-                        Text("Memorial Sloan Kettering Cancer Center, Marissa Srour, MD").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 350.0).padding(.bottom)
-                        
-                        Text("Rutgers Cancer Institute of New Jersey").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
-                        
-                        Text("Kelly Krupa, MD, Rodkin Family Breast Surgery Fellowship").font(Font.custom("Montserrat-SemiBoldItalic", size: 15)).foregroundColor(Color.white).frame(width: 397.0).padding(.bottom)
-                        Text("Yale University, Billie Borden, MD")
-                            .font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
-                        Text("Supported by the Mitchell Family").font(Font.custom("Montserrat-SemiBoldItalic", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
                     }
                        // .padding()
                     VStack{
                         
-                        Spacer().frame(height: 14.0)
+                        Spacer().frame(height: 22.0)
                         
                         Text("Education and Outreach Grants").font(Font.custom("Montserrat-ExtraBold", size: 17)).foregroundColor(Color.white)
                             //.padding()
+                        Text("ONE YEAR | AWARD VARIES").font(Font.custom("Montserrat-semiBold", size: 16)).foregroundColor(Color.white).multilineTextAlignment(.center).frame(width: 397.0)
+                        Spacer().frame(height: 10.0)
                         
-                        Spacer().frame(height: 14.0)
+                        Text("These grants support programs directly related to outreach and breast cancer case management services, including education, counseling and screening for the uninsured/underserved. The programs must be located in Connecticut and/or Westchester County, New York. Directors of such programs are invited to apply.").font(Font.custom("Montserrat-semiBold", size: 15)).foregroundColor(Color.white).multilineTextAlignment(.center).frame(width: 370.0)
                         
-                        VStack{
-                            Text("Danbury Hospital/New Milford Hospital").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0).padding(.bottom, 2.0)
-                            Text("Paula L. Banwell Memorial Grant").font(Font.custom("Montserrat-SemiBold", size: 15)).foregroundColor(Color.white).frame(width: 350.0).padding(.bottom, 2.0)
-                            Text("Gilda’s Club Westchester").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0).padding(.bottom, 2.0)
-                        Text("Greenwich Hospital").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0).padding(.bottom, 2.0)
-                        Text("Griffin Hospital").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0).padding(.bottom, 2.0)
-                        Text("Hartford Hospital").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0).padding(.bottom, 2.0)
-                        }
-                        VStack{
-                        Text("Hospital of Central Connecticut Mary's Center").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0).padding(.bottom, 2.0)
-                        Text("MedStar Georgetown").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0).padding(.bottom, 2.0)
-                        Text("Middlesex Hospital").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0).padding(.bottom, 2.0)
-                        Text("Norma F. Pfriem Breast Cancer Center").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0).padding(.bottom, 2.0)
-                        Text("Norwalk Hospital").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0).padding(.bottom, 2.0)
-                        Text("Open Door Family Medical Center").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0).padding(.bottom, 2.0)
-                        }
-                            VStack{
-                        Text("Stamford Hospital").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0).padding(.bottom, 2.0)
-                        Text("White Plains Hospital").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0).padding(.bottom, 2.0)
-                        Text("Yale New Haven Hospital").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
+                            
+                    }
+                    Spacer().frame(height: 14.0)
+                    ZStack{
+                        RoundedRectangle(cornerRadius: 15)
+                            .fill(Color.white)
+                            .frame(width: 290, height:60)
+                        
+                        NavigationLink(destination: Grants2021()){
+                        Text("2021 Grant Recipiants").font(Font.custom("Montserrat-SemiBold", size: 16)).foregroundColor(Color(UIColor(red: 26/255, green: 0, blue: 91/225, alpha: 1))).padding(.vertical)
                         }
                     }
+                    Spacer().frame(height: 20.0)
+                    ZStack{
+                        
+                        RoundedRectangle(cornerRadius: 15)
+                            .fill(Color.white)
+                            .frame(width: 290, height:60)
+                        
+                    Link("How To Apply", destination: URL(string: "https://breastcanceralliance.org/how-to-apply")!)
+                        .font(Font.custom("Montserrat-SemiBold", size: 16))
+                        .foregroundColor(Color(UIColor(red: 26/255, green: 0, blue: 91/225, alpha: 1)))
+                        .padding(.vertical)
+                    }
+                    
                     
                 }
                 
