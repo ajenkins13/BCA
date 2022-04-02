@@ -21,7 +21,7 @@ struct Grants2021: View {
                     Spacer()
                         .padding()
                         .frame(height: 210.0)
-                    Text("2021 Grant Recipiants")
+                    Text("2022 Grant Recipiants")
                         .font(Font.custom("Montserrat-SemiBold", size: 24))
                         .foregroundColor(Color.white)
                         .padding(.top)
@@ -41,56 +41,85 @@ struct Grants2021: View {
                 VStack{
      
                     
-                    VStack{
+                    
                         
                     Text("Young Investigator Grants").font(Font.custom("Montserrat-ExtraBold", size: 17)).foregroundColor(Color.white)
+                    VStack{
+                        Group{
+                            Spacer().frame(height: 10.0)
                         
                         
-                        Spacer().frame(height: 10.0)
-                        
-                        
-                        Text("Gloria Echeverria, PhD, Baylor College of Medicine:").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).multilineTextAlignment(.center).frame(width: 397.0)
-                        
-                        Text("Characterizing and targeting mitochondrial metabolism in chemoresistant triple negative breast cancer").font(Font.custom("Montserrat-SemiBold", size: 15)).foregroundColor(Color.white).padding(.bottom).multilineTextAlignment(.leading).frame(width: 350.0)
+                            Text("Raymond Acciavatti, PhD, University of Pennsylvania:").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).multilineTextAlignment(.center).frame(width: 397.0)
+                        }
+                        Text("Self-Steering 3D Mammography").font(Font.custom("Montserrat-SemiBold", size: 15)).foregroundColor(Color.white).padding(.bottom).multilineTextAlignment(.center).frame(width: 350.0)
                        
                         
-                         Text("Jennifer Rosenbluth, MD, PhD, Dana Farber Cancer Center:")  .font(Font.custom("Montserrat-Bold", size: 15))
+                         Text("Ana Christina Garrido-Castro,  PhD, Dana Farber Cancer Center:")  .font(Font.custom("Montserrat-Bold", size: 15))
+                            .foregroundColor(Color.white)
+                            .multilineTextAlignment(.center).frame(width: 350.0)
+                        
+                        Text("Studying the evolutionary dynamics of tumor and immune microenvironment in triple-negative breast cancer").font(Font.custom("Montserrat-SemiBold", size: 15)).foregroundColor(Color.white).multilineTextAlignment(.center).padding(.bottom).frame(width: 350.0)
+                        
+                        
+                         Text("Ryan Stowers, PhD, University of California - Santa Barbara:").font(Font.custom("Montserrat-Bold", size: 15))
                             .foregroundColor(Color.white)
                             .multilineTextAlignment(.center).frame(width: 397.0)
                         
-                        Text("Modeling cancer prevention in mammary organoids derived from BRCA1/2 mutation carriers").font(Font.custom("Montserrat-SemiBold", size: 15)).foregroundColor(Color.white).padding(.bottom).frame(width: 350.0)
+                        
+                        Text("Understanding Epigenomic remodeling induced by tumor mechanical properties")
+                                 .font(Font.custom("Montserrat-SemiBold", size: 15)).foregroundColor(Color.white).padding(.bottom).multilineTextAlignment(.center).frame(width: 350.0)
+                     
+                      
+                        Text("Jessalyn Ubellacker, PhD, Harvard University:").font(Font.custom("Montserrat-Bold", size: 15))
+                           .foregroundColor(Color.white)
+                           .multilineTextAlignment(.center).frame(width: 397.0)
+                       
+                        Group{
+                            Text("Targeting metabolic vulnerabilities of breast cancer metastasis in lymph")
+                                .font(Font.custom("Montserrat-SemiBold", size: 15)).foregroundColor(Color.white).padding(.bottom).multilineTextAlignment(.center).frame(width: 350.0)
                         
                         
-                         Text("Maria Soledad Sosa, PhD, Icahn School of Medicine at Mt. Sinai:").font(Font.custom("Montserrat-Bold", size: 15))
-                            .foregroundColor(Color.white)
-                            .multilineTextAlignment(.center).frame(width: 397.0)
+                            Text("Alexander Valvezan, PhD, Rutgers University:").font(Font.custom("Montserrat-Bold", size: 15))
+                           .foregroundColor(Color.white)
+                           .multilineTextAlignment(.center).frame(width: 397.0)
                         
-                        
-                        Text("Targeting disseminated breast cancer cells to prevent metastasis, Deborah G. Black Memorial Research Grant")
-                                 .font(Font.custom("Montserrat-SemiBold", size: 15)).foregroundColor(Color.white).padding(.bottom).multilineTextAlignment(.leading).frame(width: 350.0)
-                        
+                            Text("Targeting triple-negative breast cancer by exploiting a metabolic vulnerability downstream of mTORC1")
+                                 .font(Font.custom("Montserrat-SemiBold", size: 15))
+                                 .foregroundColor(Color.white)
+                                 .padding(.bottom)
+                                 .multilineTextAlignment(.center)
+                                 .frame(width: 350.0)
+                        }
                     }
                        
                     Rectangle().frame(width: 340, height:1).foregroundColor(Color.gray).padding()
                     
                     VStack{
-                        Spacer().frame(height: 10.0)
+                        Group{
+                            Spacer().frame(height: 10.0)
                         
-                    Text("Exceptional Project Grants").font(Font.custom("Montserrat-ExtraBold", size: 17)).foregroundColor(Color.white)
+                            Text("Exceptional Project Grants").font(Font.custom("Montserrat-ExtraBold", size: 17)).foregroundColor(Color.white)
                         
-                        Spacer().frame(height: 10.0)
+                            Spacer().frame(height: 10.0)
                         
-                        Text("Scott Abrams, PhD and Michael Nemeth, Roswell Park:").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white) .multilineTextAlignment(.center).frame(width: 380.0)
+                            Text("Barbara Fingelton, PhD, Vanderbilt University:").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white) .multilineTextAlignment(.center).frame(width: 350.0)
                             
                              
-                        Text("Unique combination immunotherapy to confront triple negative breast cancer").font(Font.custom("Montserrat-SemiBold", size: 15)).foregroundColor(Color.white).padding(.bottom).multilineTextAlignment(.leading).frame(width: 350.0)
-                      
-                        Text("Rumela Chakrabarti, PhD, University of Pennsylvania:").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white) .multilineTextAlignment(.center).frame(width: 397.0)
+                            Text("Type II IL4 receptor blockade as a strategy for treating breast-to-brain metastasis").font(Font.custom("Montserrat-SemiBold", size: 15)).foregroundColor(Color.white).padding(.bottom).multilineTextAlignment(.center).frame(width: 350.0)
+                        }
+                        Text("Hyungjin Kim, PhD, SUNY Stony Brook:").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white) .multilineTextAlignment(.center).frame(width: 397.0)
                         
-                        Text("A novel combination immunotherapy to improve treatment of metastatic triple negative breast cancer, Deborah G. Black Memorial Research Grant").font(Font.custom("Montserrat-SemiBold", size: 15)).foregroundColor(Color.white).padding(.bottom).multilineTextAlignment(.leading).frame(width: 350.0)
+                        Text("DNA replication fork instability as a target for the synthetic lethality of breast cancer").font(Font.custom("Montserrat-SemiBold", size: 15)).foregroundColor(Color.white).padding(.bottom).multilineTextAlignment(.center).frame(width: 350.0)
 
-                        Text("Jianua Yu, PhD, City of Hope:").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white) .multilineTextAlignment(.center).frame(width: 397.0)
-                        Text("An oncolytic virus-engineered to express a full-length anti-CD47 lgG1 antibody for the treatment of breast cancer brain metastasis, Supported by Jane and Stuart Weitzman in memory of Irma Wallin").font(Font.custom("Montserrat-SemiBold", size: 15)).foregroundColor(Color.white).padding(.bottom) .multilineTextAlignment(.leading).frame(width: 350.0)
+                        Text("Xin Lu, PhD, Notre Dame:").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white) .multilineTextAlignment(.center).frame(width: 397.0)
+                        Text("\"Off-the-shelf\" Novel Chimeric Antigen Receptor (CAR) NK Cell Therapy for Metastatic TNBC ").font(Font.custom("Montserrat-SemiBold", size: 15)).foregroundColor(Color.white).padding(.bottom) .multilineTextAlignment(.center).frame(width: 350.0)
+                        
+                        
+                        Text("Davin Rimm, PhD, Yale University:").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white) .multilineTextAlignment(.center).frame(width: 397.0)
+                        Text("Budding Carcinogenesis; a novel pathway to malignancy, Deborah G. Black Memorial Research Grant ").font(Font.custom("Montserrat-SemiBold", size: 15)).foregroundColor(Color.white).padding(.bottom) .multilineTextAlignment(.center).frame(width: 350.0)
+                        
+                        Text("Anna C. Weiss, PhD, Brigham and Women's Hospital:").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white) .multilineTextAlignment(.center).frame(width: 397.0)
+                        Text("The Impact of Neoadjuvant Endocrine Therapy on Breast Cancer Axillary Outcomes, Supported by Jane and Stuart Weitzman in memory of Irma Wallin ").font(Font.custom("Montserrat-SemiBold", size: 15)).foregroundColor(Color.white).padding(.bottom) .multilineTextAlignment(.center).frame(width: 350.0)
                         
                     }
                       
@@ -104,14 +133,13 @@ struct Grants2021: View {
                         
                         Spacer().frame(height: 10.0)
                         
-                        Text("Memorial Sloan Kettering Cancer Center, Marissa Srour, MD").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 350.0).padding(.bottom)
+                        Text("Memorial Sloan Kettering Cancer Center, Anna C. Beck, MD").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 350.0).multilineTextAlignment(.center)
                         
-                        Text("Rutgers Cancer Institute of New Jersey").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
+                        Text("Tap Cancer Out Fellowship").font(Font.custom("Montserrat-SemiBoldItalic", size: 15)).foregroundColor(Color.white).frame(width: 397.0).padding(.bottom)
                         
-                        Text("Kelly Krupa, MD, Rodkin Family Breast Surgery Fellowship").font(Font.custom("Montserrat-SemiBoldItalic", size: 15)).foregroundColor(Color.white).frame(width: 397.0).padding(.bottom)
-                        Text("Yale University, Billie Borden, MD")
-                            .font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
-                        Text("Supported by the Mitchell Family").font(Font.custom("Montserrat-SemiBoldItalic", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
+                        Text("Rutgers Cancer Institute of New Jersey, Shridevi Singh, MD").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 350.0).multilineTextAlignment(.center)
+                        
+                        Text("Rodkin Family Breast Surgery Fellowship").font(Font.custom("Montserrat-SemiBoldItalic", size: 15)).foregroundColor(Color.white).frame(width: 397.0).padding(.bottom)
                     }
                        
                     Rectangle().frame(width: 340, height:1).foregroundColor(Color.gray).padding()
@@ -126,25 +154,32 @@ struct Grants2021: View {
                         Spacer().frame(height: 14.0)
                         
                         VStack{
+                            Text("Cancer Support Team").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0).padding(.bottom, 2.0)
                             Text("Danbury Hospital/New Milford Hospital").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0).padding(.bottom, 2.0)
-                            Text("Paula L. Banwell Memorial Grant").font(Font.custom("Montserrat-SemiBold", size: 15)).foregroundColor(Color.white).frame(width: 350.0).padding(.bottom, 2.0)
+                            Text("Paula L. Banwell Memorial Grant").font(Font.custom("Montserrat-SemiBoldItalic", size: 15)).foregroundColor(Color.white).frame(width: 350.0).padding(.bottom, 2.0)
                             Text("Gilda’s Club Westchester").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0).padding(.bottom, 2.0)
-                        Text("Greenwich Hospital").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0).padding(.bottom, 2.0)
+                            Text("Greenwich Hospital").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0).padding(.bottom, 2.0)
+                        Text("Supported by Veronica Beard").font(Font.custom("Montserrat-SemiBoldItalic", size: 15)).foregroundColor(Color.white).frame(width: 350.0).padding(.bottom, 2.0)
+                            
                         Text("Griffin Hospital").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0).padding(.bottom, 2.0)
                         Text("Hartford Hospital").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0).padding(.bottom, 2.0)
                         }
                         VStack{
-                        Text("Hospital of Central Connecticut Mary's Center").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0).padding(.bottom, 2.0)
-                        Text("MedStar Georgetown").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0).padding(.bottom, 2.0)
-                        Text("Middlesex Hospital").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0).padding(.bottom, 2.0)
-                        Text("Norma F. Pfriem Breast Cancer Center").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0).padding(.bottom, 2.0)
+                        Text("Hospital of Central Connecticut").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0).padding(.bottom, 2.0)
+                        
+                        Text("Middlesex Hospital Cancer Center").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0).padding(.bottom, 2.0)
+                            Text("Norma F. Pfriem Breast Cancer Center/Bridgeport Hospital").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0).padding(.bottom, 2.0).multilineTextAlignment(.center)
+                        Text("Supported by the Mitchell Family").font(Font.custom("Montserrat-SemiBoldItalic", size: 15)).foregroundColor(Color.white).frame(width: 350.0).padding(.bottom, 2.0)
                         Text("Norwalk Hospital").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0).padding(.bottom, 2.0)
+                        
+                            
                         Text("Open Door Family Medical Center").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0).padding(.bottom, 2.0)
                         }
-                            VStack{
+                        VStack{
                         Text("Stamford Hospital").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0).padding(.bottom, 2.0)
+                        Text("St. Francis Hospital").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0).padding(.bottom, 2.0)
                         Text("White Plains Hospital").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0).padding(.bottom, 2.0)
-                        Text("Yale New Haven Hospital").font(Font.custom("Montserrat-Bold", size: 15)).foregroundColor(Color.white).frame(width: 397.0)
+                        
                         }
                         
                         Rectangle().frame(width: 340, height:1).foregroundColor(Color.gray).padding()

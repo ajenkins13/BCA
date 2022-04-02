@@ -14,6 +14,7 @@ struct CircleImage: View {
                 .fill(Color(UIColor(red: 1, green: 1, blue: 1, alpha: 1)))
                 .frame(width: 340, height:600)
         VStack{
+            Spacer()
             Image("BCALogo")
                 .clipShape(Rectangle())
                 .overlay(Rectangle().stroke(Color.white, lineWidth: 4))
@@ -50,7 +51,8 @@ struct CircleImage: View {
                     .frame(width: 170.0, height:70)
             }
             Spacer()
-                .frame(height: 20.0)
+                .frame(height: 30.0)
+            Image("arrow").resizable().frame(width: 170.0, height:70)
         }
     }
     }

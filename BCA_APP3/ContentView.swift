@@ -76,30 +76,29 @@ struct ContentView: View {
             HStack {
                 Spacer()
                 VStack{
+                   
                     Spacer()
                         .frame(height: 17.0)
                     Link("breastcanceralliance.org", destination: URL(string: "https://breastcanceralliance.org")!)
-                        .padding(.bottom)
+                        //.padding(.bottom)
                         .font(Font.custom("Montserrat-SemiBold", size: 17))
-                    Spacer()
-                        .frame(height: 21.0)
+                  //  Spacer().frame(height: 30.0)
                                    
                  //   NavigationLink(destination: //Donate()){
                             ZStack{
+                                Link(destination: URL(string: "https://interland3.donorperfect.net/weblink/weblink.aspx?name=bca&id=1")!){
                                 RoundedRectangle(cornerRadius: 13)
-                                    .foregroundColor(Color(UIColor(red: 255/255, green: 0, blue: 133/225, alpha: 1)))
-                                
+                                    .foregroundColor(Color(UIColor(red: 255/255, green: 0, blue: 133/225, alpha: 1))).frame(width: 200, height: 80)
+                                }
                                            
                                 Text("Donate")
                                     .foregroundColor(Color.white)
                                     .padding(.vertical)
                                     .font(Font.custom("Montserrat-SemiBold", size: 20))
-                                Link(" ", destination: URL(string: "https://interland3.donorperfect.net/weblink/weblink.aspx?name=bca&id=1")!)
-                                  
-                                        .padding()
+                                    //.padding()
                             
-                                    }
-                                       .frame(width: 200.0, height: 5.0)
+                            }//.padding(.vertical)
+                    //.frame(width: 200.0, height: 5.0)
                                   // }
                 }
                 Spacer()

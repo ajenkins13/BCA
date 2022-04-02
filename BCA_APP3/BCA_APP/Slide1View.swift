@@ -65,7 +65,7 @@ struct Slide1View: View {
                     .foregroundColor(Color.white)
                     .multilineTextAlignment(.center)
                     .padding(.bottom)
-                Text("How To Donate")
+                Text("How To Apply")
                     .font(Font.custom("Montserrat-SemiBold", size: 18))
                     .foregroundColor(Color.white)
                     .multilineTextAlignment(.center)

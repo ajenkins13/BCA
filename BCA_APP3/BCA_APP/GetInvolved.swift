@@ -12,12 +12,12 @@ struct GetInvolved: View {
         ZStack{
             Rectangle()
                 .fill(Color(UIColor(red: 135/255, green: 0, blue: 114/225, alpha: 1)))
-                .frame(width: 400, height:1000)
+                .frame(width: 700, height:1300)
         VStack{
             
             Spacer()
                 .padding()
-                .frame(height: 70.0)
+                .frame(height: 220.0)
             Text("Get Involved")
                 .font(Font.custom("Montserrat-SemiBold", size: 28))
                 .foregroundColor(Color.white)
@@ -26,12 +26,12 @@ struct GetInvolved: View {
                 .foregroundColor(Color.gray)
             Spacer()
                 .padding()
-                .frame(height: 40.0)
+                .frame(height: 20.0)
             
             ScrollView{
                 Spacer()
                     .padding()
-                    .frame(height: 30.0)
+                    .frame(height: 10.0)
                 
                 Link("Adult Volunteers", destination: URL(string: "https://breastcanceralliance.org/volunteer")!)
                      .padding(.vertical)

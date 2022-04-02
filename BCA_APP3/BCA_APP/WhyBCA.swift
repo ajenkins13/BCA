@@ -101,7 +101,7 @@ struct WhyBCA: View {
                             .frame(width: 290, height:60)
                         
                         NavigationLink(destination: Grants2021()){
-                        Text("2021 Grant Recipiants").font(Font.custom("Montserrat-SemiBold", size: 16)).foregroundColor(Color(UIColor(red: 26/255, green: 0, blue: 91/225, alpha: 1))).padding(.vertical)
+                        Text("2022 Grant Recipiants").font(Font.custom("Montserrat-SemiBold", size: 16)).foregroundColor(Color(UIColor(red: 26/255, green: 0, blue: 91/225, alpha: 1))).padding(.vertical)
                         }
                     }
                     Spacer().frame(height: 20.0)
