@@ -60,7 +60,7 @@ struct Slide1View: View {
                     .foregroundColor(Color.white)
                     .multilineTextAlignment(.center)
                     .padding(.bottom)
-                Text("2021 Grants With Institutions")
+                Text("2022 Grants With Institutions")
                     .font(Font.custom("Montserrat-SemiBold", size: 18))
                     .foregroundColor(Color.white)
                     .multilineTextAlignment(.center)
